@@ -1,0 +1,49 @@
+{
+  "aliases": {
+    "asa": "aspirin",
+    "acetylsalicylic acid": "aspirin",
+    "gtn": "nitroglycerin",
+    "glyceryl trinitrate": "nitroglycerin"
+  },
+
+  "drug_classes": {
+    "aspirin": ["antiplatelet"],
+    "warfarin": ["anticoagulant"],
+    "ibuprofen": ["nsaid"],
+    "naproxen": ["nsaid"],
+    "nitroglycerin": ["nitrate"],
+    "sildenafil": ["pde5_inhibitor"],
+    "tadalafil": ["pde5_inhibitor"],
+    "amoxicillin": ["penicillin"],
+    "ampicillin": ["penicillin"],
+    "amlodipine": ["calcium_channel_blocker"]
+  },
+
+  "allergy_classes": {
+    "penicillin": ["penicillin"]
+  },
+
+  "interactions": [
+    {
+      "drug_a": "nitrate",
+      "drug_b": "pde5_inhibitor",
+      "severity": "critical",
+      "description": "Concurrent use may cause severe hypotension.",
+      "recommendation": "Avoid the combination and review alternative therapy."
+    },
+    {
+      "drug_a": "warfarin",
+      "drug_b": "aspirin",
+      "severity": "high",
+      "description": "Concurrent use may increase bleeding risk.",
+      "recommendation": "Assess indication and bleeding risk before combined use."
+    },
+    {
+      "drug_a": "warfarin",
+      "drug_b": "nsaid",
+      "severity": "high",
+      "description": "Concurrent use may increase bleeding risk.",
+      "recommendation": "Review NSAID therapy and consider alternatives."
+    }
+  ]
+}

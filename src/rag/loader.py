@@ -1,0 +1,36 @@
+from pathlib import Path
+from langchain_core.documents import Document
+
+
+GUIDELINE_DIR = Path("data/guidelines")
+
+
+def load_guidelines(directory: Path = GUIDELINE_DIR,) -> list[Document]:
+    """Load local clinical guideline documents."""
+
+    documents: list[Document] = []
+
+    if not directory.exists():
+        raise FileNotFoundError(
+            f"Guideline directory does not exist: {directory}"
+        )
+
+    for path in directory.iterdir():
+        if path.suffix.lower() not in {".md", ".txt"}:
+            continue
+
+        text = path.read_text(encoding="utf-8").strip()
+
+        if not text: continue
+
+        documents.append(
+            Document(
+                page_content=text,
+                metadata={
+                    "source": path.name,
+                    "condition": path.stem,
+                },
+            )
+        )
+
+    return documents
