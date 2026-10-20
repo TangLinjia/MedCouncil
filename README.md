@@ -4,7 +4,6 @@
 
 MedCouncil explores how an LLM-based team of medical agents can collaborate on a synthetic patient case: an initial general assessment, specialist-oriented differential diagnosis, a proposed treatment plan, and a final safety review.
 
-> [!IMPORTANT]
 > **Research and educational use only.** MedCouncil is an experimental software project, not a medical device or a clinical decision-making tool. It must not be used to diagnose, treat, or manage real patients. Model outputs may be inaccurate, incomplete, or unsafe and require qualified human review.
 
 ## Overview
