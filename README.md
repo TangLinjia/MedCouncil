@@ -108,9 +108,9 @@ The entry point and test commands will be documented after the end-to-end workfl
 
 ## Development roadmap
 
-- [x] Establish initial agent and module structure
-- [x] Implement initial general physician and specialist diagnosis logic
-- [x] Define structured patient schemas and diagnosis outputs
+- [ ] Establish initial agent and module structure
+- [ ] Implement initial general physician and specialist diagnosis logic
+- [ ] Define structured patient schemas and diagnosis outputs
 - [ ] Stabilize Treatment Agent tool calls and error handling
 - [ ] Complete Final Review Agent and end-to-end LangGraph integration
 - [ ] Add tests for agent routing, structured outputs, and failure cases
