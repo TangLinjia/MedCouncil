@@ -2,7 +2,7 @@ from pathlib import Path
 from langchain_core.documents import Document
 
 
-GUIDELINE_DIR = Path("data/guidelines")
+GUIDELINE_DIR = Path(__file__).resolve().parents[2] / "data" / "guidelines"
 
 
 def load_guidelines(directory: Path = GUIDELINE_DIR,) -> list[Document]:

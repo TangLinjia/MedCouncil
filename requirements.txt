@@ -4,3 +4,9 @@ langchain-openai>=1.6.3
 pydantic>=2.13.5
 pydantic-settings>=2.15.0
 python-dotenv>=1.2.3
+fastapi
+uvicorn
+langchain-ollama
+langchain-chroma
+langchain-text-splitters
+mcp

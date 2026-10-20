@@ -7,7 +7,7 @@ from .loader import load_guidelines
 from .chunker import split_documents
 
 
-PERSIST_DIRECTORY = Path("data/chroma_db")
+PERSIST_DIRECTORY = Path(__file__).resolve().parents[2] / "data" / "chroma_db"
 COLLECTION_NAME = "medical_guidelines"
 
 EMBEDDING_MODEL = "nomic-embed-text"

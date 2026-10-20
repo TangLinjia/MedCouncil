@@ -6,7 +6,7 @@ from uuid import uuid4
 
 from langgraph.types import Command
 
-from graph.workflow import medcouncil_graph
+from src.graph.workflow import medcouncil_graph
 
 
 def print_interrupt(interrupt_data) -> None:
@@ -76,13 +76,10 @@ def print_final_result(result: dict) -> None:
         for error in errors:
             print(f"- {error}")
 
-def read_multiline_input() -> str:
+def read_multiline_input(prompt: str = "Describe the patient's condition (press Enter twice to finish):") -> str:
     """Read multiline patient input until an empty line is entered."""
 
-    print(
-        "Describe the patient's condition "
-        "(press Enter twice to finish):"
-    )
+    print(prompt)
 
     lines = []
 

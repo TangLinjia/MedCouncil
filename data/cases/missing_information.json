@@ -1,0 +1,278 @@
+[
+  {
+    "id": "MISSING-01",
+    "category": "chief_complaint",
+    "initial_input": "我不舒服。",
+    "supplements": [
+      "主要是干咳，没有胸痛。",
+      "干咳三天，程度较轻，没有呼吸困难。"
+    ],
+    "expected_follow_up_topics": [
+      "主要不适",
+      "症状持续时间"
+    ],
+    "expected_final_sufficient": true
+  },
+  {
+    "id": "MISSING-02",
+    "category": "chief_complaint",
+    "initial_input": "想咨询一下身体问题。",
+    "supplements": [
+      "最近头痛。",
+      "额头胀痛两天，无外伤、发热或肢体无力。"
+    ],
+    "expected_follow_up_topics": [
+      "主要不适",
+      "头痛特征"
+    ],
+    "expected_final_sufficient": true
+  },
+  {
+    "id": "MISSING-03",
+    "category": "chief_complaint",
+    "initial_input": "我感觉不太对劲。",
+    "supplements": [
+      "肚子疼。",
+      "上腹隐痛一天，饭后明显，没有呕血。"
+    ],
+    "expected_follow_up_topics": [
+      "主要不适",
+      "疼痛部位"
+    ],
+    "expected_final_sufficient": true
+  },
+  {
+    "id": "MISSING-04",
+    "category": "chief_complaint",
+    "initial_input": "女，35岁。",
+    "supplements": [
+      "最近皮肤痒。",
+      "双臂瘙痒伴红疹两天，换洗衣液后出现。"
+    ],
+    "expected_follow_up_topics": [
+      "主要不适",
+      "诱因"
+    ],
+    "expected_final_sufficient": true
+  },
+  {
+    "id": "MISSING-05",
+    "category": "duration",
+    "initial_input": "我有点咳嗽。",
+    "supplements": [
+      "持续三天，干咳，无发热和气短。"
+    ],
+    "expected_follow_up_topics": [
+      "症状持续时间"
+    ],
+    "expected_final_sufficient": true
+  },
+  {
+    "id": "MISSING-06",
+    "category": "duration",
+    "initial_input": "最近头痛。",
+    "supplements": [
+      "持续两天，间歇性轻微胀痛，无外伤。"
+    ],
+    "expected_follow_up_topics": [
+      "症状持续时间"
+    ],
+    "expected_final_sufficient": true
+  },
+  {
+    "id": "MISSING-07",
+    "category": "duration",
+    "initial_input": "肚子不舒服。",
+    "supplements": [
+      "脐周隐痛一天，无发热、腹泻或呕吐。"
+    ],
+    "expected_follow_up_topics": [
+      "症状持续时间",
+      "疼痛部位"
+    ],
+    "expected_final_sufficient": true
+  },
+  {
+    "id": "MISSING-08",
+    "category": "duration",
+    "initial_input": "我身上有疹子。",
+    "supplements": [
+      "躯干散在红疹两天，伴瘙痒，没有呼吸不适。"
+    ],
+    "expected_follow_up_topics": [
+      "症状持续时间",
+      "皮疹特征"
+    ],
+    "expected_final_sufficient": true
+  },
+  {
+    "id": "MISSING-09",
+    "category": "medical_history",
+    "initial_input": "喘得不舒服，过去有病但记不清。",
+    "supplements": [
+      "喘息一天，既往确诊哮喘，运动后加重。"
+    ],
+    "expected_follow_up_topics": [
+      "既往史",
+      "症状持续时间"
+    ],
+    "expected_final_sufficient": true
+  },
+  {
+    "id": "MISSING-10",
+    "category": "medical_history",
+    "initial_input": "最近头晕，有慢性病。",
+    "supplements": [
+      "头晕两天，既往高血压十年。"
+    ],
+    "expected_follow_up_topics": [
+      "既往史",
+      "症状特征"
+    ],
+    "expected_final_sufficient": true
+  },
+  {
+    "id": "MISSING-11",
+    "category": "medical_history",
+    "initial_input": "肚子疼，以前也得过病。",
+    "supplements": [
+      "上腹痛一天，既往胃溃疡，无黑便。"
+    ],
+    "expected_follow_up_topics": [
+      "既往史",
+      "疼痛部位"
+    ],
+    "expected_final_sufficient": true
+  },
+  {
+    "id": "MISSING-12",
+    "category": "medical_history",
+    "initial_input": "腿脚不舒服，有基础疾病。",
+    "supplements": [
+      "双脚麻木两周，有糖尿病五年。"
+    ],
+    "expected_follow_up_topics": [
+      "既往史",
+      "主要不适"
+    ],
+    "expected_final_sufficient": true
+  },
+  {
+    "id": "MISSING-13",
+    "category": "medication_history",
+    "initial_input": "吃药后不舒服。",
+    "supplements": [
+      "昨天吃了布洛芬。",
+      "服药后上腹隐痛两小时，没有呕血。"
+    ],
+    "expected_follow_up_topics": [
+      "用药史",
+      "症状特征"
+    ],
+    "expected_final_sufficient": true
+  },
+  {
+    "id": "MISSING-14",
+    "category": "medication_history",
+    "initial_input": "最近换了药，人不舒服。",
+    "supplements": [
+      "换成了氨氯地平。",
+      "换药三天后出现双踝轻度水肿，没有气短。"
+    ],
+    "expected_follow_up_topics": [
+      "用药史",
+      "主要不适"
+    ],
+    "expected_final_sufficient": true
+  },
+  {
+    "id": "MISSING-15",
+    "category": "medication_history",
+    "initial_input": "服药后皮肤有反应。",
+    "supplements": [
+      "昨天首次服用阿莫西林。",
+      "服药两小时后双臂出现瘙痒红疹，无气促。"
+    ],
+    "expected_follow_up_topics": [
+      "用药史",
+      "反应特征"
+    ],
+    "expected_final_sufficient": true
+  },
+  {
+    "id": "MISSING-16",
+    "category": "medication_history",
+    "initial_input": "吃了药之后头晕。",
+    "supplements": [
+      "昨晚服用西替利嗪。",
+      "服后约一小时轻度头晕伴困倦，无晕厥。"
+    ],
+    "expected_follow_up_topics": [
+      "用药史",
+      "症状持续时间"
+    ],
+    "expected_final_sufficient": true
+  },
+  {
+    "id": "MISSING-17",
+    "category": "combined",
+    "initial_input": "我不好受，也在吃药。",
+    "supplements": [
+      "最近恶心。",
+      "恶心两天，有糖尿病，近期开始服用二甲双胍。"
+    ],
+    "expected_follow_up_topics": [
+      "主要不适",
+      "既往史",
+      "用药史"
+    ],
+    "expected_final_sufficient": true
+  },
+  {
+    "id": "MISSING-18",
+    "category": "combined",
+    "initial_input": "老人不舒服，有老毛病。",
+    "supplements": [
+      "主要是咳嗽。",
+      "咳嗽四天，既往慢阻肺，正在使用噻托溴铵。"
+    ],
+    "expected_follow_up_topics": [
+      "主要不适",
+      "症状持续时间",
+      "既往史",
+      "用药史"
+    ],
+    "expected_final_sufficient": true
+  },
+  {
+    "id": "MISSING-19",
+    "category": "combined",
+    "initial_input": "孩子有点问题，吃过药。",
+    "supplements": [
+      "孩子八岁，发热。",
+      "发热一天，最高38度，服用过对乙酰氨基酚，无慢性病。"
+    ],
+    "expected_follow_up_topics": [
+      "主要不适",
+      "症状持续时间",
+      "用药史"
+    ],
+    "expected_final_sufficient": true
+  },
+  {
+    "id": "MISSING-20",
+    "category": "combined",
+    "initial_input": "身体有异常，我记不清细节。",
+    "supplements": [
+      "最近睡不好。",
+      "入睡困难两周，近期压力大，无慢性病，未服药。"
+    ],
+    "expected_follow_up_topics": [
+      "主要不适",
+      "症状持续时间",
+      "既往史",
+      "用药史"
+    ],
+    "expected_final_sufficient": true
+  }
+]

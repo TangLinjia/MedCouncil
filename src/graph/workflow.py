@@ -76,29 +76,30 @@ def build_medcouncil_graph():
     serializer = JsonPlusSerializer(
         allowed_msgpack_modules=[
             # patient.py
-            ("schemas.patient", "Gender"),
-            ("schemas.patient", "SeverityLevel"),
-            ("schemas.patient", "Symptom"),
-            ("schemas.patient", "Allergy"),
-            ("schemas.patient", "Medication"),
-            ("schemas.patient", "VitalSigns"),
-            ("schemas.patient", "LabResult"),
-            ("schemas.patient", "PatientInfo"),
+            ("src.schemas.patient", "Gender"),
+            ("src.schemas.patient", "DurationUnit"),
+            ("src.schemas.patient", "SeverityLevel"),
+            ("src.schemas.patient", "Symptom"),
+            ("src.schemas.patient", "Allergy"),
+            ("src.schemas.patient", "Medication"),
+            ("src.schemas.patient", "VitalSigns"),
+            ("src.schemas.patient", "LabResult"),
+            ("src.schemas.patient", "PatientInfo"),
 
             # diagnosis.py
-            ("schemas.diagnosis", "ConfidenceLevel"),
-            ("schemas.diagnosis", "DiagnosticHypothesis"),
-            ("schemas.diagnosis", "InitialAssessment"),
-            ("schemas.diagnosis", "HypothesisEvaluation"),
-            ("schemas.diagnosis", "DiagnosisSynthesis"),
+            ("src.schemas.diagnosis", "ConfidenceLevel"),
+            ("src.schemas.diagnosis", "DiagnosticHypothesis"),
+            ("src.schemas.diagnosis", "InitialAssessment"),
+            ("src.schemas.diagnosis", "HypothesisEvaluation"),
+            ("src.schemas.diagnosis", "DiagnosisSynthesis"),
 
             # treatment.py
-            ("schemas.treatment", "TreatmentRecommendation"),
-            ("schemas.treatment", "TreatmentPlan"),
+            ("src.schemas.treatment", "TreatmentRecommendation"),
+            ("src.schemas.treatment", "TreatmentPlan"),
 
             # review.py
-            ("schemas.review", "ReviewIssue"),
-            ("schemas.review", "FinalReview"),
+            ("src.schemas.review", "ReviewIssue"),
+            ("src.schemas.review", "FinalReview"),
         ]
     )
 
