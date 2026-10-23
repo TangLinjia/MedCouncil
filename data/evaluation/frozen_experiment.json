@@ -1,0 +1,60 @@
+{
+  "code_sha256": "556e572f45b0dbdc9f546ec45592b791bf1f9a15862713dfcd8c81cc2e81c9cb",
+  "dev_sha256": "23132326f42d2cd498f6adee3868970d0981c06375fb7fcae0295f85471021a4",
+  "test_sha256": "c0bd857bf1f38c2178af98e5a602b57cd215b03d6373c005a518e96be0a44fa1",
+  "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+  "runtime_sha256": "cd87ebb0aafea008b0dbb5f67dfb968d8f61112a037d2da1db7b1ec07ae16ce8",
+  "frozen_at": "2026-10-23T09:26:11.035934+00:00",
+  "parameters": {
+    "candidate_k": 20,
+    "rrf_constant": 60
+  },
+  "top_k": 5,
+  "mode": "hybrid",
+  "selected_using": "dev only; macro Recall@5 then nDCG@5",
+  "dev_summary": {
+    "20:20": {
+      "recall": 0.951388888888889,
+      "hit_rate": 1.0,
+      "mrr": 0.9638888888888889,
+      "ndcg": 0.9331286408168807
+    },
+    "20:60": {
+      "recall": 0.951388888888889,
+      "hit_rate": 1.0,
+      "mrr": 0.9638888888888889,
+      "ndcg": 0.9331286408168807
+    },
+    "20:100": {
+      "recall": 0.951388888888889,
+      "hit_rate": 1.0,
+      "mrr": 0.9638888888888889,
+      "ndcg": 0.9331286408168807
+    },
+    "40:20": {
+      "recall": 0.9472222222222223,
+      "hit_rate": 1.0,
+      "mrr": 0.9659722222222222,
+      "ndcg": 0.9299922808908488
+    },
+    "40:60": {
+      "recall": 0.9472222222222223,
+      "hit_rate": 1.0,
+      "mrr": 0.9659722222222222,
+      "ndcg": 0.9299922808908488
+    },
+    "40:100": {
+      "recall": 0.9472222222222223,
+      "hit_rate": 1.0,
+      "mrr": 0.9659722222222222,
+      "ndcg": 0.9299922808908488
+    }
+  },
+  "audit_sha256": "810e702e6c0d6e32b5d5a28437edfa9c8a337d09c0a13a02831a23dc1e2e5211",
+  "annotation_status": "synthetic_pending_human_review",
+  "models": {
+    "embedding": "nomic-embed-text",
+    "reranker": "cross-encoder/mmarco-mMiniLMv2-L12-H384-v1",
+    "rewriter": "qwen3:4b"
+  }
+}

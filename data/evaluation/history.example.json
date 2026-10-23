@@ -1,0 +1,4 @@
+[
+  {"role": "user", "content": "我想了解社区获得性肺炎。"},
+  {"role": "assistant", "content": "你想了解诊断、治疗，还是需要紧急评估的情况？"}
+]

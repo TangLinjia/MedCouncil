@@ -9,6 +9,7 @@ class Settings(BaseSettings):
     """Application settings loaded from environment variables."""
 
     ollama_model: str = "qwen3:4b"
+    rag_reranker_model: str = "cross-encoder/mmarco-mMiniLMv2-L12-H384-v1"
     # ollama_model: str = "qwen3.5:9b"
     model_config = SettingsConfigDict(
         env_file=".env",

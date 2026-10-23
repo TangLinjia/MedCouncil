@@ -1,0 +1,1746 @@
+{
+  "version": 1,
+  "scope": "Single local bilingual educational pneumonia summary. Not a clinical benchmark.",
+  "queries": [
+    {
+      "id": "RAG-001",
+      "query": "社区获得性肺炎有哪些常见表现？",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#diagnosis-0"
+      ],
+      "category": "diagnosis",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Diagnosis 段落明确列出症状与疑似肺炎时的胸部影像评估。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-002",
+      "query": "怀疑肺炎时可以考虑什么影像检查？",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#diagnosis-0"
+      ],
+      "category": "diagnosis",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Diagnosis 段落明确列出症状与疑似肺炎时的胸部影像评估。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-003",
+      "query": "肺炎会引起发热和咳嗽吗？",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#diagnosis-0"
+      ],
+      "category": "diagnosis",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Diagnosis 段落明确列出症状与疑似肺炎时的胸部影像评估。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-004",
+      "query": "咳痰和胸部不适是否属于肺炎的可能表现？",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#diagnosis-0"
+      ],
+      "category": "diagnosis",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Diagnosis 段落明确列出症状与疑似肺炎时的胸部影像评估。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-005",
+      "query": "肺炎诊断评估中胸部影像有什么作用？",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#diagnosis-0"
+      ],
+      "category": "diagnosis",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Diagnosis 段落明确列出症状与疑似肺炎时的胸部影像评估。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-006",
+      "query": "社区获得性肺炎患者可能出现哪些呼吸道症状？",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#diagnosis-0"
+      ],
+      "category": "diagnosis",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Diagnosis 段落明确列出症状与疑似肺炎时的胸部影像评估。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-007",
+      "query": "发热伴咳嗽，查找肺炎症状相关指南。",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#diagnosis-0"
+      ],
+      "category": "diagnosis",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Diagnosis 段落明确列出症状与疑似肺炎时的胸部影像评估。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-008",
+      "query": "怀疑社区获得性肺炎时，指南提到了哪种检查？",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#diagnosis-0"
+      ],
+      "category": "diagnosis",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Diagnosis 段落明确列出症状与疑似肺炎时的胸部影像评估。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-009",
+      "query": "呼吸困难是否可能是肺炎的表现？",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#diagnosis-0"
+      ],
+      "category": "diagnosis",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Diagnosis 段落明确列出症状与疑似肺炎时的胸部影像评估。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-010",
+      "query": "请检索社区获得性肺炎的诊断相关内容。",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#diagnosis-0"
+      ],
+      "category": "diagnosis",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Diagnosis 段落明确列出症状与疑似肺炎时的胸部影像评估。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-011",
+      "query": "肺炎是否可能伴有胸部不适？",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#diagnosis-0"
+      ],
+      "category": "diagnosis",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Diagnosis 段落明确列出症状与疑似肺炎时的胸部影像评估。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-012",
+      "query": "查找包含肺炎发热、咳痰表现的段落。",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#diagnosis-0"
+      ],
+      "category": "diagnosis",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Diagnosis 段落明确列出症状与疑似肺炎时的胸部影像评估。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-013",
+      "query": "针对疑似肺炎，哪里提到了胸部影像？",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#diagnosis-0"
+      ],
+      "category": "diagnosis",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Diagnosis 段落明确列出症状与疑似肺炎时的胸部影像评估。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-014",
+      "query": "肺炎常见症状里包含咳嗽吗？",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#diagnosis-0"
+      ],
+      "category": "diagnosis",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Diagnosis 段落明确列出症状与疑似肺炎时的胸部影像评估。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-015",
+      "query": "社区获得性肺炎有哪些临床症状线索？",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#diagnosis-0"
+      ],
+      "category": "diagnosis",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Diagnosis 段落明确列出症状与疑似肺炎时的胸部影像评估。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-016",
+      "query": "指南如何描述社区获得性肺炎的表现和影像评估？",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#diagnosis-0"
+      ],
+      "category": "diagnosis",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Diagnosis 段落明确列出症状与疑似肺炎时的胸部影像评估。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-017",
+      "query": "咳嗽伴胸部不适，想了解肺炎可能有哪些症状。",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#diagnosis-0"
+      ],
+      "category": "diagnosis",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Diagnosis 段落明确列出症状与疑似肺炎时的胸部影像评估。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-018",
+      "query": "是否可在怀疑肺炎时进行胸部影像检查？",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#diagnosis-0"
+      ],
+      "category": "diagnosis",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Diagnosis 段落明确列出症状与疑似肺炎时的胸部影像评估。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-019",
+      "query": "肺炎症状中是否包括发热、咳嗽与咳痰？",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#diagnosis-0"
+      ],
+      "category": "diagnosis",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Diagnosis 段落明确列出症状与疑似肺炎时的胸部影像评估。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-020",
+      "query": "查询社区获得性肺炎诊断章节。",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#diagnosis-0"
+      ],
+      "category": "diagnosis",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Diagnosis 段落明确列出症状与疑似肺炎时的胸部影像评估。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-021",
+      "query": "What symptoms may occur in community-acquired pneumonia?",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#diagnosis-0"
+      ],
+      "category": "diagnosis",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Diagnosis 段落明确列出症状与疑似肺炎时的胸部影像评估。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-022",
+      "query": "What imaging is mentioned for suspected pneumonia?",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#diagnosis-0"
+      ],
+      "category": "diagnosis",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Diagnosis 段落明确列出症状与疑似肺炎时的胸部影像评估。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-023",
+      "query": "Can pneumonia present with fever and cough?",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#diagnosis-0"
+      ],
+      "category": "diagnosis",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Diagnosis 段落明确列出症状与疑似肺炎时的胸部影像评估。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-024",
+      "query": "Find the passage about sputum production in pneumonia.",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#diagnosis-0"
+      ],
+      "category": "diagnosis",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Diagnosis 段落明确列出症状与疑似肺炎时的胸部影像评估。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-025",
+      "query": "Is chest discomfort a possible pneumonia symptom?",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#diagnosis-0"
+      ],
+      "category": "diagnosis",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Diagnosis 段落明确列出症状与疑似肺炎时的胸部影像评估。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-026",
+      "query": "Does the summary mention dyspnea as a presenting symptom?",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#diagnosis-0"
+      ],
+      "category": "diagnosis",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Diagnosis 段落明确列出症状与疑似肺炎时的胸部影像评估。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-027",
+      "query": "Which section describes pneumonia presentation?",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#diagnosis-0"
+      ],
+      "category": "diagnosis",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Diagnosis 段落明确列出症状与疑似肺炎时的胸部影像评估。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-028",
+      "query": "Retrieve guidance on chest imaging when pneumonia is suspected.",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#diagnosis-0"
+      ],
+      "category": "diagnosis",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Diagnosis 段落明确列出症状与疑似肺炎时的胸部影像评估。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-029",
+      "query": "它有哪些常见症状？",
+      "history": [
+        {
+          "role": "user",
+          "content": "社区获得性肺炎"
+        }
+      ],
+      "relevant_passage_ids": [
+        "pneumonia.md#diagnosis-0"
+      ],
+      "category": "diagnosis",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Diagnosis 段落明确列出症状与疑似肺炎时的胸部影像评估。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-030",
+      "query": "那需要考虑什么影像检查？",
+      "history": [
+        {
+          "role": "user",
+          "content": "怀疑肺炎"
+        }
+      ],
+      "relevant_passage_ids": [
+        "pneumonia.md#diagnosis-0"
+      ],
+      "category": "diagnosis",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Diagnosis 段落明确列出症状与疑似肺炎时的胸部影像评估。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-031",
+      "query": "还可能有哪些表现？",
+      "history": [
+        {
+          "role": "user",
+          "content": "肺炎可能引起咳嗽"
+        }
+      ],
+      "relevant_passage_ids": [
+        "pneumonia.md#diagnosis-0"
+      ],
+      "category": "diagnosis",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Diagnosis 段落明确列出症状与疑似肺炎时的胸部影像评估。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-032",
+      "query": "胸部影像在这里有用吗？",
+      "history": [
+        {
+          "role": "user",
+          "content": "社区获得性肺炎的诊断"
+        }
+      ],
+      "relevant_passage_ids": [
+        "pneumonia.md#diagnosis-0"
+      ],
+      "category": "diagnosis",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Diagnosis 段落明确列出症状与疑似肺炎时的胸部影像评估。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-033",
+      "query": "包括发热和咳痰吗？",
+      "history": [
+        {
+          "role": "user",
+          "content": "肺炎的临床表现"
+        }
+      ],
+      "relevant_passage_ids": [
+        "pneumonia.md#diagnosis-0"
+      ],
+      "category": "diagnosis",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Diagnosis 段落明确列出症状与疑似肺炎时的胸部影像评估。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-034",
+      "query": "它会引起胸部不适吗？",
+      "history": [
+        {
+          "role": "user",
+          "content": "想了解肺炎"
+        }
+      ],
+      "relevant_passage_ids": [
+        "pneumonia.md#diagnosis-0"
+      ],
+      "category": "diagnosis",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Diagnosis 段落明确列出症状与疑似肺炎时的胸部影像评估。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-035",
+      "query": "这个病可能有呼吸困难吗？",
+      "history": [
+        {
+          "role": "user",
+          "content": "怀疑是社区获得性肺炎"
+        }
+      ],
+      "relevant_passage_ids": [
+        "pneumonia.md#diagnosis-0"
+      ],
+      "category": "diagnosis",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Diagnosis 段落明确列出症状与疑似肺炎时的胸部影像评估。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-036",
+      "query": "有没有提到胸部影像？",
+      "history": [
+        {
+          "role": "user",
+          "content": "肺炎的初步评估"
+        }
+      ],
+      "relevant_passage_ids": [
+        "pneumonia.md#diagnosis-0"
+      ],
+      "category": "diagnosis",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Diagnosis 段落明确列出症状与疑似肺炎时的胸部影像评估。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-037",
+      "query": "What symptoms can it cause?",
+      "history": [
+        {
+          "role": "user",
+          "content": "community-acquired pneumonia"
+        }
+      ],
+      "relevant_passage_ids": [
+        "pneumonia.md#diagnosis-0"
+      ],
+      "category": "diagnosis",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Diagnosis 段落明确列出症状与疑似肺炎时的胸部影像评估。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-038",
+      "query": "What imaging might be used for it?",
+      "history": [
+        {
+          "role": "user",
+          "content": "suspected pneumonia"
+        }
+      ],
+      "relevant_passage_ids": [
+        "pneumonia.md#diagnosis-0"
+      ],
+      "category": "diagnosis",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Diagnosis 段落明确列出症状与疑似肺炎时的胸部影像评估。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-039",
+      "query": "Does that include sputum production?",
+      "history": [
+        {
+          "role": "user",
+          "content": "pneumonia presentation"
+        }
+      ],
+      "relevant_passage_ids": [
+        "pneumonia.md#diagnosis-0"
+      ],
+      "category": "diagnosis",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Diagnosis 段落明确列出症状与疑似肺炎时的胸部影像评估。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-040",
+      "query": "Is chest discomfort one of them?",
+      "history": [
+        {
+          "role": "user",
+          "content": "community-acquired pneumonia symptoms"
+        }
+      ],
+      "relevant_passage_ids": [
+        "pneumonia.md#diagnosis-0"
+      ],
+      "category": "diagnosis",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Diagnosis 段落明确列出症状与疑似肺炎时的胸部影像评估。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-041",
+      "query": "肺炎治疗方案取决于哪些因素？",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#treatment-0"
+      ],
+      "category": "treatment",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Treatment 段落列出严重程度、合并症、药物过敏、近期抗生素暴露与当地耐药情况。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-042",
+      "query": "制定肺炎治疗方案需要考虑药物过敏史吗？",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#treatment-0"
+      ],
+      "category": "treatment",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Treatment 段落列出严重程度、合并症、药物过敏、近期抗生素暴露与当地耐药情况。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-043",
+      "query": "近期抗生素使用是否影响肺炎治疗选择？",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#treatment-0"
+      ],
+      "category": "treatment",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Treatment 段落列出严重程度、合并症、药物过敏、近期抗生素暴露与当地耐药情况。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-044",
+      "query": "社区获得性肺炎治疗要考虑当地耐药情况吗？",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#treatment-0"
+      ],
+      "category": "treatment",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Treatment 段落列出严重程度、合并症、药物过敏、近期抗生素暴露与当地耐药情况。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-045",
+      "query": "肺炎严重程度对治疗决策有什么影响？",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#treatment-0"
+      ],
+      "category": "treatment",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Treatment 段落列出严重程度、合并症、药物过敏、近期抗生素暴露与当地耐药情况。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-046",
+      "query": "肺炎患者存在合并症时，治疗应考虑哪些背景？",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#treatment-0"
+      ],
+      "category": "treatment",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Treatment 段落列出严重程度、合并症、药物过敏、近期抗生素暴露与当地耐药情况。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-047",
+      "query": "查找关于肺炎治疗与过敏情况的指南段落。",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#treatment-0"
+      ],
+      "category": "treatment",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Treatment 段落列出严重程度、合并症、药物过敏、近期抗生素暴露与当地耐药情况。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-048",
+      "query": "社区获得性肺炎用药决策需要哪些患者信息？",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#treatment-0"
+      ],
+      "category": "treatment",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Treatment 段落列出严重程度、合并症、药物过敏、近期抗生素暴露与当地耐药情况。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-049",
+      "query": "药物过敏和近期抗菌药物暴露是否属于治疗考量？",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#treatment-0"
+      ],
+      "category": "treatment",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Treatment 段落列出严重程度、合并症、药物过敏、近期抗生素暴露与当地耐药情况。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-050",
+      "query": "肺炎治疗为什么需要了解当地抗菌药物耐药情况？",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#treatment-0"
+      ],
+      "category": "treatment",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Treatment 段落列出严重程度、合并症、药物过敏、近期抗生素暴露与当地耐药情况。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-051",
+      "query": "检索肺炎治疗中关于疾病严重程度的内容。",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#treatment-0"
+      ],
+      "category": "treatment",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Treatment 段落列出严重程度、合并症、药物过敏、近期抗生素暴露与当地耐药情况。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-052",
+      "query": "检索肺炎治疗中提到合并症的内容。",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#treatment-0"
+      ],
+      "category": "treatment",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Treatment 段落列出严重程度、合并症、药物过敏、近期抗生素暴露与当地耐药情况。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-053",
+      "query": "肺炎治疗是否需要参考近期抗生素暴露？",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#treatment-0"
+      ],
+      "category": "treatment",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Treatment 段落列出严重程度、合并症、药物过敏、近期抗生素暴露与当地耐药情况。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-054",
+      "query": "想知道肺炎治疗有哪些个体化影响因素。",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#treatment-0"
+      ],
+      "category": "treatment",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Treatment 段落列出严重程度、合并症、药物过敏、近期抗生素暴露与当地耐药情况。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-055",
+      "query": "肺炎患者的药物过敏史和合并症需要纳入治疗评估吗？",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#treatment-0"
+      ],
+      "category": "treatment",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Treatment 段落列出严重程度、合并症、药物过敏、近期抗生素暴露与当地耐药情况。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-056",
+      "query": "治疗社区获得性肺炎前，要了解哪些用药背景？",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#treatment-0"
+      ],
+      "category": "treatment",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Treatment 段落列出严重程度、合并症、药物过敏、近期抗生素暴露与当地耐药情况。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-057",
+      "query": "疾病轻重是否属于肺炎治疗方案的影响因素？",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#treatment-0"
+      ],
+      "category": "treatment",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Treatment 段落列出严重程度、合并症、药物过敏、近期抗生素暴露与当地耐药情况。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-058",
+      "query": "当地耐药模式与肺炎治疗方案有关吗？",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#treatment-0"
+      ],
+      "category": "treatment",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Treatment 段落列出严重程度、合并症、药物过敏、近期抗生素暴露与当地耐药情况。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-059",
+      "query": "查询社区获得性肺炎治疗章节。",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#treatment-0"
+      ],
+      "category": "treatment",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Treatment 段落列出严重程度、合并症、药物过敏、近期抗生素暴露与当地耐药情况。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-060",
+      "query": "请找到肺炎治疗依赖严重程度与过敏史的段落。",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#treatment-0"
+      ],
+      "category": "treatment",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Treatment 段落列出严重程度、合并症、药物过敏、近期抗生素暴露与当地耐药情况。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-061",
+      "query": "What factors influence pneumonia treatment?",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#treatment-0"
+      ],
+      "category": "treatment",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Treatment 段落列出严重程度、合并症、药物过敏、近期抗生素暴露与当地耐药情况。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-062",
+      "query": "Should drug allergies be considered when treating pneumonia?",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#treatment-0"
+      ],
+      "category": "treatment",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Treatment 段落列出严重程度、合并症、药物过敏、近期抗生素暴露与当地耐药情况。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-063",
+      "query": "Does recent antibiotic exposure affect pneumonia treatment planning?",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#treatment-0"
+      ],
+      "category": "treatment",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Treatment 段落列出严重程度、合并症、药物过敏、近期抗生素暴露与当地耐药情况。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-064",
+      "query": "Find guidance on local resistance patterns in pneumonia treatment.",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#treatment-0"
+      ],
+      "category": "treatment",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Treatment 段落列出严重程度、合并症、药物过敏、近期抗生素暴露与当地耐药情况。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-065",
+      "query": "Are comorbidities relevant to pneumonia treatment decisions?",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#treatment-0"
+      ],
+      "category": "treatment",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Treatment 段落列出严重程度、合并症、药物过敏、近期抗生素暴露与当地耐药情况。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-066",
+      "query": "Which passage discusses disease severity and treatment?",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#treatment-0"
+      ],
+      "category": "treatment",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Treatment 段落列出严重程度、合并症、药物过敏、近期抗生素暴露与当地耐药情况。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-067",
+      "query": "Retrieve treatment considerations for community-acquired pneumonia.",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#treatment-0"
+      ],
+      "category": "treatment",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Treatment 段落列出严重程度、合并症、药物过敏、近期抗生素暴露与当地耐药情况。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-068",
+      "query": "What patient background matters when selecting pneumonia treatment?",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#treatment-0"
+      ],
+      "category": "treatment",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Treatment 段落列出严重程度、合并症、药物过敏、近期抗生素暴露与当地耐药情况。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-069",
+      "query": "它的治疗取决于哪些因素？",
+      "history": [
+        {
+          "role": "user",
+          "content": "社区获得性肺炎"
+        }
+      ],
+      "relevant_passage_ids": [
+        "pneumonia.md#treatment-0"
+      ],
+      "category": "treatment",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Treatment 段落列出严重程度、合并症、药物过敏、近期抗生素暴露与当地耐药情况。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-070",
+      "query": "那药物过敏史需要考虑吗？",
+      "history": [
+        {
+          "role": "user",
+          "content": "肺炎治疗选择"
+        }
+      ],
+      "relevant_passage_ids": [
+        "pneumonia.md#treatment-0"
+      ],
+      "category": "treatment",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Treatment 段落列出严重程度、合并症、药物过敏、近期抗生素暴露与当地耐药情况。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-071",
+      "query": "这对治疗决策有影响吗？",
+      "history": [
+        {
+          "role": "user",
+          "content": "肺炎患者近期使用过抗生素"
+        }
+      ],
+      "relevant_passage_ids": [
+        "pneumonia.md#treatment-0"
+      ],
+      "category": "treatment",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Treatment 段落列出严重程度、合并症、药物过敏、近期抗生素暴露与当地耐药情况。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-072",
+      "query": "还要看当地耐药情况吗？",
+      "history": [
+        {
+          "role": "user",
+          "content": "社区获得性肺炎的治疗"
+        }
+      ],
+      "relevant_passage_ids": [
+        "pneumonia.md#treatment-0"
+      ],
+      "category": "treatment",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Treatment 段落列出严重程度、合并症、药物过敏、近期抗生素暴露与当地耐药情况。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-073",
+      "query": "这会影响治疗方案吗？",
+      "history": [
+        {
+          "role": "user",
+          "content": "肺炎合并其他疾病"
+        }
+      ],
+      "relevant_passage_ids": [
+        "pneumonia.md#treatment-0"
+      ],
+      "category": "treatment",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Treatment 段落列出严重程度、合并症、药物过敏、近期抗生素暴露与当地耐药情况。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-074",
+      "query": "除了这个还要考虑什么？",
+      "history": [
+        {
+          "role": "user",
+          "content": "肺炎治疗要考虑严重程度"
+        }
+      ],
+      "relevant_passage_ids": [
+        "pneumonia.md#treatment-0"
+      ],
+      "category": "treatment",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Treatment 段落列出严重程度、合并症、药物过敏、近期抗生素暴露与当地耐药情况。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-075",
+      "query": "制定方案时需要关注这个吗？",
+      "history": [
+        {
+          "role": "user",
+          "content": "社区获得性肺炎患者有药物过敏"
+        }
+      ],
+      "relevant_passage_ids": [
+        "pneumonia.md#treatment-0"
+      ],
+      "category": "treatment",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Treatment 段落列出严重程度、合并症、药物过敏、近期抗生素暴露与当地耐药情况。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-076",
+      "query": "需要哪些患者背景信息？",
+      "history": [
+        {
+          "role": "user",
+          "content": "我想了解肺炎治疗"
+        }
+      ],
+      "relevant_passage_ids": [
+        "pneumonia.md#treatment-0"
+      ],
+      "category": "treatment",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Treatment 段落列出严重程度、合并症、药物过敏、近期抗生素暴露与当地耐药情况。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-077",
+      "query": "What factors affect it?",
+      "history": [
+        {
+          "role": "user",
+          "content": "community-acquired pneumonia treatment"
+        }
+      ],
+      "relevant_passage_ids": [
+        "pneumonia.md#treatment-0"
+      ],
+      "category": "treatment",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Treatment 段落列出严重程度、合并症、药物过敏、近期抗生素暴露与当地耐药情况。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-078",
+      "query": "Should those influence treatment?",
+      "history": [
+        {
+          "role": "user",
+          "content": "pneumonia with drug allergies"
+        }
+      ],
+      "relevant_passage_ids": [
+        "pneumonia.md#treatment-0"
+      ],
+      "category": "treatment",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Treatment 段落列出严重程度、合并症、药物过敏、近期抗生素暴露与当地耐药情况。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-079",
+      "query": "Does that matter for treatment planning?",
+      "history": [
+        {
+          "role": "user",
+          "content": "recent antibiotic exposure in pneumonia"
+        }
+      ],
+      "relevant_passage_ids": [
+        "pneumonia.md#treatment-0"
+      ],
+      "category": "treatment",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Treatment 段落列出严重程度、合并症、药物过敏、近期抗生素暴露与当地耐药情况。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-080",
+      "query": "Are local resistance patterns relevant here?",
+      "history": [
+        {
+          "role": "user",
+          "content": "treatment of community-acquired pneumonia"
+        }
+      ],
+      "relevant_passage_ids": [
+        "pneumonia.md#treatment-0"
+      ],
+      "category": "treatment",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Treatment 段落列出严重程度、合并症、药物过敏、近期抗生素暴露与当地耐药情况。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-081",
+      "query": "肺炎出现哪些情况需要紧急医疗评估？",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#follow-up-0"
+      ],
+      "category": "follow-up",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Follow-up 段落明确列出需要紧急医疗评估的恶化警示。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-082",
+      "query": "肺炎患者呼吸困难加重时应该关注哪条警示？",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#follow-up-0"
+      ],
+      "category": "follow-up",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Follow-up 段落明确列出需要紧急医疗评估的恶化警示。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-083",
+      "query": "肺炎随访中哪些表现属于需要尽快评估的信号？",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#follow-up-0"
+      ],
+      "category": "follow-up",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Follow-up 段落明确列出需要紧急医疗评估的恶化警示。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-084",
+      "query": "肺炎出现意识混乱是否需要紧急评估？",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#follow-up-0"
+      ],
+      "category": "follow-up",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Follow-up 段落明确列出需要紧急医疗评估的恶化警示。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-085",
+      "query": "持续低氧血症是否属于肺炎紧急评估警示？",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#follow-up-0"
+      ],
+      "category": "follow-up",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Follow-up 段落明确列出需要紧急医疗评估的恶化警示。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-086",
+      "query": "肺炎伴低血压时，指南提到什么紧急评估提示？",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#follow-up-0"
+      ],
+      "category": "follow-up",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Follow-up 段落明确列出需要紧急医疗评估的恶化警示。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-087",
+      "query": "肺炎症状迅速恶化时应查找哪段指南？",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#follow-up-0"
+      ],
+      "category": "follow-up",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Follow-up 段落明确列出需要紧急医疗评估的恶化警示。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-088",
+      "query": "请检索社区获得性肺炎的紧急就医警示。",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#follow-up-0"
+      ],
+      "category": "follow-up",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Follow-up 段落明确列出需要紧急医疗评估的恶化警示。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-089",
+      "query": "肺炎患者需要注意哪些病情恶化信号？",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#follow-up-0"
+      ],
+      "category": "follow-up",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Follow-up 段落明确列出需要紧急医疗评估的恶化警示。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-090",
+      "query": "查找肺炎随访中关于呼吸窘迫恶化的段落。",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#follow-up-0"
+      ],
+      "category": "follow-up",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Follow-up 段落明确列出需要紧急医疗评估的恶化警示。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-091",
+      "query": "社区获得性肺炎有哪些需要紧急处理的警示表现？",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#follow-up-0"
+      ],
+      "category": "follow-up",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Follow-up 段落明确列出需要紧急医疗评估的恶化警示。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-092",
+      "query": "意识状态改变和低血压是否属于肺炎警示信号？",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#follow-up-0"
+      ],
+      "category": "follow-up",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Follow-up 段落明确列出需要紧急医疗评估的恶化警示。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-093",
+      "query": "肺炎病人持续缺氧时有哪些紧急评估提示？",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#follow-up-0"
+      ],
+      "category": "follow-up",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Follow-up 段落明确列出需要紧急医疗评估的恶化警示。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-094",
+      "query": "想了解肺炎在家观察时哪些变化需要紧急就医。",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#follow-up-0"
+      ],
+      "category": "follow-up",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Follow-up 段落明确列出需要紧急医疗评估的恶化警示。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-095",
+      "query": "检索肺炎随访章节中的危险表现。",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#follow-up-0"
+      ],
+      "category": "follow-up",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Follow-up 段落明确列出需要紧急医疗评估的恶化警示。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-096",
+      "query": "肺炎患者如果呼吸越来越困难，哪里有相关警示？",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#follow-up-0"
+      ],
+      "category": "follow-up",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Follow-up 段落明确列出需要紧急医疗评估的恶化警示。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-097",
+      "query": "肺炎病情快速变差时是否应寻求紧急医疗评估？",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#follow-up-0"
+      ],
+      "category": "follow-up",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Follow-up 段落明确列出需要紧急医疗评估的恶化警示。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-098",
+      "query": "有哪些肺炎症状变化提示需要紧急医疗评估？",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#follow-up-0"
+      ],
+      "category": "follow-up",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Follow-up 段落明确列出需要紧急医疗评估的恶化警示。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-099",
+      "query": "查询肺炎随访和病情恶化警示内容。",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#follow-up-0"
+      ],
+      "category": "follow-up",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Follow-up 段落明确列出需要紧急医疗评估的恶化警示。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-100",
+      "query": "请找到包含低氧、意识混乱和低血压的肺炎段落。",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#follow-up-0"
+      ],
+      "category": "follow-up",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Follow-up 段落明确列出需要紧急医疗评估的恶化警示。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-101",
+      "query": "What pneumonia warning signs require urgent evaluation?",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#follow-up-0"
+      ],
+      "category": "follow-up",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Follow-up 段落明确列出需要紧急医疗评估的恶化警示。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-102",
+      "query": "When should a pneumonia patient seek urgent medical assessment?",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#follow-up-0"
+      ],
+      "category": "follow-up",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Follow-up 段落明确列出需要紧急医疗评估的恶化警示。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-103",
+      "query": "Find follow-up advice for worsening respiratory distress in pneumonia.",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#follow-up-0"
+      ],
+      "category": "follow-up",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Follow-up 段落明确列出需要紧急医疗评估的恶化警示。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-104",
+      "query": "Is confusion listed as an urgent warning sign in pneumonia?",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#follow-up-0"
+      ],
+      "category": "follow-up",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Follow-up 段落明确列出需要紧急医疗评估的恶化警示。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-105",
+      "query": "Does persistent hypoxemia warrant urgent pneumonia evaluation?",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#follow-up-0"
+      ],
+      "category": "follow-up",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Follow-up 段落明确列出需要紧急医疗评估的恶化警示。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-106",
+      "query": "What does the summary say about hypotension in pneumonia follow-up?",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#follow-up-0"
+      ],
+      "category": "follow-up",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Follow-up 段落明确列出需要紧急医疗评估的恶化警示。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-107",
+      "query": "Retrieve advice for rapidly worsening pneumonia symptoms.",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#follow-up-0"
+      ],
+      "category": "follow-up",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Follow-up 段落明确列出需要紧急医疗评估的恶化警示。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-108",
+      "query": "Which pneumonia passage lists signs of deterioration?",
+      "history": [],
+      "relevant_passage_ids": [
+        "pneumonia.md#follow-up-0"
+      ],
+      "category": "follow-up",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Follow-up 段落明确列出需要紧急医疗评估的恶化警示。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-109",
+      "query": "它出现哪些情况要紧急就医？",
+      "history": [
+        {
+          "role": "user",
+          "content": "社区获得性肺炎"
+        }
+      ],
+      "relevant_passage_ids": [
+        "pneumonia.md#follow-up-0"
+      ],
+      "category": "follow-up",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Follow-up 段落明确列出需要紧急医疗评估的恶化警示。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-110",
+      "query": "如果越来越严重呢？",
+      "history": [
+        {
+          "role": "user",
+          "content": "肺炎患者呼吸困难"
+        }
+      ],
+      "relevant_passage_ids": [
+        "pneumonia.md#follow-up-0"
+      ],
+      "category": "follow-up",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Follow-up 段落明确列出需要紧急医疗评估的恶化警示。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-111",
+      "query": "那哪些变化需要紧急评估？",
+      "history": [
+        {
+          "role": "user",
+          "content": "肺炎随访"
+        }
+      ],
+      "relevant_passage_ids": [
+        "pneumonia.md#follow-up-0"
+      ],
+      "category": "follow-up",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Follow-up 段落明确列出需要紧急医疗评估的恶化警示。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-112",
+      "query": "出现意识混乱要注意什么？",
+      "history": [
+        {
+          "role": "user",
+          "content": "肺炎病情观察"
+        }
+      ],
+      "relevant_passage_ids": [
+        "pneumonia.md#follow-up-0"
+      ],
+      "category": "follow-up",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Follow-up 段落明确列出需要紧急医疗评估的恶化警示。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-113",
+      "query": "如果一直低氧呢？",
+      "history": [
+        {
+          "role": "user",
+          "content": "社区获得性肺炎"
+        }
+      ],
+      "relevant_passage_ids": [
+        "pneumonia.md#follow-up-0"
+      ],
+      "category": "follow-up",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Follow-up 段落明确列出需要紧急医疗评估的恶化警示。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-114",
+      "query": "血压低时有什么警示？",
+      "history": [
+        {
+          "role": "user",
+          "content": "肺炎患者"
+        }
+      ],
+      "relevant_passage_ids": [
+        "pneumonia.md#follow-up-0"
+      ],
+      "category": "follow-up",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Follow-up 段落明确列出需要紧急医疗评估的恶化警示。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-115",
+      "query": "症状突然快速加重怎么办？",
+      "history": [
+        {
+          "role": "user",
+          "content": "肺炎患者在家观察"
+        }
+      ],
+      "relevant_passage_ids": [
+        "pneumonia.md#follow-up-0"
+      ],
+      "category": "follow-up",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Follow-up 段落明确列出需要紧急医疗评估的恶化警示。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-116",
+      "query": "有哪些必须紧急评估的表现？",
+      "history": [
+        {
+          "role": "user",
+          "content": "我在看肺炎的随访建议"
+        }
+      ],
+      "relevant_passage_ids": [
+        "pneumonia.md#follow-up-0"
+      ],
+      "category": "follow-up",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Follow-up 段落明确列出需要紧急医疗评估的恶化警示。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-117",
+      "query": "When does it require urgent evaluation?",
+      "history": [
+        {
+          "role": "user",
+          "content": "community-acquired pneumonia"
+        }
+      ],
+      "relevant_passage_ids": [
+        "pneumonia.md#follow-up-0"
+      ],
+      "category": "follow-up",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Follow-up 段落明确列出需要紧急医疗评估的恶化警示。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-118",
+      "query": "What if that is getting worse?",
+      "history": [
+        {
+          "role": "user",
+          "content": "pneumonia with respiratory distress"
+        }
+      ],
+      "relevant_passage_ids": [
+        "pneumonia.md#follow-up-0"
+      ],
+      "category": "follow-up",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Follow-up 段落明确列出需要紧急医疗评估的恶化警示。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-119",
+      "query": "Which changes should prompt urgent assessment?",
+      "history": [
+        {
+          "role": "user",
+          "content": "follow-up for pneumonia"
+        }
+      ],
+      "relevant_passage_ids": [
+        "pneumonia.md#follow-up-0"
+      ],
+      "category": "follow-up",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Follow-up 段落明确列出需要紧急医疗评估的恶化警示。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    },
+    {
+      "id": "RAG-120",
+      "query": "What if they develop confusion?",
+      "history": [
+        {
+          "role": "user",
+          "content": "a patient with pneumonia"
+        }
+      ],
+      "relevant_passage_ids": [
+        "pneumonia.md#follow-up-0"
+      ],
+      "category": "follow-up",
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "Follow-up 段落明确列出需要紧急医疗评估的恶化警示。",
+      "corpus_sha256": "79bdbad028c9b713b2c36d6986b168fa3c14c61cf3c692c6a2c8466c2b860843"
+    }
+  ]
+}

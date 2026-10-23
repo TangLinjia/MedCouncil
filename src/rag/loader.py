@@ -1,4 +1,5 @@
 from pathlib import Path
+import json
 from langchain_core.documents import Document
 
 
@@ -15,7 +16,9 @@ def load_guidelines(directory: Path = GUIDELINE_DIR,) -> list[Document]:
             f"Guideline directory does not exist: {directory}"
         )
 
-    for path in directory.iterdir():
+    manifest = directory / "sources.json"
+    sources = json.loads(manifest.read_text(encoding="utf-8")) if manifest.exists() else {}
+    for path in sorted(directory.iterdir()):
         if path.suffix.lower() not in {".md", ".txt"}:
             continue
 
@@ -27,6 +30,7 @@ def load_guidelines(directory: Path = GUIDELINE_DIR,) -> list[Document]:
             Document(
                 page_content=text,
                 metadata={
+                    **sources.get(path.name, {}),
                     "source": path.name,
                     "condition": path.stem,
                 },

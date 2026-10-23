@@ -1,0 +1,4954 @@
+{
+  "created_at": "2026-10-23T08:35:37.361153+00:00",
+  "top_k": 1,
+  "dataset": "data/evaluation/rag_queries.json",
+  "scope": "Single local bilingual educational pneumonia summary. Not a clinical benchmark.",
+  "total": 120,
+  "annotation_counts": {
+    "pending_human_review": 120
+  },
+  "summary": {
+    "bm25": {
+      "recall": 0.8583333333333333,
+      "mrr": 0.8583333333333333,
+      "ndcg": 0.8583333333333333
+    },
+    "dense": {
+      "recall": 0.675,
+      "mrr": 0.675,
+      "ndcg": 0.675
+    },
+    "rrf": {
+      "recall": 0.825,
+      "mrr": 0.825,
+      "ndcg": 0.825
+    },
+    "hybrid": {
+      "recall": 0.975,
+      "mrr": 0.975,
+      "ndcg": 0.975
+    }
+  },
+  "results": [
+    {
+      "id": "RAG-001",
+      "query": "社区获得性肺炎有哪些常见表现？",
+      "rewritten_query": "社区获得性肺炎有哪些常见表现？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 1.353
+    },
+    {
+      "id": "RAG-002",
+      "query": "怀疑肺炎时可以考虑什么影像检查？",
+      "rewritten_query": "怀疑肺炎时可以考虑什么影像检查？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.086
+    },
+    {
+      "id": "RAG-003",
+      "query": "肺炎会引起发热和咳嗽吗？",
+      "rewritten_query": "肺炎会引起发热和咳嗽吗？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.071
+    },
+    {
+      "id": "RAG-004",
+      "query": "咳痰和胸部不适是否属于肺炎的可能表现？",
+      "rewritten_query": "咳痰和胸部不适是否属于肺炎的可能表现？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.065
+    },
+    {
+      "id": "RAG-005",
+      "query": "肺炎诊断评估中胸部影像有什么作用？",
+      "rewritten_query": "肺炎诊断评估中胸部影像有什么作用？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.075
+    },
+    {
+      "id": "RAG-006",
+      "query": "社区获得性肺炎患者可能出现哪些呼吸道症状？",
+      "rewritten_query": "社区获得性肺炎患者可能出现哪些呼吸道症状？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.065
+    },
+    {
+      "id": "RAG-007",
+      "query": "发热伴咳嗽，查找肺炎症状相关指南。",
+      "rewritten_query": "发热伴咳嗽，查找肺炎症状相关指南。",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.065
+    },
+    {
+      "id": "RAG-008",
+      "query": "怀疑社区获得性肺炎时，指南提到了哪种检查？",
+      "rewritten_query": "怀疑社区获得性肺炎时，指南提到了哪种检查？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.066
+    },
+    {
+      "id": "RAG-009",
+      "query": "呼吸困难是否可能是肺炎的表现？",
+      "rewritten_query": "呼吸困难是否可能是肺炎的表现？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.066
+    },
+    {
+      "id": "RAG-010",
+      "query": "请检索社区获得性肺炎的诊断相关内容。",
+      "rewritten_query": "请检索社区获得性肺炎的诊断相关内容。",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.063
+    },
+    {
+      "id": "RAG-011",
+      "query": "肺炎是否可能伴有胸部不适？",
+      "rewritten_query": "肺炎是否可能伴有胸部不适？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.065
+    },
+    {
+      "id": "RAG-012",
+      "query": "查找包含肺炎发热、咳痰表现的段落。",
+      "rewritten_query": "查找包含肺炎发热、咳痰表现的段落。",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.066
+    },
+    {
+      "id": "RAG-013",
+      "query": "针对疑似肺炎，哪里提到了胸部影像？",
+      "rewritten_query": "针对疑似肺炎，哪里提到了胸部影像？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.066
+    },
+    {
+      "id": "RAG-014",
+      "query": "肺炎常见症状里包含咳嗽吗？",
+      "rewritten_query": "肺炎常见症状里包含咳嗽吗？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.065
+    },
+    {
+      "id": "RAG-015",
+      "query": "社区获得性肺炎有哪些临床症状线索？",
+      "rewritten_query": "社区获得性肺炎有哪些临床症状线索？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.066
+    },
+    {
+      "id": "RAG-016",
+      "query": "指南如何描述社区获得性肺炎的表现和影像评估？",
+      "rewritten_query": "指南如何描述社区获得性肺炎的表现和影像评估？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.064
+    },
+    {
+      "id": "RAG-017",
+      "query": "咳嗽伴胸部不适，想了解肺炎可能有哪些症状。",
+      "rewritten_query": "咳嗽伴胸部不适，想了解肺炎可能有哪些症状。",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.063
+    },
+    {
+      "id": "RAG-018",
+      "query": "是否可在怀疑肺炎时进行胸部影像检查？",
+      "rewritten_query": "是否可在怀疑肺炎时进行胸部影像检查？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.065
+    },
+    {
+      "id": "RAG-019",
+      "query": "肺炎症状中是否包括发热、咳嗽与咳痰？",
+      "rewritten_query": "肺炎症状中是否包括发热、咳嗽与咳痰？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.064
+    },
+    {
+      "id": "RAG-020",
+      "query": "查询社区获得性肺炎诊断章节。",
+      "rewritten_query": "查询社区获得性肺炎诊断章节。",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.065
+    },
+    {
+      "id": "RAG-021",
+      "query": "What symptoms may occur in community-acquired pneumonia?",
+      "rewritten_query": "What symptoms may occur in community-acquired pneumonia?",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.065
+    },
+    {
+      "id": "RAG-022",
+      "query": "What imaging is mentioned for suspected pneumonia?",
+      "rewritten_query": "What imaging is mentioned for suspected pneumonia?",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.064
+    },
+    {
+      "id": "RAG-023",
+      "query": "Can pneumonia present with fever and cough?",
+      "rewritten_query": "Can pneumonia present with fever and cough?",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.063
+    },
+    {
+      "id": "RAG-024",
+      "query": "Find the passage about sputum production in pneumonia.",
+      "rewritten_query": "Find the passage about sputum production in pneumonia.",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.064
+    },
+    {
+      "id": "RAG-025",
+      "query": "Is chest discomfort a possible pneumonia symptom?",
+      "rewritten_query": "Is chest discomfort a possible pneumonia symptom?",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.064
+    },
+    {
+      "id": "RAG-026",
+      "query": "Does the summary mention dyspnea as a presenting symptom?",
+      "rewritten_query": "Does the summary mention dyspnea as a presenting symptom?",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.065
+    },
+    {
+      "id": "RAG-027",
+      "query": "Which section describes pneumonia presentation?",
+      "rewritten_query": "Which section describes pneumonia presentation?",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.082
+    },
+    {
+      "id": "RAG-028",
+      "query": "Retrieve guidance on chest imaging when pneumonia is suspected.",
+      "rewritten_query": "Retrieve guidance on chest imaging when pneumonia is suspected.",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.066
+    },
+    {
+      "id": "RAG-029",
+      "query": "它有哪些常见症状？",
+      "rewritten_query": "社区获得性肺炎的常见症状有哪些？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.458
+    },
+    {
+      "id": "RAG-030",
+      "query": "那需要考虑什么影像检查？",
+      "rewritten_query": "怀疑肺炎需要考虑什么影像检查？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.447
+    },
+    {
+      "id": "RAG-031",
+      "query": "还可能有哪些表现？",
+      "rewritten_query": "肺炎可能引起咳嗽，还可能有哪些其他表现？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.482
+    },
+    {
+      "id": "RAG-032",
+      "query": "胸部影像在这里有用吗？",
+      "rewritten_query": "社区获得性肺炎的诊断中，胸部影像是否具有临床价值？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.542
+    },
+    {
+      "id": "RAG-033",
+      "query": "包括发热和咳痰吗？",
+      "rewritten_query": "肺炎的临床表现是否包括发热和咳痰？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.486
+    },
+    {
+      "id": "RAG-034",
+      "query": "它会引起胸部不适吗？",
+      "rewritten_query": "肺炎会引起胸部不适吗？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.42
+    },
+    {
+      "id": "RAG-035",
+      "query": "这个病可能有呼吸困难吗？",
+      "rewritten_query": "社区获得性肺炎患者可能出现呼吸困难吗？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.474
+    },
+    {
+      "id": "RAG-036",
+      "query": "有没有提到胸部影像？",
+      "rewritten_query": "有没有提到胸部影像？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.402
+    },
+    {
+      "id": "RAG-037",
+      "query": "What symptoms can it cause?",
+      "rewritten_query": "What symptoms can community-acquired pneumonia cause?",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.443
+    },
+    {
+      "id": "RAG-038",
+      "query": "What imaging might be used for it?",
+      "rewritten_query": "What imaging modalities might be used for suspected pneumonia?",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.467
+    },
+    {
+      "id": "RAG-039",
+      "query": "Does that include sputum production?",
+      "rewritten_query": "Does the pneumonia presentation include sputum production?",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.457
+    },
+    {
+      "id": "RAG-040",
+      "query": "Is chest discomfort one of them?",
+      "rewritten_query": "Is chest discomfort one of the symptoms of community-acquired pneumonia?",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.502
+    },
+    {
+      "id": "RAG-041",
+      "query": "肺炎治疗方案取决于哪些因素？",
+      "rewritten_query": "肺炎治疗方案取决于哪些因素？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.069
+    },
+    {
+      "id": "RAG-042",
+      "query": "制定肺炎治疗方案需要考虑药物过敏史吗？",
+      "rewritten_query": "制定肺炎治疗方案需要考虑药物过敏史吗？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.066
+    },
+    {
+      "id": "RAG-043",
+      "query": "近期抗生素使用是否影响肺炎治疗选择？",
+      "rewritten_query": "近期抗生素使用是否影响肺炎治疗选择？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.065
+    },
+    {
+      "id": "RAG-044",
+      "query": "社区获得性肺炎治疗要考虑当地耐药情况吗？",
+      "rewritten_query": "社区获得性肺炎治疗要考虑当地耐药情况吗？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.064
+    },
+    {
+      "id": "RAG-045",
+      "query": "肺炎严重程度对治疗决策有什么影响？",
+      "rewritten_query": "肺炎严重程度对治疗决策有什么影响？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.065
+    },
+    {
+      "id": "RAG-046",
+      "query": "肺炎患者存在合并症时，治疗应考虑哪些背景？",
+      "rewritten_query": "肺炎患者存在合并症时，治疗应考虑哪些背景？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.065
+    },
+    {
+      "id": "RAG-047",
+      "query": "查找关于肺炎治疗与过敏情况的指南段落。",
+      "rewritten_query": "查找关于肺炎治疗与过敏情况的指南段落。",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.065
+    },
+    {
+      "id": "RAG-048",
+      "query": "社区获得性肺炎用药决策需要哪些患者信息？",
+      "rewritten_query": "社区获得性肺炎用药决策需要哪些患者信息？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        }
+      },
+      "elapsed_seconds": 0.065
+    },
+    {
+      "id": "RAG-049",
+      "query": "药物过敏和近期抗菌药物暴露是否属于治疗考量？",
+      "rewritten_query": "药物过敏和近期抗菌药物暴露是否属于治疗考量？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.065
+    },
+    {
+      "id": "RAG-050",
+      "query": "肺炎治疗为什么需要了解当地抗菌药物耐药情况？",
+      "rewritten_query": "肺炎治疗为什么需要了解当地抗菌药物耐药情况？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.064
+    },
+    {
+      "id": "RAG-051",
+      "query": "检索肺炎治疗中关于疾病严重程度的内容。",
+      "rewritten_query": "检索肺炎治疗中关于疾病严重程度的内容。",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.064
+    },
+    {
+      "id": "RAG-052",
+      "query": "检索肺炎治疗中提到合并症的内容。",
+      "rewritten_query": "检索肺炎治疗中提到合并症的内容。",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.065
+    },
+    {
+      "id": "RAG-053",
+      "query": "肺炎治疗是否需要参考近期抗生素暴露？",
+      "rewritten_query": "肺炎治疗是否需要参考近期抗生素暴露？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.064
+    },
+    {
+      "id": "RAG-054",
+      "query": "想知道肺炎治疗有哪些个体化影响因素。",
+      "rewritten_query": "想知道肺炎治疗有哪些个体化影响因素。",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.065
+    },
+    {
+      "id": "RAG-055",
+      "query": "肺炎患者的药物过敏史和合并症需要纳入治疗评估吗？",
+      "rewritten_query": "肺炎患者的药物过敏史和合并症需要纳入治疗评估吗？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.065
+    },
+    {
+      "id": "RAG-056",
+      "query": "治疗社区获得性肺炎前，要了解哪些用药背景？",
+      "rewritten_query": "治疗社区获得性肺炎前，要了解哪些用药背景？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.064
+    },
+    {
+      "id": "RAG-057",
+      "query": "疾病轻重是否属于肺炎治疗方案的影响因素？",
+      "rewritten_query": "疾病轻重是否属于肺炎治疗方案的影响因素？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.064
+    },
+    {
+      "id": "RAG-058",
+      "query": "当地耐药模式与肺炎治疗方案有关吗？",
+      "rewritten_query": "当地耐药模式与肺炎治疗方案有关吗？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.066
+    },
+    {
+      "id": "RAG-059",
+      "query": "查询社区获得性肺炎治疗章节。",
+      "rewritten_query": "查询社区获得性肺炎治疗章节。",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.063
+    },
+    {
+      "id": "RAG-060",
+      "query": "请找到肺炎治疗依赖严重程度与过敏史的段落。",
+      "rewritten_query": "请找到肺炎治疗依赖严重程度与过敏史的段落。",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.064
+    },
+    {
+      "id": "RAG-061",
+      "query": "What factors influence pneumonia treatment?",
+      "rewritten_query": "What factors influence pneumonia treatment?",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.063
+    },
+    {
+      "id": "RAG-062",
+      "query": "Should drug allergies be considered when treating pneumonia?",
+      "rewritten_query": "Should drug allergies be considered when treating pneumonia?",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.065
+    },
+    {
+      "id": "RAG-063",
+      "query": "Does recent antibiotic exposure affect pneumonia treatment planning?",
+      "rewritten_query": "Does recent antibiotic exposure affect pneumonia treatment planning?",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.064
+    },
+    {
+      "id": "RAG-064",
+      "query": "Find guidance on local resistance patterns in pneumonia treatment.",
+      "rewritten_query": "Find guidance on local resistance patterns in pneumonia treatment.",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.065
+    },
+    {
+      "id": "RAG-065",
+      "query": "Are comorbidities relevant to pneumonia treatment decisions?",
+      "rewritten_query": "Are comorbidities relevant to pneumonia treatment decisions?",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.064
+    },
+    {
+      "id": "RAG-066",
+      "query": "Which passage discusses disease severity and treatment?",
+      "rewritten_query": "Which passage discusses disease severity and treatment?",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.063
+    },
+    {
+      "id": "RAG-067",
+      "query": "Retrieve treatment considerations for community-acquired pneumonia.",
+      "rewritten_query": "Retrieve treatment considerations for community-acquired pneumonia.",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.065
+    },
+    {
+      "id": "RAG-068",
+      "query": "What patient background matters when selecting pneumonia treatment?",
+      "rewritten_query": "What patient background matters when selecting pneumonia treatment?",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.094
+    },
+    {
+      "id": "RAG-069",
+      "query": "它的治疗取决于哪些因素？",
+      "rewritten_query": "社区获得性肺炎的治疗取决于哪些因素？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.471
+    },
+    {
+      "id": "RAG-070",
+      "query": "那药物过敏史需要考虑吗？",
+      "rewritten_query": "肺炎治疗选择中，药物过敏史是否需要考虑？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.499
+    },
+    {
+      "id": "RAG-071",
+      "query": "这对治疗决策有影响吗？",
+      "rewritten_query": "肺炎患者近期使用过抗生素对治疗决策有影响吗？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.516
+    },
+    {
+      "id": "RAG-072",
+      "query": "还要看当地耐药情况吗？",
+      "rewritten_query": "社区获得性肺炎的治疗是否需要考虑当地耐药情况",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.508
+    },
+    {
+      "id": "RAG-073",
+      "query": "这会影响治疗方案吗？",
+      "rewritten_query": "肺炎合并其他疾病会影响治疗方案吗？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.457
+    },
+    {
+      "id": "RAG-074",
+      "query": "除了这个还要考虑什么？",
+      "rewritten_query": "除了肺炎严重程度外，还需要考虑哪些因素来指导治疗？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.518
+    },
+    {
+      "id": "RAG-075",
+      "query": "制定方案时需要关注这个吗？",
+      "rewritten_query": "社区获得性肺炎患者有药物过敏时制定治疗方案时需要关注吗？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.611
+    },
+    {
+      "id": "RAG-076",
+      "query": "需要哪些患者背景信息？",
+      "rewritten_query": "需要哪些患者背景信息？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        }
+      },
+      "elapsed_seconds": 0.416
+    },
+    {
+      "id": "RAG-077",
+      "query": "What factors affect it?",
+      "rewritten_query": "What factors affect community-acquired pneumonia treatment?",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.448
+    },
+    {
+      "id": "RAG-078",
+      "query": "Should those influence treatment?",
+      "rewritten_query": "Should drug allergies influence treatment for pneumonia?",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.424
+    },
+    {
+      "id": "RAG-079",
+      "query": "Does that matter for treatment planning?",
+      "rewritten_query": "Does recent antibiotic exposure in pneumonia matter for treatment planning?",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.471
+    },
+    {
+      "id": "RAG-080",
+      "query": "Are local resistance patterns relevant here?",
+      "rewritten_query": "Are local resistance patterns relevant for the treatment of community-acquired pneumonia?",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.513
+    },
+    {
+      "id": "RAG-081",
+      "query": "肺炎出现哪些情况需要紧急医疗评估？",
+      "rewritten_query": "肺炎出现哪些情况需要紧急医疗评估？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.07
+    },
+    {
+      "id": "RAG-082",
+      "query": "肺炎患者呼吸困难加重时应该关注哪条警示？",
+      "rewritten_query": "肺炎患者呼吸困难加重时应该关注哪条警示？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.066
+    },
+    {
+      "id": "RAG-083",
+      "query": "肺炎随访中哪些表现属于需要尽快评估的信号？",
+      "rewritten_query": "肺炎随访中哪些表现属于需要尽快评估的信号？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.066
+    },
+    {
+      "id": "RAG-084",
+      "query": "肺炎出现意识混乱是否需要紧急评估？",
+      "rewritten_query": "肺炎出现意识混乱是否需要紧急评估？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.064
+    },
+    {
+      "id": "RAG-085",
+      "query": "持续低氧血症是否属于肺炎紧急评估警示？",
+      "rewritten_query": "持续低氧血症是否属于肺炎紧急评估警示？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.064
+    },
+    {
+      "id": "RAG-086",
+      "query": "肺炎伴低血压时，指南提到什么紧急评估提示？",
+      "rewritten_query": "肺炎伴低血压时，指南提到什么紧急评估提示？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.063
+    },
+    {
+      "id": "RAG-087",
+      "query": "肺炎症状迅速恶化时应查找哪段指南？",
+      "rewritten_query": "肺炎症状迅速恶化时应查找哪段指南？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.064
+    },
+    {
+      "id": "RAG-088",
+      "query": "请检索社区获得性肺炎的紧急就医警示。",
+      "rewritten_query": "请检索社区获得性肺炎的紧急就医警示。",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.063
+    },
+    {
+      "id": "RAG-089",
+      "query": "肺炎患者需要注意哪些病情恶化信号？",
+      "rewritten_query": "肺炎患者需要注意哪些病情恶化信号？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.065
+    },
+    {
+      "id": "RAG-090",
+      "query": "查找肺炎随访中关于呼吸窘迫恶化的段落。",
+      "rewritten_query": "查找肺炎随访中关于呼吸窘迫恶化的段落。",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.066
+    },
+    {
+      "id": "RAG-091",
+      "query": "社区获得性肺炎有哪些需要紧急处理的警示表现？",
+      "rewritten_query": "社区获得性肺炎有哪些需要紧急处理的警示表现？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.064
+    },
+    {
+      "id": "RAG-092",
+      "query": "意识状态改变和低血压是否属于肺炎警示信号？",
+      "rewritten_query": "意识状态改变和低血压是否属于肺炎警示信号？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.064
+    },
+    {
+      "id": "RAG-093",
+      "query": "肺炎病人持续缺氧时有哪些紧急评估提示？",
+      "rewritten_query": "肺炎病人持续缺氧时有哪些紧急评估提示？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.065
+    },
+    {
+      "id": "RAG-094",
+      "query": "想了解肺炎在家观察时哪些变化需要紧急就医。",
+      "rewritten_query": "想了解肺炎在家观察时哪些变化需要紧急就医。",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.064
+    },
+    {
+      "id": "RAG-095",
+      "query": "检索肺炎随访章节中的危险表现。",
+      "rewritten_query": "检索肺炎随访章节中的危险表现。",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.065
+    },
+    {
+      "id": "RAG-096",
+      "query": "肺炎患者如果呼吸越来越困难，哪里有相关警示？",
+      "rewritten_query": "肺炎患者如果呼吸越来越困难，哪里有相关警示？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        }
+      },
+      "elapsed_seconds": 0.065
+    },
+    {
+      "id": "RAG-097",
+      "query": "肺炎病情快速变差时是否应寻求紧急医疗评估？",
+      "rewritten_query": "肺炎病情快速变差时是否应寻求紧急医疗评估？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.066
+    },
+    {
+      "id": "RAG-098",
+      "query": "有哪些肺炎症状变化提示需要紧急医疗评估？",
+      "rewritten_query": "有哪些肺炎症状变化提示需要紧急医疗评估？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.073
+    },
+    {
+      "id": "RAG-099",
+      "query": "查询肺炎随访和病情恶化警示内容。",
+      "rewritten_query": "查询肺炎随访和病情恶化警示内容。",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.064
+    },
+    {
+      "id": "RAG-100",
+      "query": "请找到包含低氧、意识混乱和低血压的肺炎段落。",
+      "rewritten_query": "请找到包含低氧、意识混乱和低血压的肺炎段落。",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.066
+    },
+    {
+      "id": "RAG-101",
+      "query": "What pneumonia warning signs require urgent evaluation?",
+      "rewritten_query": "What pneumonia warning signs require urgent evaluation?",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.065
+    },
+    {
+      "id": "RAG-102",
+      "query": "When should a pneumonia patient seek urgent medical assessment?",
+      "rewritten_query": "When should a pneumonia patient seek urgent medical assessment?",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.065
+    },
+    {
+      "id": "RAG-103",
+      "query": "Find follow-up advice for worsening respiratory distress in pneumonia.",
+      "rewritten_query": "Find follow-up advice for worsening respiratory distress in pneumonia.",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.066
+    },
+    {
+      "id": "RAG-104",
+      "query": "Is confusion listed as an urgent warning sign in pneumonia?",
+      "rewritten_query": "Is confusion listed as an urgent warning sign in pneumonia?",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.064
+    },
+    {
+      "id": "RAG-105",
+      "query": "Does persistent hypoxemia warrant urgent pneumonia evaluation?",
+      "rewritten_query": "Does persistent hypoxemia warrant urgent pneumonia evaluation?",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.066
+    },
+    {
+      "id": "RAG-106",
+      "query": "What does the summary say about hypotension in pneumonia follow-up?",
+      "rewritten_query": "What does the summary say about hypotension in pneumonia follow-up?",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.066
+    },
+    {
+      "id": "RAG-107",
+      "query": "Retrieve advice for rapidly worsening pneumonia symptoms.",
+      "rewritten_query": "Retrieve advice for rapidly worsening pneumonia symptoms.",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.064
+    },
+    {
+      "id": "RAG-108",
+      "query": "Which pneumonia passage lists signs of deterioration?",
+      "rewritten_query": "Which pneumonia passage lists signs of deterioration?",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.066
+    },
+    {
+      "id": "RAG-109",
+      "query": "它出现哪些情况要紧急就医？",
+      "rewritten_query": "社区获得性肺炎出现哪些情况需要紧急就医？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.484
+    },
+    {
+      "id": "RAG-110",
+      "query": "如果越来越严重呢？",
+      "rewritten_query": "肺炎患者呼吸困难且症状越来越严重时的处理方案",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.497
+    },
+    {
+      "id": "RAG-111",
+      "query": "那哪些变化需要紧急评估？",
+      "rewritten_query": "肺炎随访中哪些变化需要紧急评估？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.473
+    },
+    {
+      "id": "RAG-112",
+      "query": "出现意识混乱要注意什么？",
+      "rewritten_query": "出现意识混乱要注意什么？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.418
+    },
+    {
+      "id": "RAG-113",
+      "query": "如果一直低氧呢？",
+      "rewritten_query": "社区获得性肺炎患者如果持续低氧血症会有什么临床表现？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.555
+    },
+    {
+      "id": "RAG-114",
+      "query": "血压低时有什么警示？",
+      "rewritten_query": "肺炎患者血压低时有什么警示？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.445
+    },
+    {
+      "id": "RAG-115",
+      "query": "症状突然快速加重怎么办？",
+      "rewritten_query": "肺炎患者在家观察时症状突然快速加重该怎么办？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.487
+    },
+    {
+      "id": "RAG-116",
+      "query": "有哪些必须紧急评估的表现？",
+      "rewritten_query": "有哪些必须紧急评估的肺炎随访表现？",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#treatment-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#diagnosis-0"
+          ],
+          "recall": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.473
+    },
+    {
+      "id": "RAG-117",
+      "query": "When does it require urgent evaluation?",
+      "rewritten_query": "When does community-acquired pneumonia require urgent evaluation?",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.453
+    },
+    {
+      "id": "RAG-118",
+      "query": "What if that is getting worse?",
+      "rewritten_query": "What if pneumonia with respiratory distress is getting worse?",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.455
+    },
+    {
+      "id": "RAG-119",
+      "query": "Which changes should prompt urgent assessment?",
+      "rewritten_query": "Which changes should prompt urgent assessment for pneumonia follow-up?",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.473
+    },
+    {
+      "id": "RAG-120",
+      "query": "What if they develop confusion?",
+      "rewritten_query": "What if a patient with pneumonia develops confusion?",
+      "annotation_status": "pending_human_review",
+      "modes": {
+        "bm25": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "dense": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "rrf": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        "hybrid": {
+          "retrieved_ids": [
+            "pneumonia.md#follow-up-0"
+          ],
+          "recall": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      },
+      "elapsed_seconds": 0.442
+    }
+  ]
+}

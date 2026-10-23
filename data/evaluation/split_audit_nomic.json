@@ -1,0 +1,91 @@
+{
+  "exact_overlap": [],
+  "within_exact_duplicates": [],
+  "shared_groups": [],
+  "lexical_overlap": [],
+  "semantic_overlap": [
+    {
+      "left": "DEV-004",
+      "right": "TEST-106",
+      "cosine": 0.9112162436228608
+    },
+    {
+      "left": "DEV-006",
+      "right": "TEST-039",
+      "cosine": 0.9546875098478668
+    },
+    {
+      "left": "DEV-006",
+      "right": "TEST-099",
+      "cosine": 0.9635878383470733
+    },
+    {
+      "left": "DEV-008",
+      "right": "TEST-045",
+      "cosine": 0.9332202514761897
+    },
+    {
+      "left": "DEV-055",
+      "right": "TEST-111",
+      "cosine": 0.9097012888983925
+    },
+    {
+      "left": "DEV-067",
+      "right": "TEST-061",
+      "cosine": 0.9901676527211092
+    },
+    {
+      "left": "DEV-067",
+      "right": "TEST-068",
+      "cosine": 0.9477176776078615
+    },
+    {
+      "left": "DEV-068",
+      "right": "TEST-045",
+      "cosine": 0.9417056899300666
+    },
+    {
+      "left": "DEV-068",
+      "right": "TEST-057",
+      "cosine": 0.9867904175067425
+    },
+    {
+      "left": "DEV-079",
+      "right": "TEST-045",
+      "cosine": 0.9318602218352219
+    },
+    {
+      "left": "DEV-113",
+      "right": "TEST-039",
+      "cosine": 0.9757382453502882
+    },
+    {
+      "left": "DEV-113",
+      "right": "TEST-099",
+      "cosine": 0.9809102864139863
+    }
+  ],
+  "lexical_threshold": 0.65,
+  "semantic_threshold": 0.9,
+  "max_cross_lexical_jaccard": 0.1595744680851064,
+  "max_cross_semantic_cosine": 0.9901676527211092,
+  "semantic_model": "nomic-embed-text",
+  "limitation": "Threshold screening cannot guarantee absence of semantic duplicates or pretraining contamination.",
+  "created_at": "2026-10-23T09:17:52.017575+00:00",
+  "dev_sha256": "733bf670e1aba0ecb45020ebea1867ad08159ac848e72d722e0701bb8a23efae",
+  "test_sha256": "e1fb3bcb34df9c7765639b2e1085f00a54f68f0ee4d1d7db369e285a9c51d08d",
+  "dev_count": 120,
+  "test_count": 120,
+  "dev_relevance_counts": {
+    "1": 60,
+    "2": 31,
+    "3": 29
+  },
+  "test_relevance_counts": {
+    "1": 60,
+    "2": 30,
+    "3": 29,
+    "4": 1
+  },
+  "passed": false
+}

@@ -1,0 +1,2608 @@
+{
+  "version": 2,
+  "split": "dev",
+  "purpose": "parameter_selection",
+  "scope": "20 disjoint-topic CDC-derived Chinese summaries plus legacy pneumonia. Relevance unit is evidence passage, not source page.",
+  "novelty_claim": "Test questions are excluded from parameter selection; no claim about pretraining exposure or independent human authorship.",
+  "queries": [
+    {
+      "id": "DEV-001",
+      "query": "哪些流感患者属于应尽快接受抗病毒治疗的优先人群？",
+      "history": [],
+      "group_id": "influenza",
+      "intent_id": "influenza-01",
+      "relevant_passage_ids": [
+        "cdc_influenza.md#e1-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_influenza.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "influenza"
+      ]
+    },
+    {
+      "id": "DEV-002",
+      "query": "对高度疑似且需优先治疗的流感患者，要等化验确诊后再给药吗？",
+      "history": [],
+      "group_id": "influenza",
+      "intent_id": "influenza-02",
+      "relevant_passage_ids": [
+        "cdc_influenza.md#e2-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_influenza.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "influenza"
+      ]
+    },
+    {
+      "id": "DEV-003",
+      "query": "健康成人流感症状刚出现一天，门诊是否可以考虑经验性治疗？",
+      "history": [],
+      "group_id": "influenza",
+      "intent_id": "influenza-03",
+      "relevant_passage_ids": [
+        "cdc_influenza.md#e3-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_influenza.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "influenza"
+      ]
+    },
+    {
+      "id": "DEV-004",
+      "query": "住院流感患者的抗病毒给药途径和常用药是什么？",
+      "history": [],
+      "group_id": "influenza",
+      "intent_id": "influenza-04",
+      "relevant_passage_ids": [
+        "cdc_influenza.md#e4-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_influenza.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "influenza"
+      ]
+    },
+    {
+      "id": "DEV-005",
+      "query": "流感已经发作三天但病情正在加重，还能否考虑奥司他韦？",
+      "history": [],
+      "group_id": "influenza",
+      "intent_id": "influenza-05",
+      "relevant_passage_ids": [
+        "cdc_influenza.md#e5-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_influenza.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "influenza"
+      ]
+    },
+    {
+      "id": "DEV-006",
+      "query": "发病早期且无并发症的流感门诊病例有哪些抗病毒药物选项？",
+      "history": [],
+      "group_id": "influenza",
+      "intent_id": "influenza-06",
+      "relevant_passage_ids": [
+        "cdc_influenza.md#e6-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_influenza.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "influenza"
+      ]
+    },
+    {
+      "id": "DEV-007",
+      "query": "流感住院患者是否应优先治疗，启动治疗还要不要等检测结果？",
+      "history": [],
+      "group_id": "influenza",
+      "intent_id": "influenza-07",
+      "relevant_passage_ids": [
+        "cdc_influenza.md#e1-0",
+        "cdc_influenza.md#e2-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_influenza.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "influenza"
+      ]
+    },
+    {
+      "id": "DEV-008",
+      "query": "流感普通门诊病例的治疗时间窗和可选药物分别是什么？",
+      "history": [],
+      "group_id": "influenza",
+      "intent_id": "influenza-08",
+      "relevant_passage_ids": [
+        "cdc_influenza.md#e3-0",
+        "cdc_influenza.md#e6-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_influenza.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "influenza"
+      ]
+    },
+    {
+      "id": "DEV-009",
+      "query": "病情进展的流感患者即使超过48小时，应如何决定是否治疗及选药？",
+      "history": [],
+      "group_id": "influenza",
+      "intent_id": "influenza-09",
+      "relevant_passage_ids": [
+        "cdc_influenza.md#e1-0",
+        "cdc_influenza.md#e5-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_influenza.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "influenza"
+      ]
+    },
+    {
+      "id": "DEV-010",
+      "query": "高风险流感患者与非高风险门诊患者，启动治疗的依据有哪些差别？",
+      "history": [],
+      "group_id": "influenza",
+      "intent_id": "influenza-10",
+      "relevant_passage_ids": [
+        "cdc_influenza.md#e1-0",
+        "cdc_influenza.md#e2-0",
+        "cdc_influenza.md#e3-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_influenza.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "influenza"
+      ]
+    },
+    {
+      "id": "DEV-011",
+      "query": "对住院流感和早期高风险新冠分别考虑抗病毒时，流感常用药和新冠治疗时间窗各是什么？",
+      "history": [
+        {
+          "role": "user",
+          "content": "我想对比covid、influenza的临床资料。"
+        }
+      ],
+      "group_id": "influenza",
+      "intent_id": "influenza-11",
+      "relevant_passage_ids": [
+        "cdc_influenza.md#e4-0",
+        "cdc_covid.md#e2-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_covid.md",
+        "cdc_influenza.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "covid",
+        "influenza"
+      ]
+    },
+    {
+      "id": "DEV-012",
+      "query": "如果症状轻且不到两天，与已超过两天而逐渐加重时，用药判断有什么不同？",
+      "history": [
+        {
+          "role": "user",
+          "content": "我在咨询流感 Influenza的临床资料。"
+        }
+      ],
+      "group_id": "influenza",
+      "intent_id": "influenza-12",
+      "relevant_passage_ids": [
+        "cdc_influenza.md#e3-0",
+        "cdc_influenza.md#e5-0",
+        "cdc_influenza.md#e6-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_influenza.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "influenza"
+      ]
+    },
+    {
+      "id": "DEV-013",
+      "query": "轻中度新冠中，什么患者需要考虑门诊抗病毒治疗？",
+      "history": [],
+      "group_id": "covid",
+      "intent_id": "covid-01",
+      "relevant_passage_ids": [
+        "cdc_covid.md#e1-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_covid.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "covid"
+      ]
+    },
+    {
+      "id": "DEV-014",
+      "query": "新冠门诊药物一般应在症状开始后的什么时限内启动？",
+      "history": [],
+      "group_id": "covid",
+      "intent_id": "covid-02",
+      "relevant_passage_ids": [
+        "cdc_covid.md#e2-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_covid.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "covid"
+      ]
+    },
+    {
+      "id": "DEV-015",
+      "query": "65岁和75岁这两个年龄节点对新冠重症风险有何提示？",
+      "history": [],
+      "group_id": "covid",
+      "intent_id": "covid-03",
+      "relevant_passage_ids": [
+        "cdc_covid.md#e3-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_covid.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "covid"
+      ]
+    },
+    {
+      "id": "DEV-016",
+      "query": "除年龄之外，新冠患者有哪些疫苗、疾病或免疫相关重症风险因素？",
+      "history": [],
+      "group_id": "covid",
+      "intent_id": "covid-04",
+      "relevant_passage_ids": [
+        "cdc_covid.md#e4-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_covid.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "covid"
+      ]
+    },
+    {
+      "id": "DEV-017",
+      "query": "高风险疑似新冠门诊病例怎样选择检测以减少治疗延误？",
+      "history": [],
+      "group_id": "covid",
+      "intent_id": "covid-05",
+      "relevant_passage_ids": [
+        "cdc_covid.md#e5-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_covid.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "covid"
+      ]
+    },
+    {
+      "id": "DEV-018",
+      "query": "新冠暴露前预防药物主要适用于哪部分人，是否用来治疗现有感染？",
+      "history": [],
+      "group_id": "covid",
+      "intent_id": "covid-06",
+      "relevant_passage_ids": [
+        "cdc_covid.md#e6-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_covid.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "covid"
+      ]
+    },
+    {
+      "id": "DEV-019",
+      "query": "评估一位轻症新冠老人时，治疗资格和年龄风险应如何结合考虑？",
+      "history": [],
+      "group_id": "covid",
+      "intent_id": "covid-07",
+      "relevant_passage_ids": [
+        "cdc_covid.md#e1-0",
+        "cdc_covid.md#e3-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_covid.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "covid"
+      ]
+    },
+    {
+      "id": "DEV-020",
+      "query": "免疫抑制的新冠患者同时存在治疗时限问题时，应查看哪些风险和窗口信息？",
+      "history": [],
+      "group_id": "covid",
+      "intent_id": "covid-08",
+      "relevant_passage_ids": [
+        "cdc_covid.md#e2-0",
+        "cdc_covid.md#e4-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_covid.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "covid"
+      ]
+    },
+    {
+      "id": "DEV-021",
+      "query": "高风险新冠患者为避免错过给药窗口，检测和治疗时间分别要注意什么？",
+      "history": [],
+      "group_id": "covid",
+      "intent_id": "covid-09",
+      "relevant_passage_ids": [
+        "cdc_covid.md#e2-0",
+        "cdc_covid.md#e5-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_covid.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "covid"
+      ]
+    },
+    {
+      "id": "DEV-022",
+      "query": "一位疫苗未更新的新冠老人，评估是否门诊治疗需要参考哪些风险依据？",
+      "history": [],
+      "group_id": "covid",
+      "intent_id": "covid-10",
+      "relevant_passage_ids": [
+        "cdc_covid.md#e1-0",
+        "cdc_covid.md#e3-0",
+        "cdc_covid.md#e4-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_covid.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "covid"
+      ]
+    },
+    {
+      "id": "DEV-023",
+      "query": "面向高龄呼吸道感染患者，新冠门诊治疗的年龄风险与RSV成人疫苗年龄条件分别是什么？",
+      "history": [
+        {
+          "role": "user",
+          "content": "我想对比covid、rsv的临床资料。"
+        }
+      ],
+      "group_id": "covid",
+      "intent_id": "covid-11",
+      "relevant_passage_ids": [
+        "cdc_covid.md#e3-0",
+        "cdc_rsv.md#e5-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_covid.md",
+        "cdc_rsv.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "covid",
+        "rsv"
+      ]
+    },
+    {
+      "id": "DEV-024",
+      "query": "针对免疫功能受损者，如何区分感染后的风险、早期治疗和未感染前预防？",
+      "history": [
+        {
+          "role": "user",
+          "content": "我在咨询新冠 COVID-19的临床资料。"
+        }
+      ],
+      "group_id": "covid",
+      "intent_id": "covid-12",
+      "relevant_passage_ids": [
+        "cdc_covid.md#e1-0",
+        "cdc_covid.md#e4-0",
+        "cdc_covid.md#e6-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_covid.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "covid"
+      ]
+    },
+    {
+      "id": "DEV-025",
+      "query": "RSV感染通常轻微，哪些年龄或免疫状态的人仍可能发生重症？",
+      "history": [],
+      "group_id": "rsv",
+      "intent_id": "rsv-01",
+      "relevant_passage_ids": [
+        "cdc_rsv.md#e1-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_rsv.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "rsv"
+      ]
+    },
+    {
+      "id": "DEV-026",
+      "query": "美国RSV一般在什么季节开始流行，何时达到高峰？",
+      "history": [],
+      "group_id": "rsv",
+      "intent_id": "rsv-02",
+      "relevant_passage_ids": [
+        "cdc_rsv.md#e2-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_rsv.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "rsv"
+      ]
+    },
+    {
+      "id": "DEV-027",
+      "query": "RSV可引起哪些婴幼儿下呼吸道病变，健康孩子都需要住院吗？",
+      "history": [],
+      "group_id": "rsv",
+      "intent_id": "rsv-03",
+      "relevant_passage_ids": [
+        "cdc_rsv.md#e3-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_rsv.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "rsv"
+      ]
+    },
+    {
+      "id": "DEV-028",
+      "query": "因RSV住院的婴儿可能需要哪些支持治疗？",
+      "history": [],
+      "group_id": "rsv",
+      "intent_id": "rsv-04",
+      "relevant_passage_ids": [
+        "cdc_rsv.md#e4-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_rsv.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "rsv"
+      ]
+    },
+    {
+      "id": "DEV-029",
+      "query": "成人RSV疫苗的75岁及50至74岁风险分层建议是什么？",
+      "history": [],
+      "group_id": "rsv",
+      "intent_id": "rsv-05",
+      "relevant_passage_ids": [
+        "cdc_rsv.md#e5-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_rsv.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "rsv"
+      ]
+    },
+    {
+      "id": "DEV-030",
+      "query": "为婴儿提供RSV保护时，孕期疫苗和出生后抗体有哪些路径？",
+      "history": [],
+      "group_id": "rsv",
+      "intent_id": "rsv-06",
+      "relevant_passage_ids": [
+        "cdc_rsv.md#e6-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_rsv.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "rsv"
+      ]
+    },
+    {
+      "id": "DEV-031",
+      "query": "评估RSV季节中的高危婴儿，需要同时关注哪些流行时间和重症风险？",
+      "history": [],
+      "group_id": "rsv",
+      "intent_id": "rsv-07",
+      "relevant_passage_ids": [
+        "cdc_rsv.md#e1-0",
+        "cdc_rsv.md#e2-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_rsv.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "rsv"
+      ]
+    },
+    {
+      "id": "DEV-032",
+      "query": "健康婴儿RSV感染后通常需不需住院，若住院一般采用什么处理？",
+      "history": [],
+      "group_id": "rsv",
+      "intent_id": "rsv-08",
+      "relevant_passage_ids": [
+        "cdc_rsv.md#e3-0",
+        "cdc_rsv.md#e4-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_rsv.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "rsv"
+      ]
+    },
+    {
+      "id": "DEV-033",
+      "query": "RSV高危成人的易感背景与疫苗适用年龄如何对应？",
+      "history": [],
+      "group_id": "rsv",
+      "intent_id": "rsv-09",
+      "relevant_passage_ids": [
+        "cdc_rsv.md#e1-0",
+        "cdc_rsv.md#e5-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_rsv.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "rsv"
+      ]
+    },
+    {
+      "id": "DEV-034",
+      "query": "进入RSV季节的婴儿，如何综合理解季节性、疾病表现和预防途径？",
+      "history": [],
+      "group_id": "rsv",
+      "intent_id": "rsv-10",
+      "relevant_passage_ids": [
+        "cdc_rsv.md#e2-0",
+        "cdc_rsv.md#e3-0",
+        "cdc_rsv.md#e6-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_rsv.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "rsv"
+      ]
+    },
+    {
+      "id": "DEV-035",
+      "query": "同为婴儿呼吸道感染，住院RSV的支持措施和百日咳早期抗菌治疗的收益有何差别？",
+      "history": [
+        {
+          "role": "user",
+          "content": "我想对比pertussis、rsv的临床资料。"
+        }
+      ],
+      "group_id": "rsv",
+      "intent_id": "rsv-11",
+      "relevant_passage_ids": [
+        "cdc_rsv.md#e4-0",
+        "cdc_pertussis.md#e1-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_pertussis.md",
+        "cdc_rsv.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "pertussis",
+        "rsv"
+      ]
+    },
+    {
+      "id": "DEV-036",
+      "query": "针对老人和婴儿两端人群，风险差异及各自免疫预防方式是什么？",
+      "history": [
+        {
+          "role": "user",
+          "content": "我在咨询呼吸道合胞病毒 RSV的临床资料。"
+        }
+      ],
+      "group_id": "rsv",
+      "intent_id": "rsv-12",
+      "relevant_passage_ids": [
+        "cdc_rsv.md#e1-0",
+        "cdc_rsv.md#e5-0",
+        "cdc_rsv.md#e6-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_rsv.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "rsv"
+      ]
+    },
+    {
+      "id": "DEV-037",
+      "query": "百日咳开始治疗的哪个早期阶段最有助于减轻症状？",
+      "history": [],
+      "group_id": "pertussis",
+      "intent_id": "pertussis-01",
+      "relevant_passage_ids": [
+        "cdc_pertussis.md#e1-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_pertussis.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "pertussis"
+      ]
+    },
+    {
+      "id": "DEV-038",
+      "query": "在百日咳化验尚未出结果时，哪些情况足以考虑先治疗？",
+      "history": [],
+      "group_id": "pertussis",
+      "intent_id": "pertussis-02",
+      "relevant_passage_ids": [
+        "cdc_pertussis.md#e2-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_pertussis.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "pertussis"
+      ]
+    },
+    {
+      "id": "DEV-039",
+      "query": "百日咳成人和一岁以下婴儿的治疗时限是否相同？",
+      "history": [],
+      "group_id": "pertussis",
+      "intent_id": "pertussis-03",
+      "relevant_passage_ids": [
+        "cdc_pertussis.md#e3-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_pertussis.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "pertussis"
+      ]
+    },
+    {
+      "id": "DEV-040",
+      "query": "什么百日咳暴露人群应被考虑给予暴露后抗生素预防？",
+      "history": [],
+      "group_id": "pertussis",
+      "intent_id": "pertussis-04",
+      "relevant_passage_ids": [
+        "cdc_pertussis.md#e4-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_pertussis.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "pertussis"
+      ]
+    },
+    {
+      "id": "DEV-041",
+      "query": "百日咳常用哪类抗菌药，替代药的最低月龄限制是什么？",
+      "history": [],
+      "group_id": "pertussis",
+      "intent_id": "pertussis-05",
+      "relevant_passage_ids": [
+        "cdc_pertussis.md#e5-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_pertussis.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "pertussis"
+      ]
+    },
+    {
+      "id": "DEV-042",
+      "query": "百日咳抗生素选择需要了解哪些个体因素及耐药线索？",
+      "history": [],
+      "group_id": "pertussis",
+      "intent_id": "pertussis-06",
+      "relevant_passage_ids": [
+        "cdc_pertussis.md#e6-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_pertussis.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "pertussis"
+      ]
+    },
+    {
+      "id": "DEV-043",
+      "query": "百日咳早期治疗收益与不同年龄患者的治疗时限应怎样同时理解？",
+      "history": [],
+      "group_id": "pertussis",
+      "intent_id": "pertussis-07",
+      "relevant_passage_ids": [
+        "cdc_pertussis.md#e1-0",
+        "cdc_pertussis.md#e3-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_pertussis.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "pertussis"
+      ]
+    },
+    {
+      "id": "DEV-044",
+      "query": "疑似百日咳者家中有高风险婴儿，提前治疗与接触者预防各有哪些依据？",
+      "history": [],
+      "group_id": "pertussis",
+      "intent_id": "pertussis-08",
+      "relevant_passage_ids": [
+        "cdc_pertussis.md#e2-0",
+        "cdc_pertussis.md#e4-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_pertussis.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "pertussis"
+      ]
+    },
+    {
+      "id": "DEV-045",
+      "query": "有药物耐受问题的百日咳患者，推荐药类与选药考量分别是什么？",
+      "history": [],
+      "group_id": "pertussis",
+      "intent_id": "pertussis-09",
+      "relevant_passage_ids": [
+        "cdc_pertussis.md#e5-0",
+        "cdc_pertussis.md#e6-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_pertussis.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "pertussis"
+      ]
+    },
+    {
+      "id": "DEV-046",
+      "query": "临近足月孕妇疑似百日咳，未等到检测结果时需要考虑哪些时间和风险因素？",
+      "history": [],
+      "group_id": "pertussis",
+      "intent_id": "pertussis-10",
+      "relevant_passage_ids": [
+        "cdc_pertussis.md#e1-0",
+        "cdc_pertussis.md#e2-0",
+        "cdc_pertussis.md#e3-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_pertussis.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "pertussis"
+      ]
+    },
+    {
+      "id": "DEV-047",
+      "query": "百日咳患者接触高风险者时考虑检测前治疗，与肺炎患者近期酒店过夜后考虑军团菌检测，各依据什么线索？",
+      "history": [
+        {
+          "role": "user",
+          "content": "我想对比legionella、pertussis的临床资料。"
+        }
+      ],
+      "group_id": "pertussis",
+      "intent_id": "pertussis-11",
+      "relevant_passage_ids": [
+        "cdc_pertussis.md#e2-0",
+        "cdc_legionella.md#e3-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_legionella.md",
+        "cdc_pertussis.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "legionella",
+        "pertussis"
+      ]
+    },
+    {
+      "id": "DEV-048",
+      "query": "在就诊较早的情况下，如何结合治疗收益、治疗时限和个体因素选择方案？",
+      "history": [
+        {
+          "role": "user",
+          "content": "我在咨询百日咳 Pertussis的临床资料。"
+        }
+      ],
+      "group_id": "pertussis",
+      "intent_id": "pertussis-12",
+      "relevant_passage_ids": [
+        "cdc_pertussis.md#e1-0",
+        "cdc_pertussis.md#e3-0",
+        "cdc_pertussis.md#e6-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_pertussis.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "pertussis"
+      ]
+    },
+    {
+      "id": "DEV-049",
+      "query": "军团菌肺炎能否单凭胸部影像与其他肺炎病原体鉴别？",
+      "history": [],
+      "group_id": "legionella",
+      "intent_id": "legionella-01",
+      "relevant_passage_ids": [
+        "cdc_legionella.md#e1-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_legionella.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "legionella"
+      ]
+    },
+    {
+      "id": "DEV-050",
+      "query": "肺炎门诊用药失败或需要ICU时，为什么应考虑军团菌检测？",
+      "history": [],
+      "group_id": "legionella",
+      "intent_id": "legionella-02",
+      "relevant_passage_ids": [
+        "cdc_legionella.md#e2-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_legionella.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "legionella"
+      ]
+    },
+    {
+      "id": "DEV-051",
+      "query": "肺炎发病前的过夜旅行及医疗机构停留，对军团菌检查有何意义？",
+      "history": [],
+      "group_id": "legionella",
+      "intent_id": "legionella-03",
+      "relevant_passage_ids": [
+        "cdc_legionella.md#e3-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_legionella.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "legionella"
+      ]
+    },
+    {
+      "id": "DEV-052",
+      "query": "询问军团菌暴露时，哪些医疗或旅行场所值得关注？",
+      "history": [],
+      "group_id": "legionella",
+      "intent_id": "legionella-04",
+      "relevant_passage_ids": [
+        "cdc_legionella.md#e4-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_legionella.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "legionella"
+      ]
+    },
+    {
+      "id": "DEV-053",
+      "query": "调查军团菌感染的接触经历时通常回溯发病前多少天？",
+      "history": [],
+      "group_id": "legionella",
+      "intent_id": "legionella-05",
+      "relevant_passage_ids": [
+        "cdc_legionella.md#e5-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_legionella.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "legionella"
+      ]
+    },
+    {
+      "id": "DEV-054",
+      "query": "肺炎初始抗生素是否必然覆盖军团菌，病原检查对治疗有什么作用？",
+      "history": [],
+      "group_id": "legionella",
+      "intent_id": "legionella-06",
+      "relevant_passage_ids": [
+        "cdc_legionella.md#e6-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_legionella.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "legionella"
+      ]
+    },
+    {
+      "id": "DEV-055",
+      "query": "军团菌为什么既不能只靠影像识别，又可能需要调整常规肺炎用药？",
+      "history": [],
+      "group_id": "legionella",
+      "intent_id": "legionella-07",
+      "relevant_passage_ids": [
+        "cdc_legionella.md#e1-0",
+        "cdc_legionella.md#e6-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_legionella.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "legionella"
+      ]
+    },
+    {
+      "id": "DEV-056",
+      "query": "怀疑军团菌时，严重病情和特定过夜接触史分别提供什么检测依据？",
+      "history": [],
+      "group_id": "legionella",
+      "intent_id": "legionella-08",
+      "relevant_passage_ids": [
+        "cdc_legionella.md#e2-0",
+        "cdc_legionella.md#e3-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_legionella.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "legionella"
+      ]
+    },
+    {
+      "id": "DEV-057",
+      "query": "对疑似军团菌病例，询问哪些地点、回溯多长时间更有价值？",
+      "history": [],
+      "group_id": "legionella",
+      "intent_id": "legionella-09",
+      "relevant_passage_ids": [
+        "cdc_legionella.md#e4-0",
+        "cdc_legionella.md#e5-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_legionella.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "legionella"
+      ]
+    },
+    {
+      "id": "DEV-058",
+      "query": "肺炎在门诊抗生素后无好转且最近住过酒店，如何串联检测及选药线索？",
+      "history": [],
+      "group_id": "legionella",
+      "intent_id": "legionella-10",
+      "relevant_passage_ids": [
+        "cdc_legionella.md#e2-0",
+        "cdc_legionella.md#e3-0",
+        "cdc_legionella.md#e6-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_legionella.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "legionella"
+      ]
+    },
+    {
+      "id": "DEV-059",
+      "query": "两位病人分别疑似军团菌肺炎和早期莱姆病：单靠影像与单次早期抗体阴性各有什么局限？",
+      "history": [
+        {
+          "role": "user",
+          "content": "我想对比legionella、lyme的临床资料。"
+        }
+      ],
+      "group_id": "legionella",
+      "intent_id": "legionella-11",
+      "relevant_passage_ids": [
+        "cdc_legionella.md#e1-0",
+        "cdc_lyme.md#e3-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_legionella.md",
+        "cdc_lyme.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "legionella",
+        "lyme"
+      ]
+    },
+    {
+      "id": "DEV-060",
+      "query": "回溯潜伏期内经历时，具体时间范围、暴发常见地点和过夜经历应包括什么？",
+      "history": [
+        {
+          "role": "user",
+          "content": "我在咨询军团菌病 Legionella的临床资料。"
+        }
+      ],
+      "group_id": "legionella",
+      "intent_id": "legionella-12",
+      "relevant_passage_ids": [
+        "cdc_legionella.md#e3-0",
+        "cdc_legionella.md#e4-0",
+        "cdc_legionella.md#e5-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_legionella.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "legionella"
+      ]
+    },
+    {
+      "id": "DEV-061",
+      "query": "莱姆病血液检测主要寻找病原体本身，还是针对它的抗体？",
+      "history": [],
+      "group_id": "lyme",
+      "intent_id": "lyme-01",
+      "relevant_passage_ids": [
+        "cdc_lyme.md#e1-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_lyme.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "lyme"
+      ]
+    },
+    {
+      "id": "DEV-062",
+      "query": "CDC建议的莱姆病两步血清学检测流程有什么基本要求？",
+      "history": [],
+      "group_id": "lyme",
+      "intent_id": "lyme-02",
+      "relevant_passage_ids": [
+        "cdc_lyme.md#e2-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_lyme.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "lyme"
+      ]
+    },
+    {
+      "id": "DEV-063",
+      "query": "蜱叮咬后不久疑似莱姆病，抗体阴性是否可能是时间过早？",
+      "history": [],
+      "group_id": "lyme",
+      "intent_id": "lyme-03",
+      "relevant_passage_ids": [
+        "cdc_lyme.md#e3-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_lyme.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "lyme"
+      ]
+    },
+    {
+      "id": "DEV-064",
+      "query": "莱姆病治疗后抗体仍高，能否据此判断未治愈？",
+      "history": [],
+      "group_id": "lyme",
+      "intent_id": "lyme-04",
+      "relevant_passage_ids": [
+        "cdc_lyme.md#e4-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_lyme.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "lyme"
+      ]
+    },
+    {
+      "id": "DEV-065",
+      "query": "哪些疾病可能干扰莱姆病抗体检测，造成交叉反应？",
+      "history": [],
+      "group_id": "lyme",
+      "intent_id": "lyme-05",
+      "relevant_passage_ids": [
+        "cdc_lyme.md#e5-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_lyme.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "lyme"
+      ]
+    },
+    {
+      "id": "DEV-066",
+      "query": "莱姆病病程超过一个月时，单独IgM阳性应该怎样解读？",
+      "history": [],
+      "group_id": "lyme",
+      "intent_id": "lyme-06",
+      "relevant_passage_ids": [
+        "cdc_lyme.md#e6-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_lyme.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "lyme"
+      ]
+    },
+    {
+      "id": "DEV-067",
+      "query": "莱姆病早期初筛阴性时，如何同时理解两步检测流程及窗口期？",
+      "history": [],
+      "group_id": "lyme",
+      "intent_id": "lyme-07",
+      "relevant_passage_ids": [
+        "cdc_lyme.md#e2-0",
+        "cdc_lyme.md#e3-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_lyme.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "lyme"
+      ]
+    },
+    {
+      "id": "DEV-068",
+      "query": "治疗后的莱姆病抗体结果，需要结合检测对象和抗体持续时间怎样看待？",
+      "history": [],
+      "group_id": "lyme",
+      "intent_id": "lyme-08",
+      "relevant_passage_ids": [
+        "cdc_lyme.md#e1-0",
+        "cdc_lyme.md#e4-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_lyme.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "lyme"
+      ]
+    },
+    {
+      "id": "DEV-069",
+      "query": "疑似莱姆病的孤立IgM结果，在病程较长且可能存在交叉反应时应注意什么？",
+      "history": [],
+      "group_id": "lyme",
+      "intent_id": "lyme-09",
+      "relevant_passage_ids": [
+        "cdc_lyme.md#e5-0",
+        "cdc_lyme.md#e6-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_lyme.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "lyme"
+      ]
+    },
+    {
+      "id": "DEV-070",
+      "query": "对莱姆病早期用过抗生素者，血清学窗口、两步方法和转阳机会有哪些限制？",
+      "history": [],
+      "group_id": "lyme",
+      "intent_id": "lyme-10",
+      "relevant_passage_ids": [
+        "cdc_lyme.md#e2-0",
+        "cdc_lyme.md#e3-0",
+        "cdc_lyme.md#e6-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_lyme.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "lyme"
+      ]
+    },
+    {
+      "id": "DEV-071",
+      "query": "蜱暴露后分别考虑莱姆病与无形体病，莱姆病的两步血清学和无形体病经验性首选药分别是什么？",
+      "history": [
+        {
+          "role": "user",
+          "content": "我想对比anaplasmosis、lyme的临床资料。"
+        }
+      ],
+      "group_id": "lyme",
+      "intent_id": "lyme-11",
+      "relevant_passage_ids": [
+        "cdc_lyme.md#e2-0",
+        "cdc_anaplasmosis.md#e1-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_anaplasmosis.md",
+        "cdc_lyme.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "anaplasmosis",
+        "lyme"
+      ]
+    },
+    {
+      "id": "DEV-072",
+      "query": "在一次IgM结果难以解释时，应从早期窗口、干扰疾病及病程长度查哪些证据？",
+      "history": [
+        {
+          "role": "user",
+          "content": "我在咨询莱姆病 Lyme disease的临床资料。"
+        }
+      ],
+      "group_id": "lyme",
+      "intent_id": "lyme-12",
+      "relevant_passage_ids": [
+        "cdc_lyme.md#e3-0",
+        "cdc_lyme.md#e5-0",
+        "cdc_lyme.md#e6-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_lyme.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "lyme"
+      ]
+    },
+    {
+      "id": "DEV-073",
+      "query": "疑似无形体病时，哪种药适用于不同年龄患者的经验性治疗？",
+      "history": [],
+      "group_id": "anaplasmosis",
+      "intent_id": "anaplasmosis-01",
+      "relevant_passage_ids": [
+        "cdc_anaplasmosis.md#e1-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_anaplasmosis.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "anaplasmosis"
+      ]
+    },
+    {
+      "id": "DEV-074",
+      "query": "无形体病为什么强调尽早开始治疗？",
+      "history": [],
+      "group_id": "anaplasmosis",
+      "intent_id": "anaplasmosis-02",
+      "relevant_passage_ids": [
+        "cdc_anaplasmosis.md#e2-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_anaplasmosis.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "anaplasmosis"
+      ]
+    },
+    {
+      "id": "DEV-075",
+      "query": "无形体病患者有危及生命的多西环素过敏，替代治疗如何决策？",
+      "history": [],
+      "group_id": "anaplasmosis",
+      "intent_id": "anaplasmosis-03",
+      "relevant_passage_ids": [
+        "cdc_anaplasmosis.md#e3-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_anaplasmosis.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "anaplasmosis"
+      ]
+    },
+    {
+      "id": "DEV-076",
+      "query": "孕妇患轻度无形体病时，替代用药需要什么专科支持？",
+      "history": [],
+      "group_id": "anaplasmosis",
+      "intent_id": "anaplasmosis-04",
+      "relevant_passage_ids": [
+        "cdc_anaplasmosis.md#e4-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_anaplasmosis.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "anaplasmosis"
+      ]
+    },
+    {
+      "id": "DEV-077",
+      "query": "只有蜱叮咬而没有症状，能否常规吃抗生素预防无形体病？",
+      "history": [],
+      "group_id": "anaplasmosis",
+      "intent_id": "anaplasmosis-05",
+      "relevant_passage_ids": [
+        "cdc_anaplasmosis.md#e5-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_anaplasmosis.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "anaplasmosis"
+      ]
+    },
+    {
+      "id": "DEV-078",
+      "query": "为防漏诊无形体病，蜱叮咬后两周内出现哪些表现应就医？",
+      "history": [],
+      "group_id": "anaplasmosis",
+      "intent_id": "anaplasmosis-06",
+      "relevant_passage_ids": [
+        "cdc_anaplasmosis.md#e6-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_anaplasmosis.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "anaplasmosis"
+      ]
+    },
+    {
+      "id": "DEV-079",
+      "query": "无形体病从疑似阶段到早期治疗，首选药与及时处理的意义分别是什么？",
+      "history": [],
+      "group_id": "anaplasmosis",
+      "intent_id": "anaplasmosis-07",
+      "relevant_passage_ids": [
+        "cdc_anaplasmosis.md#e1-0",
+        "cdc_anaplasmosis.md#e2-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_anaplasmosis.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "anaplasmosis"
+      ]
+    },
+    {
+      "id": "DEV-080",
+      "query": "对不能耐受多西环素的孕期无形体病患者，应结合哪两种特殊情境寻求专家意见？",
+      "history": [],
+      "group_id": "anaplasmosis",
+      "intent_id": "anaplasmosis-08",
+      "relevant_passage_ids": [
+        "cdc_anaplasmosis.md#e3-0",
+        "cdc_anaplasmosis.md#e4-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_anaplasmosis.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "anaplasmosis"
+      ]
+    },
+    {
+      "id": "DEV-081",
+      "query": "无症状蜱暴露者关心无形体病预防，是否需抗生素，以及怎样观察后续症状？",
+      "history": [],
+      "group_id": "anaplasmosis",
+      "intent_id": "anaplasmosis-09",
+      "relevant_passage_ids": [
+        "cdc_anaplasmosis.md#e5-0",
+        "cdc_anaplasmosis.md#e6-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_anaplasmosis.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "anaplasmosis"
+      ]
+    },
+    {
+      "id": "DEV-082",
+      "query": "疑似无形体病同时存在严重药物过敏时，早期治疗原则与专家替代方案如何协调？",
+      "history": [],
+      "group_id": "anaplasmosis",
+      "intent_id": "anaplasmosis-10",
+      "relevant_passage_ids": [
+        "cdc_anaplasmosis.md#e1-0",
+        "cdc_anaplasmosis.md#e2-0",
+        "cdc_anaplasmosis.md#e3-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_anaplasmosis.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "anaplasmosis"
+      ]
+    },
+    {
+      "id": "DEV-083",
+      "query": "比较孕期无形体病和RMSF，轻度无形体病考虑替代方案与RMSF多西环素适用原则分别是什么？",
+      "history": [
+        {
+          "role": "user",
+          "content": "我想对比anaplasmosis、rmsf的临床资料。"
+        }
+      ],
+      "group_id": "anaplasmosis",
+      "intent_id": "anaplasmosis-11",
+      "relevant_passage_ids": [
+        "cdc_anaplasmosis.md#e4-0",
+        "cdc_rmsf.md#e2-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_anaplasmosis.md",
+        "cdc_rmsf.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "anaplasmosis",
+        "rmsf"
+      ]
+    },
+    {
+      "id": "DEV-084",
+      "query": "对于轻度孕期病例伴用药不耐受，不能直接套用什么方案，又该如何理解首选药原则？",
+      "history": [
+        {
+          "role": "user",
+          "content": "我在咨询无形体病 Anaplasmosis的临床资料。"
+        }
+      ],
+      "group_id": "anaplasmosis",
+      "intent_id": "anaplasmosis-12",
+      "relevant_passage_ids": [
+        "cdc_anaplasmosis.md#e1-0",
+        "cdc_anaplasmosis.md#e3-0",
+        "cdc_anaplasmosis.md#e4-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_anaplasmosis.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "anaplasmosis"
+      ]
+    },
+    {
+      "id": "DEV-085",
+      "query": "儿童埃立克体病是否与成人采用相同的首选抗生素？",
+      "history": [],
+      "group_id": "ehrlichiosis",
+      "intent_id": "ehrlichiosis-01",
+      "relevant_passage_ids": [
+        "cdc_ehrlichiosis.md#e1-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_ehrlichiosis.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "ehrlichiosis"
+      ]
+    },
+    {
+      "id": "DEV-086",
+      "query": "埃立克体病在哪个发病阶段开始多西环素最有助于防止严重并发症？",
+      "history": [],
+      "group_id": "ehrlichiosis",
+      "intent_id": "ehrlichiosis-02",
+      "relevant_passage_ids": [
+        "cdc_ehrlichiosis.md#e2-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_ehrlichiosis.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "ehrlichiosis"
+      ]
+    },
+    {
+      "id": "DEV-087",
+      "query": "埃立克体病给药最低疗程以及退热后的继续用药条件是什么？",
+      "history": [],
+      "group_id": "ehrlichiosis",
+      "intent_id": "ehrlichiosis-03",
+      "relevant_passage_ids": [
+        "cdc_ehrlichiosis.md#e3-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_ehrlichiosis.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "ehrlichiosis"
+      ]
+    },
+    {
+      "id": "DEV-088",
+      "query": "埃立克体病治疗两天仍无临床反应，对诊断有什么提示？",
+      "history": [],
+      "group_id": "ehrlichiosis",
+      "intent_id": "ehrlichiosis-04",
+      "relevant_passage_ids": [
+        "cdc_ehrlichiosis.md#e4-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_ehrlichiosis.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "ehrlichiosis"
+      ]
+    },
+    {
+      "id": "DEV-089",
+      "query": "埃立克体病是否推荐蜱咬后的预防性抗生素？",
+      "history": [],
+      "group_id": "ehrlichiosis",
+      "intent_id": "ehrlichiosis-05",
+      "relevant_passage_ids": [
+        "cdc_ehrlichiosis.md#e5-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_ehrlichiosis.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "ehrlichiosis"
+      ]
+    },
+    {
+      "id": "DEV-090",
+      "query": "被蜱叮咬者担心埃立克体病，两周内哪些症状值得及时就医？",
+      "history": [],
+      "group_id": "ehrlichiosis",
+      "intent_id": "ehrlichiosis-06",
+      "relevant_passage_ids": [
+        "cdc_ehrlichiosis.md#e6-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_ehrlichiosis.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "ehrlichiosis"
+      ]
+    },
+    {
+      "id": "DEV-091",
+      "query": "埃立克体病的首选药与预防严重并发症的理想启动时间分别是什么？",
+      "history": [],
+      "group_id": "ehrlichiosis",
+      "intent_id": "ehrlichiosis-07",
+      "relevant_passage_ids": [
+        "cdc_ehrlichiosis.md#e1-0",
+        "cdc_ehrlichiosis.md#e2-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_ehrlichiosis.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "ehrlichiosis"
+      ]
+    },
+    {
+      "id": "DEV-092",
+      "query": "埃立克体病开始退热后，如何结合预期反应时间与疗程决定是否继续治疗？",
+      "history": [],
+      "group_id": "ehrlichiosis",
+      "intent_id": "ehrlichiosis-08",
+      "relevant_passage_ids": [
+        "cdc_ehrlichiosis.md#e3-0",
+        "cdc_ehrlichiosis.md#e4-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_ehrlichiosis.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "ehrlichiosis"
+      ]
+    },
+    {
+      "id": "DEV-093",
+      "query": "只有蜱叮咬史的人，针对埃立克体病是立即预防用药还是观察症状？",
+      "history": [],
+      "group_id": "ehrlichiosis",
+      "intent_id": "ehrlichiosis-09",
+      "relevant_passage_ids": [
+        "cdc_ehrlichiosis.md#e5-0",
+        "cdc_ehrlichiosis.md#e6-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_ehrlichiosis.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "ehrlichiosis"
+      ]
+    },
+    {
+      "id": "DEV-094",
+      "query": "疑似埃立克体病治疗效果不佳时，需要同时回顾首选药、启动时间及临床反应吗？",
+      "history": [],
+      "group_id": "ehrlichiosis",
+      "intent_id": "ehrlichiosis-10",
+      "relevant_passage_ids": [
+        "cdc_ehrlichiosis.md#e1-0",
+        "cdc_ehrlichiosis.md#e2-0",
+        "cdc_ehrlichiosis.md#e4-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_ehrlichiosis.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "ehrlichiosis"
+      ]
+    },
+    {
+      "id": "DEV-095",
+      "query": "蜱暴露后疑似埃立克体病接受多西环素，与无症状巴贝虫感染相比，预期退热反应和是否治疗的原则分别是什么？",
+      "history": [
+        {
+          "role": "user",
+          "content": "我想对比babesiosis、ehrlichiosis的临床资料。"
+        }
+      ],
+      "group_id": "ehrlichiosis",
+      "intent_id": "ehrlichiosis-11",
+      "relevant_passage_ids": [
+        "cdc_ehrlichiosis.md#e4-0",
+        "cdc_babesiosis.md#e1-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_babesiosis.md",
+        "cdc_ehrlichiosis.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "babesiosis",
+        "ehrlichiosis"
+      ]
+    },
+    {
+      "id": "DEV-096",
+      "query": "从发病初期到退热，怎样综合理解及时治疗、常见反应速度和疗程结束条件？",
+      "history": [
+        {
+          "role": "user",
+          "content": "我在咨询埃立克体病 Ehrlichiosis的临床资料。"
+        }
+      ],
+      "group_id": "ehrlichiosis",
+      "intent_id": "ehrlichiosis-12",
+      "relevant_passage_ids": [
+        "cdc_ehrlichiosis.md#e2-0",
+        "cdc_ehrlichiosis.md#e3-0",
+        "cdc_ehrlichiosis.md#e4-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_ehrlichiosis.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "ehrlichiosis"
+      ]
+    },
+    {
+      "id": "DEV-097",
+      "query": "高度怀疑落基山斑点热时，经验性治疗首选是什么？",
+      "history": [],
+      "group_id": "rmsf",
+      "intent_id": "rmsf-01",
+      "relevant_passage_ids": [
+        "cdc_rmsf.md#e1-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_rmsf.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "rmsf"
+      ]
+    },
+    {
+      "id": "DEV-098",
+      "query": "8岁以下儿童或孕妇患RMSF，是否排除多西环素？",
+      "history": [],
+      "group_id": "rmsf",
+      "intent_id": "rmsf-02",
+      "relevant_passage_ids": [
+        "cdc_rmsf.md#e2-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_rmsf.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "rmsf"
+      ]
+    },
+    {
+      "id": "DEV-099",
+      "query": "RMSF在发病多少天内启动首选药最有利于预防严重并发症？",
+      "history": [],
+      "group_id": "rmsf",
+      "intent_id": "rmsf-03",
+      "relevant_passage_ids": [
+        "cdc_rmsf.md#e3-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_rmsf.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "rmsf"
+      ]
+    },
+    {
+      "id": "DEV-100",
+      "query": "RMSF患者严重过敏时，快速脱敏需要怎样的环境和专业评估？",
+      "history": [],
+      "group_id": "rmsf",
+      "intent_id": "rmsf-04",
+      "relevant_passage_ids": [
+        "cdc_rmsf.md#e4-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_rmsf.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "rmsf"
+      ]
+    },
+    {
+      "id": "DEV-101",
+      "query": "RMSF选用氯霉素有哪些死亡风险与毒性方面的顾虑？",
+      "history": [],
+      "group_id": "rmsf",
+      "intent_id": "rmsf-05",
+      "relevant_passage_ids": [
+        "cdc_rmsf.md#e5-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_rmsf.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "rmsf"
+      ]
+    },
+    {
+      "id": "DEV-102",
+      "query": "为什么不能把任意其他抗菌药视为RMSF中多西环素的等效替代？",
+      "history": [],
+      "group_id": "rmsf",
+      "intent_id": "rmsf-06",
+      "relevant_passage_ids": [
+        "cdc_rmsf.md#e6-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_rmsf.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "rmsf"
+      ]
+    },
+    {
+      "id": "DEV-103",
+      "query": "对儿童疑似RMSF，如何结合首选药原则和特殊年龄适用范围？",
+      "history": [],
+      "group_id": "rmsf",
+      "intent_id": "rmsf-07",
+      "relevant_passage_ids": [
+        "cdc_rmsf.md#e1-0",
+        "cdc_rmsf.md#e2-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_rmsf.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "rmsf"
+      ]
+    },
+    {
+      "id": "DEV-104",
+      "query": "已经发病数天的RMSF，首选药及关键早期治疗窗口应怎样理解？",
+      "history": [],
+      "group_id": "rmsf",
+      "intent_id": "rmsf-08",
+      "relevant_passage_ids": [
+        "cdc_rmsf.md#e1-0",
+        "cdc_rmsf.md#e3-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_rmsf.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "rmsf"
+      ]
+    },
+    {
+      "id": "DEV-105",
+      "query": "严重多西环素过敏的RMSF，脱敏与氯霉素替代各需要注意什么？",
+      "history": [],
+      "group_id": "rmsf",
+      "intent_id": "rmsf-09",
+      "relevant_passage_ids": [
+        "cdc_rmsf.md#e4-0",
+        "cdc_rmsf.md#e5-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_rmsf.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "rmsf"
+      ]
+    },
+    {
+      "id": "DEV-106",
+      "query": "要说明RMSF应尽快用多西环素而不是随意换药，需要哪些时机和风险依据？",
+      "history": [],
+      "group_id": "rmsf",
+      "intent_id": "rmsf-10",
+      "relevant_passage_ids": [
+        "cdc_rmsf.md#e1-0",
+        "cdc_rmsf.md#e3-0",
+        "cdc_rmsf.md#e6-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_rmsf.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "rmsf"
+      ]
+    },
+    {
+      "id": "DEV-107",
+      "query": "蜱媒病患者严重多西环素过敏时，RMSF住院脱敏与无形体病替代抗菌药咨询有哪些不同处理依据？",
+      "history": [
+        {
+          "role": "user",
+          "content": "我想对比anaplasmosis、rmsf的临床资料。"
+        }
+      ],
+      "group_id": "rmsf",
+      "intent_id": "rmsf-11",
+      "relevant_passage_ids": [
+        "cdc_rmsf.md#e4-0",
+        "cdc_anaplasmosis.md#e3-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_anaplasmosis.md",
+        "cdc_rmsf.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "anaplasmosis",
+        "rmsf"
+      ]
+    },
+    {
+      "id": "DEV-108",
+      "query": "在给儿童选择治疗时，早期窗口、儿童适用性及其他药物致死风险分别提供什么信息？",
+      "history": [
+        {
+          "role": "user",
+          "content": "我在咨询落基山斑点热 RMSF的临床资料。"
+        }
+      ],
+      "group_id": "rmsf",
+      "intent_id": "rmsf-12",
+      "relevant_passage_ids": [
+        "cdc_rmsf.md#e2-0",
+        "cdc_rmsf.md#e3-0",
+        "cdc_rmsf.md#e6-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_rmsf.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "rmsf"
+      ]
+    },
+    {
+      "id": "DEV-109",
+      "query": "化验发现巴贝虫感染但完全无症状，是否通常必须治疗？",
+      "history": [],
+      "group_id": "babesiosis",
+      "intent_id": "babesiosis-01",
+      "relevant_passage_ids": [
+        "cdc_babesiosis.md#e1-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_babesiosis.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "babesiosis"
+      ]
+    },
+    {
+      "id": "DEV-110",
+      "query": "免疫正常的有症状巴贝虫病，联合药数量和常见疗程是什么？",
+      "history": [],
+      "group_id": "babesiosis",
+      "intent_id": "babesiosis-02",
+      "relevant_passage_ids": [
+        "cdc_babesiosis.md#e2-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_babesiosis.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "babesiosis"
+      ]
+    },
+    {
+      "id": "DEV-111",
+      "query": "巴贝虫病首选的两药联合由哪些药组成？",
+      "history": [],
+      "group_id": "babesiosis",
+      "intent_id": "babesiosis-03",
+      "relevant_passage_ids": [
+        "cdc_babesiosis.md#e3-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_babesiosis.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "babesiosis"
+      ]
+    },
+    {
+      "id": "DEV-112",
+      "query": "巴贝虫病中克林霉素需要与哪种药联合用作替代方案？",
+      "history": [],
+      "group_id": "babesiosis",
+      "intent_id": "babesiosis-04",
+      "relevant_passage_ids": [
+        "cdc_babesiosis.md#e4-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_babesiosis.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "babesiosis"
+      ]
+    },
+    {
+      "id": "DEV-113",
+      "query": "免疫功能受损对巴贝虫病用药时长有哪些影响？",
+      "history": [],
+      "group_id": "babesiosis",
+      "intent_id": "babesiosis-05",
+      "relevant_passage_ids": [
+        "cdc_babesiosis.md#e5-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_babesiosis.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "babesiosis"
+      ]
+    },
+    {
+      "id": "DEV-114",
+      "query": "巴贝虫病服用阿托伐醌时，进食对吸收有什么作用？",
+      "history": [],
+      "group_id": "babesiosis",
+      "intent_id": "babesiosis-06",
+      "relevant_passage_ids": [
+        "cdc_babesiosis.md#e6-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_babesiosis.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "babesiosis"
+      ]
+    },
+    {
+      "id": "DEV-115",
+      "query": "巴贝虫感染是否有症状，如何影响是否治疗及标准疗程的判断？",
+      "history": [],
+      "group_id": "babesiosis",
+      "intent_id": "babesiosis-07",
+      "relevant_passage_ids": [
+        "cdc_babesiosis.md#e1-0",
+        "cdc_babesiosis.md#e2-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_babesiosis.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "babesiosis"
+      ]
+    },
+    {
+      "id": "DEV-116",
+      "query": "对于有症状巴贝虫病患者，通常疗程及首选组合分别是什么？",
+      "history": [],
+      "group_id": "babesiosis",
+      "intent_id": "babesiosis-08",
+      "relevant_passage_ids": [
+        "cdc_babesiosis.md#e2-0",
+        "cdc_babesiosis.md#e3-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_babesiosis.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "babesiosis"
+      ]
+    },
+    {
+      "id": "DEV-117",
+      "query": "巴贝虫病患者咨询两套联合方案时，首选和替代应如何区分？",
+      "history": [],
+      "group_id": "babesiosis",
+      "intent_id": "babesiosis-09",
+      "relevant_passage_ids": [
+        "cdc_babesiosis.md#e3-0",
+        "cdc_babesiosis.md#e4-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_babesiosis.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "babesiosis"
+      ]
+    },
+    {
+      "id": "DEV-118",
+      "query": "免疫受损巴贝虫病与普通有症状患者相比，联合方案原则和时长有何考虑？",
+      "history": [],
+      "group_id": "babesiosis",
+      "intent_id": "babesiosis-10",
+      "relevant_passage_ids": [
+        "cdc_babesiosis.md#e2-0",
+        "cdc_babesiosis.md#e5-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_babesiosis.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "babesiosis"
+      ]
+    },
+    {
+      "id": "DEV-119",
+      "query": "讨论蜱媒病治疗时，有症状巴贝虫病常用联合疗程和埃立克体病停药所需退热条件分别是什么？",
+      "history": [
+        {
+          "role": "user",
+          "content": "我想对比babesiosis、ehrlichiosis的临床资料。"
+        }
+      ],
+      "group_id": "babesiosis",
+      "intent_id": "babesiosis-11",
+      "relevant_passage_ids": [
+        "cdc_babesiosis.md#e2-0",
+        "cdc_ehrlichiosis.md#e3-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_babesiosis.md",
+        "cdc_ehrlichiosis.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "babesiosis",
+        "ehrlichiosis"
+      ]
+    },
+    {
+      "id": "DEV-120",
+      "query": "针对免疫受损者，如何结合无症状时的原则、标准疗程以及延长治疗的可能性？",
+      "history": [
+        {
+          "role": "user",
+          "content": "我在咨询巴贝虫病 Babesiosis的临床资料。"
+        }
+      ],
+      "group_id": "babesiosis",
+      "intent_id": "babesiosis-12",
+      "relevant_passage_ids": [
+        "cdc_babesiosis.md#e1-0",
+        "cdc_babesiosis.md#e2-0",
+        "cdc_babesiosis.md#e5-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_babesiosis.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "babesiosis"
+      ]
+    }
+  ]
+}

@@ -1,4 +1,5 @@
 from pathlib import Path
+from functools import lru_cache
 
 from langchain_chroma import Chroma
 from langchain_ollama import OllamaEmbeddings
@@ -13,6 +14,7 @@ COLLECTION_NAME = "medical_guidelines"
 EMBEDDING_MODEL = "nomic-embed-text"
 
 
+@lru_cache(maxsize=1)
 def get_embeddings() -> OllamaEmbeddings:
     return OllamaEmbeddings(
         model=EMBEDDING_MODEL,
@@ -33,13 +35,13 @@ def build_vectorstore() -> Chroma:
         exist_ok=True,
     )
 
-    vectorstore = Chroma.from_documents(
-        documents=chunks,
-        embedding=get_embeddings(),
-        collection_name=COLLECTION_NAME,
-        persist_directory=str(PERSIST_DIRECTORY),
-    )
-
+    vectorstore = get_vectorstore()
+    ids = [chunk.metadata["passage_id"] for chunk in chunks]
+    # Upsert before deleting stale passages: a failed embedding call keeps old data.
+    vectorstore.add_documents(chunks, ids=ids)
+    stale = set(vectorstore.get()["ids"]) - set(ids)
+    if stale:
+        vectorstore.delete(ids=list(stale))
     return vectorstore
 
 

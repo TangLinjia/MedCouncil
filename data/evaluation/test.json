@@ -1,0 +1,2615 @@
+{
+  "version": 2,
+  "split": "test",
+  "purpose": "held_out_topic_evaluation",
+  "scope": "20 disjoint-topic CDC-derived Chinese summaries plus legacy pneumonia. Relevance unit is evidence passage, not source page.",
+  "novelty_claim": "Test questions are excluded from parameter selection; no claim about pretraining exposure or independent human authorship.",
+  "queries": [
+    {
+      "id": "TEST-001",
+      "query": "高热伴三C症状和Koplik斑为何会让医生考虑麻疹？",
+      "history": [],
+      "group_id": "measles",
+      "intent_id": "measles-01",
+      "relevant_passage_ids": [
+        "cdc_measles.md#e1-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_measles.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "measles"
+      ]
+    },
+    {
+      "id": "TEST-002",
+      "query": "麻疹皮疹在暴露后何时常见，通常从哪里向哪里蔓延？",
+      "history": [],
+      "group_id": "measles",
+      "intent_id": "measles-02",
+      "relevant_passage_ids": [
+        "cdc_measles.md#e2-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_measles.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "measles"
+      ]
+    },
+    {
+      "id": "TEST-003",
+      "query": "麻疹传染窗口与免疫低下者可能没有皮疹之间应如何理解？",
+      "history": [],
+      "group_id": "measles",
+      "intent_id": "measles-03",
+      "relevant_passage_ids": [
+        "cdc_measles.md#e3-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_measles.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "measles"
+      ]
+    },
+    {
+      "id": "TEST-004",
+      "query": "医疗机构对麻疹患者出疹后的隔离时长和防护类别是什么？",
+      "history": [],
+      "group_id": "measles",
+      "intent_id": "measles-04",
+      "relevant_passage_ids": [
+        "cdc_measles.md#e4-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_measles.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "measles"
+      ]
+    },
+    {
+      "id": "TEST-005",
+      "query": "发现疑似麻疹病例，公共卫生报告与确证要求有哪些？",
+      "history": [],
+      "group_id": "measles",
+      "intent_id": "measles-05",
+      "relevant_passage_ids": [
+        "cdc_measles.md#e5-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_measles.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "measles"
+      ]
+    },
+    {
+      "id": "TEST-006",
+      "query": "用于预防麻疹的MMR疫苗有什么作用？",
+      "history": [],
+      "group_id": "measles",
+      "intent_id": "measles-06",
+      "relevant_passage_ids": [
+        "cdc_measles.md#e6-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_measles.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "measles"
+      ]
+    },
+    {
+      "id": "TEST-007",
+      "query": "观察麻疹从前驱期到皮疹进展，需要参考哪些症状及时间分布？",
+      "history": [],
+      "group_id": "measles",
+      "intent_id": "measles-07",
+      "relevant_passage_ids": [
+        "cdc_measles.md#e1-0",
+        "cdc_measles.md#e2-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_measles.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "measles"
+      ]
+    },
+    {
+      "id": "TEST-008",
+      "query": "麻疹患者出疹前是否也有传染性，出疹后隔离怎样安排？",
+      "history": [],
+      "group_id": "measles",
+      "intent_id": "measles-08",
+      "relevant_passage_ids": [
+        "cdc_measles.md#e3-0",
+        "cdc_measles.md#e4-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_measles.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "measles"
+      ]
+    },
+    {
+      "id": "TEST-009",
+      "query": "麻疹防控中，个案报告和疫苗预防分别承担什么作用？",
+      "history": [],
+      "group_id": "measles",
+      "intent_id": "measles-09",
+      "relevant_passage_ids": [
+        "cdc_measles.md#e5-0",
+        "cdc_measles.md#e6-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_measles.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "measles"
+      ]
+    },
+    {
+      "id": "TEST-010",
+      "query": "处理疑似麻疹出疹者时，应怎样结合皮疹进展、隔离措施和报告确证？",
+      "history": [],
+      "group_id": "measles",
+      "intent_id": "measles-10",
+      "relevant_passage_ids": [
+        "cdc_measles.md#e2-0",
+        "cdc_measles.md#e4-0",
+        "cdc_measles.md#e5-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_measles.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "measles"
+      ]
+    },
+    {
+      "id": "TEST-011",
+      "query": "同一家有易感成员时，麻疹患者的空气隔离措施和围分娩期水痘暴露的新生儿重症风险各应关注什么？",
+      "history": [
+        {
+          "role": "user",
+          "content": "我想对比measles、varicella的临床资料。"
+        }
+      ],
+      "group_id": "measles",
+      "intent_id": "measles-11",
+      "relevant_passage_ids": [
+        "cdc_measles.md#e4-0",
+        "cdc_varicella.md#e4-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_measles.md",
+        "cdc_varicella.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "measles",
+        "varicella"
+      ]
+    },
+    {
+      "id": "TEST-012",
+      "query": "为了减少后续传播，隔离、病例报告及免疫预防要分别关注什么？",
+      "history": [
+        {
+          "role": "user",
+          "content": "我在咨询麻疹 Measles的临床资料。"
+        }
+      ],
+      "group_id": "measles",
+      "intent_id": "measles-12",
+      "relevant_passage_ids": [
+        "cdc_measles.md#e4-0",
+        "cdc_measles.md#e5-0",
+        "cdc_measles.md#e6-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_measles.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "measles"
+      ]
+    },
+    {
+      "id": "TEST-013",
+      "query": "水痘是哪个病毒的初次感染造成的？",
+      "history": [],
+      "group_id": "varicella",
+      "intent_id": "varicella-01",
+      "relevant_passage_ids": [
+        "cdc_varicella.md#e1-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_varicella.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "varicella"
+      ]
+    },
+    {
+      "id": "TEST-014",
+      "query": "接触水痘后，常见潜伏期及整个可能范围各有多长？",
+      "history": [],
+      "group_id": "varicella",
+      "intent_id": "varicella-02",
+      "relevant_passage_ids": [
+        "cdc_varicella.md#e2-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_varicella.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "varicella"
+      ]
+    },
+    {
+      "id": "TEST-015",
+      "query": "接种过疫苗仍出现水痘的人会传染吗，病毒有哪些传播途径？",
+      "history": [],
+      "group_id": "varicella",
+      "intent_id": "varicella-03",
+      "relevant_passage_ids": [
+        "cdc_varicella.md#e3-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_varicella.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "varicella"
+      ]
+    },
+    {
+      "id": "TEST-016",
+      "query": "母亲围分娩期患水痘时，哪些新生儿及其他人群有重症风险？",
+      "history": [],
+      "group_id": "varicella",
+      "intent_id": "varicella-04",
+      "relevant_passage_ids": [
+        "cdc_varicella.md#e4-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_varicella.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "varicella"
+      ]
+    },
+    {
+      "id": "TEST-017",
+      "query": "水痘在儿童与成人中常见的并发症有何不同？",
+      "history": [],
+      "group_id": "varicella",
+      "intent_id": "varicella-05",
+      "relevant_passage_ids": [
+        "cdc_varicella.md#e5-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_varicella.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "varicella"
+      ]
+    },
+    {
+      "id": "TEST-018",
+      "query": "预防水痘最有效的免疫措施是什么？",
+      "history": [],
+      "group_id": "varicella",
+      "intent_id": "varicella-06",
+      "relevant_passage_ids": [
+        "cdc_varicella.md#e6-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_varicella.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "varicella"
+      ]
+    },
+    {
+      "id": "TEST-019",
+      "query": "接触水痘患者后评估危险时，如何同时考虑潜伏期和重症易感人群？",
+      "history": [],
+      "group_id": "varicella",
+      "intent_id": "varicella-07",
+      "relevant_passage_ids": [
+        "cdc_varicella.md#e2-0",
+        "cdc_varicella.md#e4-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_varicella.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "varicella"
+      ]
+    },
+    {
+      "id": "TEST-020",
+      "query": "即使发生突破性水痘，为什么接种疫苗和判断是否传染仍是两个问题？",
+      "history": [],
+      "group_id": "varicella",
+      "intent_id": "varicella-08",
+      "relevant_passage_ids": [
+        "cdc_varicella.md#e3-0",
+        "cdc_varicella.md#e6-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_varicella.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "varicella"
+      ]
+    },
+    {
+      "id": "TEST-021",
+      "query": "解释水痘病原和暴露途径时，需要联系哪些病毒学与传播证据？",
+      "history": [],
+      "group_id": "varicella",
+      "intent_id": "varicella-09",
+      "relevant_passage_ids": [
+        "cdc_varicella.md#e1-0",
+        "cdc_varicella.md#e3-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_varicella.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "varicella"
+      ]
+    },
+    {
+      "id": "TEST-022",
+      "query": "围分娩期水痘暴露的婴儿，风险背景、潜伏期和并发症提示分别是什么？",
+      "history": [],
+      "group_id": "varicella",
+      "intent_id": "varicella-10",
+      "relevant_passage_ids": [
+        "cdc_varicella.md#e2-0",
+        "cdc_varicella.md#e4-0",
+        "cdc_varicella.md#e5-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_varicella.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "varicella"
+      ]
+    },
+    {
+      "id": "TEST-023",
+      "query": "VZV首次感染和潜伏后再激活分别导致什么病，水痘疫苗与Shingrix各预防哪一种？",
+      "history": [
+        {
+          "role": "user",
+          "content": "我想对比varicella、zoster的临床资料。"
+        }
+      ],
+      "group_id": "varicella",
+      "intent_id": "varicella-11",
+      "relevant_passage_ids": [
+        "cdc_varicella.md#e1-0",
+        "cdc_varicella.md#e6-0",
+        "cdc_zoster.md#e1-0",
+        "cdc_zoster.md#e6-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_varicella.md",
+        "cdc_zoster.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "varicella",
+        "zoster"
+      ]
+    },
+    {
+      "id": "TEST-024",
+      "query": "对于不熟悉这种病的人，病原、不同年龄并发症以及预防手段应如何概括？",
+      "history": [
+        {
+          "role": "user",
+          "content": "我在咨询水痘 Varicella的临床资料。"
+        }
+      ],
+      "group_id": "varicella",
+      "intent_id": "varicella-12",
+      "relevant_passage_ids": [
+        "cdc_varicella.md#e1-0",
+        "cdc_varicella.md#e5-0",
+        "cdc_varicella.md#e6-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_varicella.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "varicella"
+      ]
+    },
+    {
+      "id": "TEST-025",
+      "query": "为什么带状疱疹被称为潜伏病毒再激活，而不是全新的病原感染？",
+      "history": [],
+      "group_id": "zoster",
+      "intent_id": "zoster-01",
+      "relevant_passage_ids": [
+        "cdc_zoster.md#e1-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_zoster.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "zoster"
+      ]
+    },
+    {
+      "id": "TEST-026",
+      "query": "带状疱疹风险随50岁以后和免疫抑制状态如何变化？",
+      "history": [],
+      "group_id": "zoster",
+      "intent_id": "zoster-02",
+      "relevant_passage_ids": [
+        "cdc_zoster.md#e2-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_zoster.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "zoster"
+      ]
+    },
+    {
+      "id": "TEST-027",
+      "query": "单侧皮节分布且不跨中线，对识别带状疱疹有什么帮助？",
+      "history": [],
+      "group_id": "zoster",
+      "intent_id": "zoster-03",
+      "relevant_passage_ids": [
+        "cdc_zoster.md#e3-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_zoster.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "zoster"
+      ]
+    },
+    {
+      "id": "TEST-028",
+      "query": "带状疱疹最常见的后遗并发症是什么，年龄如何影响它？",
+      "history": [],
+      "group_id": "zoster",
+      "intent_id": "zoster-04",
+      "relevant_passage_ids": [
+        "cdc_zoster.md#e4-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_zoster.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "zoster"
+      ]
+    },
+    {
+      "id": "TEST-029",
+      "query": "无水痘免疫的人接触带状疱疹水疱后可能得什么病，何时不再传染？",
+      "history": [],
+      "group_id": "zoster",
+      "intent_id": "zoster-05",
+      "relevant_passage_ids": [
+        "cdc_zoster.md#e5-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_zoster.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "zoster"
+      ]
+    },
+    {
+      "id": "TEST-030",
+      "query": "Shingrix主要用于预防带状疱疹的什么后果？",
+      "history": [],
+      "group_id": "zoster",
+      "intent_id": "zoster-06",
+      "relevant_passage_ids": [
+        "cdc_zoster.md#e6-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_zoster.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "zoster"
+      ]
+    },
+    {
+      "id": "TEST-031",
+      "query": "向老年人说明带状疱疹时，发病风险和带状疱疹后神经痛应如何一起介绍？",
+      "history": [],
+      "group_id": "zoster",
+      "intent_id": "zoster-07",
+      "relevant_passage_ids": [
+        "cdc_zoster.md#e2-0",
+        "cdc_zoster.md#e4-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_zoster.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "zoster"
+      ]
+    },
+    {
+      "id": "TEST-032",
+      "query": "带状疱疹的再激活机制与向易感接触者传播后引发水痘，有何区别？",
+      "history": [],
+      "group_id": "zoster",
+      "intent_id": "zoster-08",
+      "relevant_passage_ids": [
+        "cdc_zoster.md#e1-0",
+        "cdc_zoster.md#e5-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_zoster.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "zoster"
+      ]
+    },
+    {
+      "id": "TEST-033",
+      "query": "评估带状疱疹预防时，免疫状态与疫苗分别提供什么信息？",
+      "history": [],
+      "group_id": "zoster",
+      "intent_id": "zoster-09",
+      "relevant_passage_ids": [
+        "cdc_zoster.md#e2-0",
+        "cdc_zoster.md#e6-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_zoster.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "zoster"
+      ]
+    },
+    {
+      "id": "TEST-034",
+      "query": "怀疑带状疱疹的老人，典型皮疹、年龄风险及疼痛并发症应分别查哪些线索？",
+      "history": [],
+      "group_id": "zoster",
+      "intent_id": "zoster-10",
+      "relevant_passage_ids": [
+        "cdc_zoster.md#e2-0",
+        "cdc_zoster.md#e3-0",
+        "cdc_zoster.md#e4-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_zoster.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "zoster"
+      ]
+    },
+    {
+      "id": "TEST-035",
+      "query": "将老年带状疱疹与儿童水痘放在一起比较，前者的神经痛并发症及年龄因素、后者的常见并发症分别是什么？",
+      "history": [
+        {
+          "role": "user",
+          "content": "我想对比varicella、zoster的临床资料。"
+        }
+      ],
+      "group_id": "zoster",
+      "intent_id": "zoster-11",
+      "relevant_passage_ids": [
+        "cdc_zoster.md#e2-0",
+        "cdc_zoster.md#e4-0",
+        "cdc_varicella.md#e5-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_varicella.md",
+        "cdc_zoster.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "varicella",
+        "zoster"
+      ]
+    },
+    {
+      "id": "TEST-036",
+      "query": "担心留下长期疼痛时，年龄相关风险、常见并发症及预防方式应如何综合理解？",
+      "history": [
+        {
+          "role": "user",
+          "content": "我在咨询带状疱疹 Herpes zoster的临床资料。"
+        }
+      ],
+      "group_id": "zoster",
+      "intent_id": "zoster-12",
+      "relevant_passage_ids": [
+        "cdc_zoster.md#e2-0",
+        "cdc_zoster.md#e4-0",
+        "cdc_zoster.md#e6-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_zoster.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "zoster"
+      ]
+    },
+    {
+      "id": "TEST-037",
+      "query": "A组链球菌咽炎的致病菌及大致潜伏期是什么？",
+      "history": [],
+      "group_id": "strep",
+      "intent_id": "strep-01",
+      "relevant_passage_ids": [
+        "cdc_strep.md#e1-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_strep.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "strep"
+      ]
+    },
+    {
+      "id": "TEST-038",
+      "query": "哪些年龄和接触环境使链球菌咽炎更常见？",
+      "history": [],
+      "group_id": "strep",
+      "intent_id": "strep-02",
+      "relevant_passage_ids": [
+        "cdc_strep.md#e2-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_strep.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "strep"
+      ]
+    },
+    {
+      "id": "TEST-039",
+      "query": "突发咽痛与吞咽痛时，有哪些检查表现支持考虑链球菌咽炎？",
+      "history": [],
+      "group_id": "strep",
+      "intent_id": "strep-03",
+      "relevant_passage_ids": [
+        "cdc_strep.md#e3-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_strep.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "strep"
+      ]
+    },
+    {
+      "id": "TEST-040",
+      "query": "有明显病毒表现的咽炎还要不要做链球菌检测，单凭查体能分辨吗？",
+      "history": [],
+      "group_id": "strep",
+      "intent_id": "strep-04",
+      "relevant_passage_ids": [
+        "cdc_strep.md#e4-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_strep.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "strep"
+      ]
+    },
+    {
+      "id": "TEST-041",
+      "query": "5岁咽痛儿童快速链球菌抗原检测阴性，是否还需要咽培养？",
+      "history": [],
+      "group_id": "strep",
+      "intent_id": "strep-05",
+      "relevant_passage_ids": [
+        "cdc_strep.md#e5-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_strep.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "strep"
+      ]
+    },
+    {
+      "id": "TEST-042",
+      "query": "确诊链球菌咽炎的首选抗生素是什么，病毒性咽炎是否相同？",
+      "history": [],
+      "group_id": "strep",
+      "intent_id": "strep-06",
+      "relevant_passage_ids": [
+        "cdc_strep.md#e6-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_strep.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "strep"
+      ]
+    },
+    {
+      "id": "TEST-043",
+      "query": "学校中的咽炎病例，易感年龄与临床表现应怎样联系起来评估？",
+      "history": [],
+      "group_id": "strep",
+      "intent_id": "strep-07",
+      "relevant_passage_ids": [
+        "cdc_strep.md#e2-0",
+        "cdc_strep.md#e3-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_strep.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "strep"
+      ]
+    },
+    {
+      "id": "TEST-044",
+      "query": "儿童咽炎从选择是否检测到快速检测阴性后复核，分别遵循什么原则？",
+      "history": [],
+      "group_id": "strep",
+      "intent_id": "strep-08",
+      "relevant_passage_ids": [
+        "cdc_strep.md#e4-0",
+        "cdc_strep.md#e5-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_strep.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "strep"
+      ]
+    },
+    {
+      "id": "TEST-045",
+      "query": "链球菌咽炎选择治疗时，应如何结合检测分流与避免病毒感染误用药？",
+      "history": [],
+      "group_id": "strep",
+      "intent_id": "strep-09",
+      "relevant_passage_ids": [
+        "cdc_strep.md#e4-0",
+        "cdc_strep.md#e6-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_strep.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "strep"
+      ]
+    },
+    {
+      "id": "TEST-046",
+      "query": "一个学龄咽痛孩子初筛阴性，风险背景、培养复核及确诊后治疗分别是什么？",
+      "history": [],
+      "group_id": "strep",
+      "intent_id": "strep-10",
+      "relevant_passage_ids": [
+        "cdc_strep.md#e2-0",
+        "cdc_strep.md#e5-0",
+        "cdc_strep.md#e6-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_strep.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "strep"
+      ]
+    },
+    {
+      "id": "TEST-047",
+      "query": "孩子咽痛而没有明显病毒线索时，链球菌咽炎检测分流和猩红热是否可仅凭伴随皮疹确诊，各有什么要求？",
+      "history": [
+        {
+          "role": "user",
+          "content": "我想对比scarlet、strep的临床资料。"
+        }
+      ],
+      "group_id": "strep",
+      "intent_id": "strep-11",
+      "relevant_passage_ids": [
+        "cdc_strep.md#e4-0",
+        "cdc_scarlet.md#e5-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_scarlet.md",
+        "cdc_strep.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "scarlet",
+        "strep"
+      ]
+    },
+    {
+      "id": "TEST-048",
+      "query": "解释这类咽炎的就诊处理时，典型表现、是否检测和抗生素适用条件各是什么？",
+      "history": [
+        {
+          "role": "user",
+          "content": "我在咨询链球菌咽炎 Group A strep pharyngitis的临床资料。"
+        }
+      ],
+      "group_id": "strep",
+      "intent_id": "strep-12",
+      "relevant_passage_ids": [
+        "cdc_strep.md#e3-0",
+        "cdc_strep.md#e4-0",
+        "cdc_strep.md#e6-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_strep.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "strep"
+      ]
+    },
+    {
+      "id": "TEST-049",
+      "query": "导致猩红热的病原及毒素机制是什么，潜伏通常多久？",
+      "history": [],
+      "group_id": "scarlet",
+      "intent_id": "scarlet-01",
+      "relevant_passage_ids": [
+        "cdc_scarlet.md#e1-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_scarlet.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "scarlet"
+      ]
+    },
+    {
+      "id": "TEST-050",
+      "query": "猩红热最常见于哪些年龄，什么接触背景会增加风险？",
+      "history": [],
+      "group_id": "scarlet",
+      "intent_id": "scarlet-02",
+      "relevant_passage_ids": [
+        "cdc_scarlet.md#e2-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_scarlet.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "scarlet"
+      ]
+    },
+    {
+      "id": "TEST-051",
+      "query": "砂纸样压之褪色皮疹、皱褶发红及手足分布，对猩红热提示什么？",
+      "history": [],
+      "group_id": "scarlet",
+      "intent_id": "scarlet-03",
+      "relevant_passage_ids": [
+        "cdc_scarlet.md#e3-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_scarlet.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "scarlet"
+      ]
+    },
+    {
+      "id": "TEST-052",
+      "query": "猩红热皮疹多久后可能脱屑，草莓舌和口周改变是什么？",
+      "history": [],
+      "group_id": "scarlet",
+      "intent_id": "scarlet-04",
+      "relevant_passage_ids": [
+        "cdc_scarlet.md#e4-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_scarlet.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "scarlet"
+      ]
+    },
+    {
+      "id": "TEST-053",
+      "query": "咽痛伴皮疹能直接诊断猩红热吗，是否需病原检测？",
+      "history": [],
+      "group_id": "scarlet",
+      "intent_id": "scarlet-05",
+      "relevant_passage_ids": [
+        "cdc_scarlet.md#e5-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_scarlet.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "scarlet"
+      ]
+    },
+    {
+      "id": "TEST-054",
+      "query": "猩红热确诊后抗生素治疗的目的及首选药是什么？",
+      "history": [],
+      "group_id": "scarlet",
+      "intent_id": "scarlet-06",
+      "relevant_passage_ids": [
+        "cdc_scarlet.md#e6-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_scarlet.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "scarlet"
+      ]
+    },
+    {
+      "id": "TEST-055",
+      "query": "评估猩红热接触者时，病原潜伏期和易感接触环境分别有哪些线索？",
+      "history": [],
+      "group_id": "scarlet",
+      "intent_id": "scarlet-07",
+      "relevant_passage_ids": [
+        "cdc_scarlet.md#e1-0",
+        "cdc_scarlet.md#e2-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_scarlet.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "scarlet"
+      ]
+    },
+    {
+      "id": "TEST-056",
+      "query": "疑似猩红热皮疹在外观、分布和随后变化上有哪些特点？",
+      "history": [],
+      "group_id": "scarlet",
+      "intent_id": "scarlet-08",
+      "relevant_passage_ids": [
+        "cdc_scarlet.md#e3-0",
+        "cdc_scarlet.md#e4-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_scarlet.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "scarlet"
+      ]
+    },
+    {
+      "id": "TEST-057",
+      "query": "要避免把其他咽炎皮疹误当猩红热，应如何结合确证要求和治疗条件？",
+      "history": [],
+      "group_id": "scarlet",
+      "intent_id": "scarlet-09",
+      "relevant_passage_ids": [
+        "cdc_scarlet.md#e5-0",
+        "cdc_scarlet.md#e6-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_scarlet.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "scarlet"
+      ]
+    },
+    {
+      "id": "TEST-058",
+      "query": "学龄孩子有砂纸样皮疹时，易感背景、皮疹特点以及确诊检查分别是什么？",
+      "history": [],
+      "group_id": "scarlet",
+      "intent_id": "scarlet-10",
+      "relevant_passage_ids": [
+        "cdc_scarlet.md#e2-0",
+        "cdc_scarlet.md#e3-0",
+        "cdc_scarlet.md#e5-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_scarlet.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "scarlet"
+      ]
+    },
+    {
+      "id": "TEST-059",
+      "query": "区分链球菌咽炎与猩红热时，前者典型咽部表现与后者皮疹质地及分布各有哪些特征？",
+      "history": [
+        {
+          "role": "user",
+          "content": "我想对比scarlet、strep的临床资料。"
+        }
+      ],
+      "group_id": "scarlet",
+      "intent_id": "scarlet-11",
+      "relevant_passage_ids": [
+        "cdc_strep.md#e3-0",
+        "cdc_scarlet.md#e3-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_scarlet.md",
+        "cdc_strep.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "scarlet",
+        "strep"
+      ]
+    },
+    {
+      "id": "TEST-060",
+      "query": "对家中另有接触者的情况，病原、传播风险背景及抗生素目的应如何说明？",
+      "history": [
+        {
+          "role": "user",
+          "content": "我在咨询猩红热 Scarlet fever的临床资料。"
+        }
+      ],
+      "group_id": "scarlet",
+      "intent_id": "scarlet-12",
+      "relevant_passage_ids": [
+        "cdc_scarlet.md#e1-0",
+        "cdc_scarlet.md#e2-0",
+        "cdc_scarlet.md#e6-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_scarlet.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "scarlet"
+      ]
+    },
+    {
+      "id": "TEST-061",
+      "query": "受伤后预防破伤风，需要同时评估哪些伤口和免疫措施？",
+      "history": [],
+      "group_id": "tetanus",
+      "intent_id": "tetanus-01",
+      "relevant_passage_ids": [
+        "cdc_tetanus.md#e1-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_tetanus.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "tetanus"
+      ]
+    },
+    {
+      "id": "TEST-062",
+      "query": "哪些伤口形态或污染物会提高破伤风暴露风险？",
+      "history": [],
+      "group_id": "tetanus",
+      "intent_id": "tetanus-02",
+      "relevant_passage_ids": [
+        "cdc_tetanus.md#e2-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_tetanus.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "tetanus"
+      ]
+    },
+    {
+      "id": "TEST-063",
+      "query": "用于降低破伤风风险的局部伤口处理包括哪些动作？",
+      "history": [],
+      "group_id": "tetanus",
+      "intent_id": "tetanus-03",
+      "relevant_passage_ids": [
+        "cdc_tetanus.md#e3-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_tetanus.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "tetanus"
+      ]
+    },
+    {
+      "id": "TEST-064",
+      "query": "只为预防破伤风，是否推荐常规口服或外用抗生素？",
+      "history": [],
+      "group_id": "tetanus",
+      "intent_id": "tetanus-04",
+      "relevant_passage_ids": [
+        "cdc_tetanus.md#e4-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_tetanus.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "tetanus"
+      ]
+    },
+    {
+      "id": "TEST-065",
+      "query": "基础免疫完整者，小而清洁的伤口与污染伤口对应的破伤风加强间隔各是什么？",
+      "history": [],
+      "group_id": "tetanus",
+      "intent_id": "tetanus-05",
+      "relevant_passage_ids": [
+        "cdc_tetanus.md#e5-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_tetanus.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "tetanus"
+      ]
+    },
+    {
+      "id": "TEST-066",
+      "query": "清洁小伤口是否需要TIG，什么污染伤口患者应评估使用？",
+      "history": [],
+      "group_id": "tetanus",
+      "intent_id": "tetanus-06",
+      "relevant_passage_ids": [
+        "cdc_tetanus.md#e6-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_tetanus.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "tetanus"
+      ]
+    },
+    {
+      "id": "TEST-067",
+      "query": "有坏死组织的污染伤口，风险分类与清创重点是什么？",
+      "history": [],
+      "group_id": "tetanus",
+      "intent_id": "tetanus-07",
+      "relevant_passage_ids": [
+        "cdc_tetanus.md#e2-0",
+        "cdc_tetanus.md#e3-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_tetanus.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "tetanus"
+      ]
+    },
+    {
+      "id": "TEST-068",
+      "query": "伤口存在感染时需要处理，为什么这不同于用抗生素直接预防破伤风？",
+      "history": [],
+      "group_id": "tetanus",
+      "intent_id": "tetanus-08",
+      "relevant_passage_ids": [
+        "cdc_tetanus.md#e3-0",
+        "cdc_tetanus.md#e4-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_tetanus.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "tetanus"
+      ]
+    },
+    {
+      "id": "TEST-069",
+      "query": "受伤者不知道上次疫苗及基础接种情况，如何同时评估疫苗和TIG？",
+      "history": [],
+      "group_id": "tetanus",
+      "intent_id": "tetanus-09",
+      "relevant_passage_ids": [
+        "cdc_tetanus.md#e5-0",
+        "cdc_tetanus.md#e6-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_tetanus.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "tetanus"
+      ]
+    },
+    {
+      "id": "TEST-070",
+      "query": "把破伤风暴露防护讲完整，伤口分类、加强接种与TIG应怎样分别判断？",
+      "history": [],
+      "group_id": "tetanus",
+      "intent_id": "tetanus-10",
+      "relevant_passage_ids": [
+        "cdc_tetanus.md#e2-0",
+        "cdc_tetanus.md#e5-0",
+        "cdc_tetanus.md#e6-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_tetanus.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "tetanus"
+      ]
+    },
+    {
+      "id": "TEST-071",
+      "query": "动物造成污染伤口后，破伤风护理的清创要点和狂犬病PEP中伤口冲洗的重要性应怎样分别理解？",
+      "history": [
+        {
+          "role": "user",
+          "content": "我想对比rabies、tetanus的临床资料。"
+        }
+      ],
+      "group_id": "tetanus",
+      "intent_id": "tetanus-11",
+      "relevant_passage_ids": [
+        "cdc_tetanus.md#e3-0",
+        "cdc_rabies.md#e3-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_rabies.md",
+        "cdc_tetanus.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "rabies",
+        "tetanus"
+      ]
+    },
+    {
+      "id": "TEST-072",
+      "query": "在讨论要不要吃抗生素时，如何把伤口感染处理、疫苗与抗生素预防原则区分开？",
+      "history": [
+        {
+          "role": "user",
+          "content": "我在咨询破伤风伤口预防 Tetanus的临床资料。"
+        }
+      ],
+      "group_id": "tetanus",
+      "intent_id": "tetanus-12",
+      "relevant_passage_ids": [
+        "cdc_tetanus.md#e3-0",
+        "cdc_tetanus.md#e4-0",
+        "cdc_tetanus.md#e5-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_tetanus.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "tetanus"
+      ]
+    },
+    {
+      "id": "TEST-073",
+      "query": "动物接触后是否需要狂犬病PEP，应由谁依据什么程序判断？",
+      "history": [],
+      "group_id": "rabies",
+      "intent_id": "rabies-01",
+      "relevant_passage_ids": [
+        "cdc_rabies.md#e1-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_rabies.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "rabies"
+      ]
+    },
+    {
+      "id": "TEST-074",
+      "query": "狂犬病暴露后预防由哪些组成部分构成？",
+      "history": [],
+      "group_id": "rabies",
+      "intent_id": "rabies-02",
+      "relevant_passage_ids": [
+        "cdc_rabies.md#e2-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_rabies.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "rabies"
+      ]
+    },
+    {
+      "id": "TEST-075",
+      "query": "动物咬伤的第一步局部处理，为何对狂犬病防护特别重要？",
+      "history": [],
+      "group_id": "rabies",
+      "intent_id": "rabies-03",
+      "relevant_passage_ids": [
+        "cdc_rabies.md#e3-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_rabies.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "rabies"
+      ]
+    },
+    {
+      "id": "TEST-076",
+      "query": "未接种过的人接受狂犬病PEP时，疫苗常见四针时间安排是什么？",
+      "history": [],
+      "group_id": "rabies",
+      "intent_id": "rabies-04",
+      "relevant_passage_ids": [
+        "cdc_rabies.md#e4-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_rabies.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "rabies"
+      ]
+    },
+    {
+      "id": "TEST-077",
+      "query": "狂犬病免疫球蛋白能否与第一针疫苗放在同一部位或同一针筒？",
+      "history": [],
+      "group_id": "rabies",
+      "intent_id": "rabies-05",
+      "relevant_passage_ids": [
+        "cdc_rabies.md#e5-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_rabies.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "rabies"
+      ]
+    },
+    {
+      "id": "TEST-078",
+      "query": "既往打过狂犬病疫苗或免疫功能受损，是否可以照搬普通未接种者方案？",
+      "history": [],
+      "group_id": "rabies",
+      "intent_id": "rabies-06",
+      "relevant_passage_ids": [
+        "cdc_rabies.md#e6-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_rabies.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "rabies"
+      ]
+    },
+    {
+      "id": "TEST-079",
+      "query": "潜在狂犬病暴露后，风险评估与PEP组成分别解决什么问题？",
+      "history": [],
+      "group_id": "rabies",
+      "intent_id": "rabies-07",
+      "relevant_passage_ids": [
+        "cdc_rabies.md#e1-0",
+        "cdc_rabies.md#e2-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_rabies.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "rabies"
+      ]
+    },
+    {
+      "id": "TEST-080",
+      "query": "咬伤者安排PEP时，伤口清洗与四针时间表应分别注意什么？",
+      "history": [],
+      "group_id": "rabies",
+      "intent_id": "rabies-08",
+      "relevant_passage_ids": [
+        "cdc_rabies.md#e3-0",
+        "cdc_rabies.md#e4-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_rabies.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "rabies"
+      ]
+    },
+    {
+      "id": "TEST-081",
+      "query": "在选择狂犬病PEP组成时，既往免疫史和免疫状态为什么不能忽略？",
+      "history": [],
+      "group_id": "rabies",
+      "intent_id": "rabies-09",
+      "relevant_passage_ids": [
+        "cdc_rabies.md#e2-0",
+        "cdc_rabies.md#e6-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_rabies.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "rabies"
+      ]
+    },
+    {
+      "id": "TEST-082",
+      "query": "一位从未接种者准备开始PEP，组成、针次时间和HRIG注射隔离规则是什么？",
+      "history": [],
+      "group_id": "rabies",
+      "intent_id": "rabies-10",
+      "relevant_passage_ids": [
+        "cdc_rabies.md#e2-0",
+        "cdc_rabies.md#e4-0",
+        "cdc_rabies.md#e5-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_rabies.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "rabies"
+      ]
+    },
+    {
+      "id": "TEST-083",
+      "query": "咬伤者免疫史不清时，狂犬病PEP个体差异与污染伤口破伤风疫苗、TIG评估分别依赖什么免疫信息？",
+      "history": [
+        {
+          "role": "user",
+          "content": "我想对比rabies、tetanus的临床资料。"
+        }
+      ],
+      "group_id": "rabies",
+      "intent_id": "rabies-11",
+      "relevant_passage_ids": [
+        "cdc_rabies.md#e6-0",
+        "cdc_tetanus.md#e5-0",
+        "cdc_tetanus.md#e6-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_rabies.md",
+        "cdc_tetanus.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "rabies",
+        "tetanus"
+      ]
+    },
+    {
+      "id": "TEST-084",
+      "query": "既往免疫情况尚不清楚时，PEP各部分、HRIG注射禁忌及个体差异应怎么核对？",
+      "history": [
+        {
+          "role": "user",
+          "content": "我在咨询狂犬病暴露后预防 Rabies PEP的临床资料。"
+        }
+      ],
+      "group_id": "rabies",
+      "intent_id": "rabies-12",
+      "relevant_passage_ids": [
+        "cdc_rabies.md#e2-0",
+        "cdc_rabies.md#e5-0",
+        "cdc_rabies.md#e6-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_rabies.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "rabies"
+      ]
+    },
+    {
+      "id": "TEST-085",
+      "query": "登革热是否有能够直接针对病原体的特异性抗病毒药？",
+      "history": [],
+      "group_id": "dengue",
+      "intent_id": "dengue-01",
+      "relevant_passage_ids": [
+        "cdc_dengue.md#e1-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_dengue.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "dengue"
+      ]
+    },
+    {
+      "id": "TEST-086",
+      "query": "登革热患者出现明显腹痛及反复呕吐，对病情进展有什么警示？",
+      "history": [],
+      "group_id": "dengue",
+      "intent_id": "dengue-02",
+      "relevant_passage_ids": [
+        "cdc_dengue.md#e2-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_dengue.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "dengue"
+      ]
+    },
+    {
+      "id": "TEST-087",
+      "query": "登革热中积液、黏膜出血、精神状态和血细胞比容变化有何意义？",
+      "history": [],
+      "group_id": "dengue",
+      "intent_id": "dengue-03",
+      "relevant_passage_ids": [
+        "cdc_dengue.md#e3-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_dengue.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "dengue"
+      ]
+    },
+    {
+      "id": "TEST-088",
+      "query": "登革热已有警示征象时，是否仍适合常规居家门诊处理？",
+      "history": [],
+      "group_id": "dengue",
+      "intent_id": "dengue-04",
+      "relevant_passage_ids": [
+        "cdc_dengue.md#e4-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_dengue.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "dengue"
+      ]
+    },
+    {
+      "id": "TEST-089",
+      "query": "登革热患者出院或在门诊观察前，应收到哪些返院指导？",
+      "history": [],
+      "group_id": "dengue",
+      "intent_id": "dengue-05",
+      "relevant_passage_ids": [
+        "cdc_dengue.md#e5-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_dengue.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "dengue"
+      ]
+    },
+    {
+      "id": "TEST-090",
+      "query": "登革热临床分组主要依据什么，分组会影响哪些照护层级？",
+      "history": [],
+      "group_id": "dengue",
+      "intent_id": "dengue-06",
+      "relevant_passage_ids": [
+        "cdc_dengue.md#e6-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_dengue.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "dengue"
+      ]
+    },
+    {
+      "id": "TEST-091",
+      "query": "腹痛呕吐与出血或积液，分别属于登革热哪些互补警示信息？",
+      "history": [],
+      "group_id": "dengue",
+      "intent_id": "dengue-07",
+      "relevant_passage_ids": [
+        "cdc_dengue.md#e2-0",
+        "cdc_dengue.md#e3-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_dengue.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "dengue"
+      ]
+    },
+    {
+      "id": "TEST-092",
+      "query": "登革热出现警示后，住院处置与临床管理分组如何相互关联？",
+      "history": [],
+      "group_id": "dengue",
+      "intent_id": "dengue-08",
+      "relevant_passage_ids": [
+        "cdc_dengue.md#e4-0",
+        "cdc_dengue.md#e6-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_dengue.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "dengue"
+      ]
+    },
+    {
+      "id": "TEST-093",
+      "query": "在没有特异抗病毒治疗的前提下，登革热门诊宣教为何仍然重要？",
+      "history": [],
+      "group_id": "dengue",
+      "intent_id": "dengue-09",
+      "relevant_passage_ids": [
+        "cdc_dengue.md#e1-0",
+        "cdc_dengue.md#e5-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_dengue.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "dengue"
+      ]
+    },
+    {
+      "id": "TEST-094",
+      "query": "登革热就诊者既有腹痛又有黏膜出血，需要结合哪几类警示及管理地点依据？",
+      "history": [],
+      "group_id": "dengue",
+      "intent_id": "dengue-10",
+      "relevant_passage_ids": [
+        "cdc_dengue.md#e2-0",
+        "cdc_dengue.md#e3-0",
+        "cdc_dengue.md#e4-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_dengue.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "dengue"
+      ]
+    },
+    {
+      "id": "TEST-095",
+      "query": "从流行地区回来发热并反复呕吐者，登革热警示及住院依据，与疑似疟疾检验的紧急时效各是什么？",
+      "history": [
+        {
+          "role": "user",
+          "content": "我想对比dengue、malaria的临床资料。"
+        }
+      ],
+      "group_id": "dengue",
+      "intent_id": "dengue-11",
+      "relevant_passage_ids": [
+        "cdc_dengue.md#e2-0",
+        "cdc_dengue.md#e4-0",
+        "cdc_malaria.md#e1-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_dengue.md",
+        "cdc_malaria.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "dengue",
+        "malaria"
+      ]
+    },
+    {
+      "id": "TEST-096",
+      "query": "要向患者解释处理原则，缺乏特异药、出现警示需住院及分组管理要怎样联系？",
+      "history": [
+        {
+          "role": "user",
+          "content": "我在咨询登革热 Dengue的临床资料。"
+        }
+      ],
+      "group_id": "dengue",
+      "intent_id": "dengue-12",
+      "relevant_passage_ids": [
+        "cdc_dengue.md#e1-0",
+        "cdc_dengue.md#e4-0",
+        "cdc_dengue.md#e6-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_dengue.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "dengue"
+      ]
+    },
+    {
+      "id": "TEST-097",
+      "query": "疑似疟疾的第一份检测结果应多快获得，能否送检后等几天？",
+      "history": [],
+      "group_id": "malaria",
+      "intent_id": "malaria-01",
+      "relevant_passage_ids": [
+        "cdc_malaria.md#e1-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_malaria.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "malaria"
+      ]
+    },
+    {
+      "id": "TEST-098",
+      "query": "急诊现场不具备及时疟疾检测能力时，应考虑怎样处理患者？",
+      "history": [],
+      "group_id": "malaria",
+      "intent_id": "malaria-02",
+      "relevant_passage_ids": [
+        "cdc_malaria.md#e2-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_malaria.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "malaria"
+      ]
+    },
+    {
+      "id": "TEST-099",
+      "query": "疟疾厚血膜为何较敏感，其阅片有什么局限？",
+      "history": [],
+      "group_id": "malaria",
+      "intent_id": "malaria-03",
+      "relevant_passage_ids": [
+        "cdc_malaria.md#e3-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_malaria.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "malaria"
+      ]
+    },
+    {
+      "id": "TEST-100",
+      "query": "疟疾薄血膜在物种鉴定和虫量评估上有什么用途？",
+      "history": [],
+      "group_id": "malaria",
+      "intent_id": "malaria-04",
+      "relevant_passage_ids": [
+        "cdc_malaria.md#e4-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_malaria.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "malaria"
+      ]
+    },
+    {
+      "id": "TEST-101",
+      "query": "疑似疟疾第一张血片阴性后，复查的间隔及总组数如何安排？",
+      "history": [],
+      "group_id": "malaria",
+      "intent_id": "malaria-05",
+      "relevant_passage_ids": [
+        "cdc_malaria.md#e5-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_malaria.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "malaria"
+      ]
+    },
+    {
+      "id": "TEST-102",
+      "query": "疟疾虫量计算中为何要估计寄生虫血症，又为什么不把配子体算进去？",
+      "history": [],
+      "group_id": "malaria",
+      "intent_id": "malaria-06",
+      "relevant_passage_ids": [
+        "cdc_malaria.md#e6-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_malaria.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "malaria"
+      ]
+    },
+    {
+      "id": "TEST-103",
+      "query": "疟疾紧急诊断的时间要求与无法现场检测时的转诊考虑是什么？",
+      "history": [],
+      "group_id": "malaria",
+      "intent_id": "malaria-07",
+      "relevant_passage_ids": [
+        "cdc_malaria.md#e1-0",
+        "cdc_malaria.md#e2-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_malaria.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "malaria"
+      ]
+    },
+    {
+      "id": "TEST-104",
+      "query": "比较疟疾厚薄血膜时，敏感度、读片难度、定种及定量如何分工？",
+      "history": [],
+      "group_id": "malaria",
+      "intent_id": "malaria-08",
+      "relevant_passage_ids": [
+        "cdc_malaria.md#e3-0",
+        "cdc_malaria.md#e4-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_malaria.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "malaria"
+      ]
+    },
+    {
+      "id": "TEST-105",
+      "query": "确诊疟疾后的虫量评估中，薄血膜和寄生虫血症计数分别提供什么？",
+      "history": [],
+      "group_id": "malaria",
+      "intent_id": "malaria-09",
+      "relevant_passage_ids": [
+        "cdc_malaria.md#e4-0",
+        "cdc_malaria.md#e6-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_malaria.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "malaria"
+      ]
+    },
+    {
+      "id": "TEST-106",
+      "query": "疑似疟疾最初血片阴性，应如何兼顾诊断时效、厚血膜价值和重复检查？",
+      "history": [],
+      "group_id": "malaria",
+      "intent_id": "malaria-10",
+      "relevant_passage_ids": [
+        "cdc_malaria.md#e1-0",
+        "cdc_malaria.md#e3-0",
+        "cdc_malaria.md#e5-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_malaria.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "malaria"
+      ]
+    },
+    {
+      "id": "TEST-107",
+      "query": "来自流行区的发热患者，疑似疟疾初次血片阴性的复查策略，与有结核症状时进一步评估的要求各是什么？",
+      "history": [
+        {
+          "role": "user",
+          "content": "我想对比malaria、tuberculosis的临床资料。"
+        }
+      ],
+      "group_id": "malaria",
+      "intent_id": "malaria-11",
+      "relevant_passage_ids": [
+        "cdc_malaria.md#e5-0",
+        "cdc_tuberculosis.md#e5-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_malaria.md",
+        "cdc_tuberculosis.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "malaria",
+        "tuberculosis"
+      ]
+    },
+    {
+      "id": "TEST-108",
+      "query": "在本院检测受限且一次结果阴性的情形下，即时性、转诊和复查需要怎样统筹？",
+      "history": [
+        {
+          "role": "user",
+          "content": "我在咨询疟疾 Malaria的临床资料。"
+        }
+      ],
+      "group_id": "malaria",
+      "intent_id": "malaria-12",
+      "relevant_passage_ids": [
+        "cdc_malaria.md#e1-0",
+        "cdc_malaria.md#e2-0",
+        "cdc_malaria.md#e5-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_malaria.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "malaria"
+      ]
+    },
+    {
+      "id": "TEST-109",
+      "query": "结核感染筛查是否适用于所有低风险人群，开展时还应准备什么？",
+      "history": [],
+      "group_id": "tuberculosis",
+      "intent_id": "tuberculosis-01",
+      "relevant_passage_ids": [
+        "cdc_tuberculosis.md#e1-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_tuberculosis.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "tuberculosis"
+      ]
+    },
+    {
+      "id": "TEST-110",
+      "query": "传染性结核接触史与经常前往高发国家，对检测决策有什么提示？",
+      "history": [],
+      "group_id": "tuberculosis",
+      "intent_id": "tuberculosis-02",
+      "relevant_passage_ids": [
+        "cdc_tuberculosis.md#e2-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_tuberculosis.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "tuberculosis"
+      ]
+    },
+    {
+      "id": "TEST-111",
+      "query": "曾住过庇护所、监所或养老机构，结核风险评估为什么要问到？",
+      "history": [],
+      "group_id": "tuberculosis",
+      "intent_id": "tuberculosis-03",
+      "relevant_passage_ids": [
+        "cdc_tuberculosis.md#e3-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_tuberculosis.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "tuberculosis"
+      ]
+    },
+    {
+      "id": "TEST-112",
+      "query": "服务结核患者的医务人员及高风险集居机构员工，需要考虑哪些职业暴露？",
+      "history": [],
+      "group_id": "tuberculosis",
+      "intent_id": "tuberculosis-04",
+      "relevant_passage_ids": [
+        "cdc_tuberculosis.md#e4-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_tuberculosis.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "tuberculosis"
+      ]
+    },
+    {
+      "id": "TEST-113",
+      "query": "结核血液试验或皮试阳性、有相关症状后，下一步需不需要评估结核病？",
+      "history": [],
+      "group_id": "tuberculosis",
+      "intent_id": "tuberculosis-05",
+      "relevant_passage_ids": [
+        "cdc_tuberculosis.md#e5-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_tuberculosis.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "tuberculosis"
+      ]
+    },
+    {
+      "id": "TEST-114",
+      "query": "处理潜伏结核感染，对预防发病和减少传播有什么公共卫生意义？",
+      "history": [],
+      "group_id": "tuberculosis",
+      "intent_id": "tuberculosis-06",
+      "relevant_passage_ids": [
+        "cdc_tuberculosis.md#e6-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_tuberculosis.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "tuberculosis"
+      ]
+    },
+    {
+      "id": "TEST-115",
+      "query": "结核检测计划中，优先面向高风险者的原则如何应用于患者接触史和出行史？",
+      "history": [],
+      "group_id": "tuberculosis",
+      "intent_id": "tuberculosis-07",
+      "relevant_passage_ids": [
+        "cdc_tuberculosis.md#e1-0",
+        "cdc_tuberculosis.md#e2-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_tuberculosis.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "tuberculosis"
+      ]
+    },
+    {
+      "id": "TEST-116",
+      "query": "结核较常见的集居地点，居住者与工作人员风险应怎样同时看待？",
+      "history": [],
+      "group_id": "tuberculosis",
+      "intent_id": "tuberculosis-08",
+      "relevant_passage_ids": [
+        "cdc_tuberculosis.md#e3-0",
+        "cdc_tuberculosis.md#e4-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_tuberculosis.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "tuberculosis"
+      ]
+    },
+    {
+      "id": "TEST-117",
+      "query": "结核筛查发现异常后，医学评估和潜伏感染处理为什么都重要？",
+      "history": [],
+      "group_id": "tuberculosis",
+      "intent_id": "tuberculosis-09",
+      "relevant_passage_ids": [
+        "cdc_tuberculosis.md#e5-0",
+        "cdc_tuberculosis.md#e6-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_tuberculosis.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "tuberculosis"
+      ]
+    },
+    {
+      "id": "TEST-118",
+      "query": "拟筛查一位经常去高发国家且有机构居住史的人，需要综合哪些结核风险原则？",
+      "history": [],
+      "group_id": "tuberculosis",
+      "intent_id": "tuberculosis-10",
+      "relevant_passage_ids": [
+        "cdc_tuberculosis.md#e1-0",
+        "cdc_tuberculosis.md#e2-0",
+        "cdc_tuberculosis.md#e3-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_tuberculosis.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "tuberculosis"
+      ]
+    },
+    {
+      "id": "TEST-119",
+      "query": "考虑境外经历相关感染时，结核的高风险出行史筛查和疑似疟疾应尽快获检验结果，时机与目的怎样区分？",
+      "history": [
+        {
+          "role": "user",
+          "content": "我想对比malaria、tuberculosis的临床资料。"
+        }
+      ],
+      "group_id": "tuberculosis",
+      "intent_id": "tuberculosis-11",
+      "relevant_passage_ids": [
+        "cdc_tuberculosis.md#e1-0",
+        "cdc_tuberculosis.md#e2-0",
+        "cdc_malaria.md#e1-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_malaria.md",
+        "cdc_tuberculosis.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "malaria",
+        "tuberculosis"
+      ]
+    },
+    {
+      "id": "TEST-120",
+      "query": "从高风险接触者筛查到异常结果处理，如何串联检测计划、接触线索和病情评估？",
+      "history": [
+        {
+          "role": "user",
+          "content": "我在咨询结核病 Tuberculosis的临床资料。"
+        }
+      ],
+      "group_id": "tuberculosis",
+      "intent_id": "tuberculosis-12",
+      "relevant_passage_ids": [
+        "cdc_tuberculosis.md#e1-0",
+        "cdc_tuberculosis.md#e2-0",
+        "cdc_tuberculosis.md#e5-0"
+      ],
+      "relevant_source_ids": [
+        "cdc_tuberculosis.md"
+      ],
+      "annotation_status": "pending_human_review",
+      "reviewer": null,
+      "rationale": "候选相关性标注：上述各段分别支持问题中的信息需求；需人工核查是否遗漏其他相关证据。",
+      "corpus_sha256": "578308d3453fb310c48dfea66c10f7224d5b0d799ba4d653cf552f1855e3b7e4",
+      "source_group_ids": [
+        "tuberculosis"
+      ]
+    }
+  ]
+}

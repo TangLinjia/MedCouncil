@@ -21,9 +21,14 @@ class GuidelineSearchInput(BaseModel):
         description="Number of guideline passages to retrieve.",
     )
 
+    history: list[dict[str, str]] = Field(
+        default_factory=list,
+        description="Prior user/assistant turns with role and content, for resolving references and omitted context.",
+    )
+
 
 @tool("guideline_search", args_schema=GuidelineSearchInput)
-def guideline_search(query: str, top_k: int = 4) -> str:
+def guideline_search(query: str, top_k: int = 4, history: list[dict[str, str]] | None = None) -> str:
     """
     Search the local clinical guideline knowledge base.
 
@@ -35,6 +40,7 @@ def guideline_search(query: str, top_k: int = 4) -> str:
     documents = retrieve_guidelines(
         query=query,
         k=top_k,
+        history=history,
     )
 
     results = []
@@ -43,6 +49,11 @@ def guideline_search(query: str, top_k: int = 4) -> str:
         results.append(
             {
                 "rank": index,
+                "passage_id": document.metadata.get("passage_id"),
+                "source_url": document.metadata.get("source_url"),
+                "retrieval_query": document.metadata.get("retrieval_query"),
+                "rrf_score": document.metadata.get("rrf_score"),
+                "rerank_score": document.metadata.get("rerank_score"),
                 "content": document.page_content,
                 "source": document.metadata.get(
                     "source",

@@ -47,6 +47,9 @@ guideline evidence.
 
 Construct the search query using the patient's clinical context and the
 diagnostic synthesis.
+If the query contains pronouns or omitted context, provide relevant prior
+user/assistant turns in the tool's history field so query rewriting can
+produce a standalone search question.
 
 After reviewing the retrieved evidence, you may call guideline_search
 again if additional guideline information is needed.

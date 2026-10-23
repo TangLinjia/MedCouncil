@@ -1,0 +1,5094 @@
+{
+  "summary": {
+    "20:20": {
+      "recall": 0.951388888888889,
+      "hit_rate": 1.0,
+      "mrr": 0.9638888888888889,
+      "ndcg": 0.9331286408168807
+    },
+    "20:60": {
+      "recall": 0.951388888888889,
+      "hit_rate": 1.0,
+      "mrr": 0.9638888888888889,
+      "ndcg": 0.9331286408168807
+    },
+    "20:100": {
+      "recall": 0.951388888888889,
+      "hit_rate": 1.0,
+      "mrr": 0.9638888888888889,
+      "ndcg": 0.9331286408168807
+    },
+    "40:20": {
+      "recall": 0.9472222222222223,
+      "hit_rate": 1.0,
+      "mrr": 0.9659722222222222,
+      "ndcg": 0.9299922808908488
+    },
+    "40:60": {
+      "recall": 0.9472222222222223,
+      "hit_rate": 1.0,
+      "mrr": 0.9659722222222222,
+      "ndcg": 0.9299922808908488
+    },
+    "40:100": {
+      "recall": 0.9472222222222223,
+      "hit_rate": 1.0,
+      "mrr": 0.9659722222222222,
+      "ndcg": 0.9299922808908488
+    }
+  },
+  "trials": {
+    "20:20": [
+      {
+        "id": "DEV-001",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-002",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-003",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-004",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-005",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-006",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-007",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-008",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-009",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-010",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9469024295259745
+      },
+      {
+        "id": "DEV-011",
+        "recall": 0.5,
+        "hit_rate": 1.0,
+        "mrr": 0.3333333333333333,
+        "ndcg": 0.3065735963827292
+      },
+      {
+        "id": "DEV-012",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-013",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-014",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-015",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-016",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-017",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-018",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-019",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-020",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 0.5,
+        "ndcg": 0.6934264036172708
+      },
+      {
+        "id": "DEV-021",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9197207891481876
+      },
+      {
+        "id": "DEV-022",
+        "recall": 0.6666666666666666,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.7653606369886217
+      },
+      {
+        "id": "DEV-023",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-024",
+        "recall": 0.3333333333333333,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.46927872602275644
+      },
+      {
+        "id": "DEV-025",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-026",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-027",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-028",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-029",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-030",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-031",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.8772153153380493
+      },
+      {
+        "id": "DEV-032",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-033",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9197207891481876
+      },
+      {
+        "id": "DEV-034",
+        "recall": 0.6666666666666666,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.7039180890341347
+      },
+      {
+        "id": "DEV-035",
+        "recall": 0.5,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.6131471927654584
+      },
+      {
+        "id": "DEV-036",
+        "recall": 0.6666666666666666,
+        "hit_rate": 1.0,
+        "mrr": 0.5,
+        "ndcg": 0.5307212739772434
+      },
+      {
+        "id": "DEV-037",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-038",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-039",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-040",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-041",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-042",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-043",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-044",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-045",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-046",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9674679834891693
+      },
+      {
+        "id": "DEV-047",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-048",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9469024295259745
+      },
+      {
+        "id": "DEV-049",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-050",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-051",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-052",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-053",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-054",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-055",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-056",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9197207891481876
+      },
+      {
+        "id": "DEV-057",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-058",
+        "recall": 0.6666666666666666,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.7653606369886217
+      },
+      {
+        "id": "DEV-059",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-060",
+        "recall": 0.6666666666666666,
+        "hit_rate": 1.0,
+        "mrr": 0.5,
+        "ndcg": 0.5307212739772434
+      },
+      {
+        "id": "DEV-061",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-062",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-063",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-064",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-065",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-066",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-067",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-068",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 0.5,
+        "ndcg": 0.6934264036172708
+      },
+      {
+        "id": "DEV-069",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-070",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-071",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 0.3333333333333333,
+        "ndcg": 0.5437713091520254
+      },
+      {
+        "id": "DEV-072",
+        "recall": 0.3333333333333333,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.46927872602275644
+      },
+      {
+        "id": "DEV-073",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-074",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-075",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-076",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-077",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-078",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-079",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9197207891481876
+      },
+      {
+        "id": "DEV-080",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-081",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-082",
+        "recall": 0.6666666666666666,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.6713860725233041
+      },
+      {
+        "id": "DEV-083",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-084",
+        "recall": 0.6666666666666666,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.7039180890341347
+      },
+      {
+        "id": "DEV-085",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-086",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-087",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-088",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 0.5,
+        "ndcg": 0.6309297535714575
+      },
+      {
+        "id": "DEV-089",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-090",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-091",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-092",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-093",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-094",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 0.5,
+        "ndcg": 0.7328286204777911
+      },
+      {
+        "id": "DEV-095",
+        "recall": 0.5,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.6131471927654584
+      },
+      {
+        "id": "DEV-096",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9674679834891693
+      },
+      {
+        "id": "DEV-097",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-098",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-099",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-100",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-101",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-102",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-103",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-104",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-105",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-106",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9674679834891693
+      },
+      {
+        "id": "DEV-107",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-108",
+        "recall": 0.6666666666666666,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.7039180890341347
+      },
+      {
+        "id": "DEV-109",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-110",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-111",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-112",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-113",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-114",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-115",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-116",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-117",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9197207891481876
+      },
+      {
+        "id": "DEV-118",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.8772153153380493
+      },
+      {
+        "id": "DEV-119",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9197207891481876
+      },
+      {
+        "id": "DEV-120",
+        "recall": 0.6666666666666666,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.7653606369886217
+      }
+    ],
+    "20:60": [
+      {
+        "id": "DEV-001",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-002",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-003",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-004",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-005",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-006",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-007",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-008",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-009",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-010",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9469024295259745
+      },
+      {
+        "id": "DEV-011",
+        "recall": 0.5,
+        "hit_rate": 1.0,
+        "mrr": 0.3333333333333333,
+        "ndcg": 0.3065735963827292
+      },
+      {
+        "id": "DEV-012",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-013",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-014",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-015",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-016",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-017",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-018",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-019",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-020",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 0.5,
+        "ndcg": 0.6934264036172708
+      },
+      {
+        "id": "DEV-021",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9197207891481876
+      },
+      {
+        "id": "DEV-022",
+        "recall": 0.6666666666666666,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.7653606369886217
+      },
+      {
+        "id": "DEV-023",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-024",
+        "recall": 0.3333333333333333,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.46927872602275644
+      },
+      {
+        "id": "DEV-025",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-026",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-027",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-028",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-029",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-030",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-031",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.8772153153380493
+      },
+      {
+        "id": "DEV-032",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-033",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9197207891481876
+      },
+      {
+        "id": "DEV-034",
+        "recall": 0.6666666666666666,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.7039180890341347
+      },
+      {
+        "id": "DEV-035",
+        "recall": 0.5,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.6131471927654584
+      },
+      {
+        "id": "DEV-036",
+        "recall": 0.6666666666666666,
+        "hit_rate": 1.0,
+        "mrr": 0.5,
+        "ndcg": 0.5307212739772434
+      },
+      {
+        "id": "DEV-037",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-038",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-039",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-040",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-041",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-042",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-043",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-044",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-045",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-046",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9674679834891693
+      },
+      {
+        "id": "DEV-047",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-048",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9469024295259745
+      },
+      {
+        "id": "DEV-049",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-050",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-051",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-052",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-053",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-054",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-055",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-056",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9197207891481876
+      },
+      {
+        "id": "DEV-057",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-058",
+        "recall": 0.6666666666666666,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.7653606369886217
+      },
+      {
+        "id": "DEV-059",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-060",
+        "recall": 0.6666666666666666,
+        "hit_rate": 1.0,
+        "mrr": 0.5,
+        "ndcg": 0.5307212739772434
+      },
+      {
+        "id": "DEV-061",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-062",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-063",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-064",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-065",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-066",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-067",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-068",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 0.5,
+        "ndcg": 0.6934264036172708
+      },
+      {
+        "id": "DEV-069",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-070",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-071",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 0.3333333333333333,
+        "ndcg": 0.5437713091520254
+      },
+      {
+        "id": "DEV-072",
+        "recall": 0.3333333333333333,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.46927872602275644
+      },
+      {
+        "id": "DEV-073",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-074",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-075",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-076",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-077",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-078",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-079",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9197207891481876
+      },
+      {
+        "id": "DEV-080",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-081",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-082",
+        "recall": 0.6666666666666666,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.6713860725233041
+      },
+      {
+        "id": "DEV-083",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-084",
+        "recall": 0.6666666666666666,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.7039180890341347
+      },
+      {
+        "id": "DEV-085",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-086",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-087",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-088",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 0.5,
+        "ndcg": 0.6309297535714575
+      },
+      {
+        "id": "DEV-089",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-090",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-091",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-092",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-093",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-094",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 0.5,
+        "ndcg": 0.7328286204777911
+      },
+      {
+        "id": "DEV-095",
+        "recall": 0.5,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.6131471927654584
+      },
+      {
+        "id": "DEV-096",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9674679834891693
+      },
+      {
+        "id": "DEV-097",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-098",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-099",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-100",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-101",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-102",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-103",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-104",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-105",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-106",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9674679834891693
+      },
+      {
+        "id": "DEV-107",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-108",
+        "recall": 0.6666666666666666,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.7039180890341347
+      },
+      {
+        "id": "DEV-109",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-110",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-111",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-112",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-113",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-114",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-115",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-116",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-117",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9197207891481876
+      },
+      {
+        "id": "DEV-118",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.8772153153380493
+      },
+      {
+        "id": "DEV-119",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9197207891481876
+      },
+      {
+        "id": "DEV-120",
+        "recall": 0.6666666666666666,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.7653606369886217
+      }
+    ],
+    "20:100": [
+      {
+        "id": "DEV-001",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-002",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-003",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-004",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-005",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-006",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-007",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-008",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-009",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-010",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9469024295259745
+      },
+      {
+        "id": "DEV-011",
+        "recall": 0.5,
+        "hit_rate": 1.0,
+        "mrr": 0.3333333333333333,
+        "ndcg": 0.3065735963827292
+      },
+      {
+        "id": "DEV-012",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-013",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-014",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-015",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-016",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-017",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-018",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-019",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-020",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 0.5,
+        "ndcg": 0.6934264036172708
+      },
+      {
+        "id": "DEV-021",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9197207891481876
+      },
+      {
+        "id": "DEV-022",
+        "recall": 0.6666666666666666,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.7653606369886217
+      },
+      {
+        "id": "DEV-023",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-024",
+        "recall": 0.3333333333333333,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.46927872602275644
+      },
+      {
+        "id": "DEV-025",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-026",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-027",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-028",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-029",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-030",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-031",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.8772153153380493
+      },
+      {
+        "id": "DEV-032",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-033",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9197207891481876
+      },
+      {
+        "id": "DEV-034",
+        "recall": 0.6666666666666666,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.7039180890341347
+      },
+      {
+        "id": "DEV-035",
+        "recall": 0.5,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.6131471927654584
+      },
+      {
+        "id": "DEV-036",
+        "recall": 0.6666666666666666,
+        "hit_rate": 1.0,
+        "mrr": 0.5,
+        "ndcg": 0.5307212739772434
+      },
+      {
+        "id": "DEV-037",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-038",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-039",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-040",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-041",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-042",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-043",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-044",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-045",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-046",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9674679834891693
+      },
+      {
+        "id": "DEV-047",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-048",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9469024295259745
+      },
+      {
+        "id": "DEV-049",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-050",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-051",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-052",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-053",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-054",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-055",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-056",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9197207891481876
+      },
+      {
+        "id": "DEV-057",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-058",
+        "recall": 0.6666666666666666,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.7653606369886217
+      },
+      {
+        "id": "DEV-059",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-060",
+        "recall": 0.6666666666666666,
+        "hit_rate": 1.0,
+        "mrr": 0.5,
+        "ndcg": 0.5307212739772434
+      },
+      {
+        "id": "DEV-061",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-062",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-063",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-064",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-065",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-066",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-067",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-068",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 0.5,
+        "ndcg": 0.6934264036172708
+      },
+      {
+        "id": "DEV-069",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-070",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-071",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 0.3333333333333333,
+        "ndcg": 0.5437713091520254
+      },
+      {
+        "id": "DEV-072",
+        "recall": 0.3333333333333333,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.46927872602275644
+      },
+      {
+        "id": "DEV-073",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-074",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-075",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-076",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-077",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-078",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-079",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9197207891481876
+      },
+      {
+        "id": "DEV-080",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-081",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-082",
+        "recall": 0.6666666666666666,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.6713860725233041
+      },
+      {
+        "id": "DEV-083",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-084",
+        "recall": 0.6666666666666666,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.7039180890341347
+      },
+      {
+        "id": "DEV-085",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-086",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-087",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-088",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 0.5,
+        "ndcg": 0.6309297535714575
+      },
+      {
+        "id": "DEV-089",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-090",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-091",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-092",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-093",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-094",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 0.5,
+        "ndcg": 0.7328286204777911
+      },
+      {
+        "id": "DEV-095",
+        "recall": 0.5,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.6131471927654584
+      },
+      {
+        "id": "DEV-096",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9674679834891693
+      },
+      {
+        "id": "DEV-097",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-098",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-099",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-100",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-101",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-102",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-103",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-104",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-105",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-106",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9674679834891693
+      },
+      {
+        "id": "DEV-107",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-108",
+        "recall": 0.6666666666666666,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.7039180890341347
+      },
+      {
+        "id": "DEV-109",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-110",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-111",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-112",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-113",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-114",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-115",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-116",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-117",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9197207891481876
+      },
+      {
+        "id": "DEV-118",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.8772153153380493
+      },
+      {
+        "id": "DEV-119",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9197207891481876
+      },
+      {
+        "id": "DEV-120",
+        "recall": 0.6666666666666666,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.7653606369886217
+      }
+    ],
+    "40:20": [
+      {
+        "id": "DEV-001",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-002",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-003",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-004",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-005",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-006",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-007",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-008",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-009",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-010",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9469024295259745
+      },
+      {
+        "id": "DEV-011",
+        "recall": 0.5,
+        "hit_rate": 1.0,
+        "mrr": 0.3333333333333333,
+        "ndcg": 0.3065735963827292
+      },
+      {
+        "id": "DEV-012",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-013",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-014",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-015",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-016",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-017",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-018",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-019",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-020",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 0.5,
+        "ndcg": 0.6934264036172708
+      },
+      {
+        "id": "DEV-021",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9197207891481876
+      },
+      {
+        "id": "DEV-022",
+        "recall": 0.6666666666666666,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.7653606369886217
+      },
+      {
+        "id": "DEV-023",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-024",
+        "recall": 0.3333333333333333,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.46927872602275644
+      },
+      {
+        "id": "DEV-025",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-026",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-027",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-028",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-029",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-030",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-031",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.8772153153380493
+      },
+      {
+        "id": "DEV-032",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-033",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9197207891481876
+      },
+      {
+        "id": "DEV-034",
+        "recall": 0.6666666666666666,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.7039180890341347
+      },
+      {
+        "id": "DEV-035",
+        "recall": 0.5,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.6131471927654584
+      },
+      {
+        "id": "DEV-036",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9060254355346823
+      },
+      {
+        "id": "DEV-037",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-038",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-039",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-040",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-041",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-042",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-043",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-044",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-045",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-046",
+        "recall": 0.6666666666666666,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.7653606369886217
+      },
+      {
+        "id": "DEV-047",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-048",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9469024295259745
+      },
+      {
+        "id": "DEV-049",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-050",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-051",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-052",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-053",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-054",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-055",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-056",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9197207891481876
+      },
+      {
+        "id": "DEV-057",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-058",
+        "recall": 0.6666666666666666,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.7653606369886217
+      },
+      {
+        "id": "DEV-059",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-060",
+        "recall": 0.6666666666666666,
+        "hit_rate": 1.0,
+        "mrr": 0.3333333333333333,
+        "ndcg": 0.4367467095119258
+      },
+      {
+        "id": "DEV-061",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-062",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-063",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-064",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-065",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-066",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-067",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-068",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 0.5,
+        "ndcg": 0.6934264036172708
+      },
+      {
+        "id": "DEV-069",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-070",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-071",
+        "recall": 0.5,
+        "hit_rate": 1.0,
+        "mrr": 0.25,
+        "ndcg": 0.2640681225725909
+      },
+      {
+        "id": "DEV-072",
+        "recall": 0.3333333333333333,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.46927872602275644
+      },
+      {
+        "id": "DEV-073",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-074",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-075",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-076",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-077",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-078",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-079",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.8772153153380493
+      },
+      {
+        "id": "DEV-080",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-081",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9197207891481876
+      },
+      {
+        "id": "DEV-082",
+        "recall": 0.6666666666666666,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.6508205185601091
+      },
+      {
+        "id": "DEV-083",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-084",
+        "recall": 0.6666666666666666,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.6713860725233041
+      },
+      {
+        "id": "DEV-085",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-086",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-087",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-088",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 0.5,
+        "ndcg": 0.6309297535714575
+      },
+      {
+        "id": "DEV-089",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-090",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-091",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-092",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-093",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-094",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 0.5,
+        "ndcg": 0.7328286204777911
+      },
+      {
+        "id": "DEV-095",
+        "recall": 0.5,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.6131471927654584
+      },
+      {
+        "id": "DEV-096",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9674679834891693
+      },
+      {
+        "id": "DEV-097",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-098",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-099",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-100",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-101",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-102",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-103",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-104",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-105",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-106",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9674679834891693
+      },
+      {
+        "id": "DEV-107",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-108",
+        "recall": 0.6666666666666666,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.7039180890341347
+      },
+      {
+        "id": "DEV-109",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-110",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-111",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-112",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-113",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-114",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-115",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-116",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-117",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9197207891481876
+      },
+      {
+        "id": "DEV-118",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.8772153153380493
+      },
+      {
+        "id": "DEV-119",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9197207891481876
+      },
+      {
+        "id": "DEV-120",
+        "recall": 0.6666666666666666,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.7653606369886217
+      }
+    ],
+    "40:60": [
+      {
+        "id": "DEV-001",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-002",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-003",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-004",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-005",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-006",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-007",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-008",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-009",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-010",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9469024295259745
+      },
+      {
+        "id": "DEV-011",
+        "recall": 0.5,
+        "hit_rate": 1.0,
+        "mrr": 0.3333333333333333,
+        "ndcg": 0.3065735963827292
+      },
+      {
+        "id": "DEV-012",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-013",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-014",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-015",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-016",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-017",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-018",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-019",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-020",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 0.5,
+        "ndcg": 0.6934264036172708
+      },
+      {
+        "id": "DEV-021",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9197207891481876
+      },
+      {
+        "id": "DEV-022",
+        "recall": 0.6666666666666666,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.7653606369886217
+      },
+      {
+        "id": "DEV-023",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-024",
+        "recall": 0.3333333333333333,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.46927872602275644
+      },
+      {
+        "id": "DEV-025",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-026",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-027",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-028",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-029",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-030",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-031",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.8772153153380493
+      },
+      {
+        "id": "DEV-032",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-033",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9197207891481876
+      },
+      {
+        "id": "DEV-034",
+        "recall": 0.6666666666666666,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.7039180890341347
+      },
+      {
+        "id": "DEV-035",
+        "recall": 0.5,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.6131471927654584
+      },
+      {
+        "id": "DEV-036",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9060254355346823
+      },
+      {
+        "id": "DEV-037",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-038",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-039",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-040",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-041",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-042",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-043",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-044",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-045",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-046",
+        "recall": 0.6666666666666666,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.7653606369886217
+      },
+      {
+        "id": "DEV-047",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-048",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9469024295259745
+      },
+      {
+        "id": "DEV-049",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-050",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-051",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-052",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-053",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-054",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-055",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-056",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9197207891481876
+      },
+      {
+        "id": "DEV-057",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-058",
+        "recall": 0.6666666666666666,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.7653606369886217
+      },
+      {
+        "id": "DEV-059",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-060",
+        "recall": 0.6666666666666666,
+        "hit_rate": 1.0,
+        "mrr": 0.3333333333333333,
+        "ndcg": 0.4367467095119258
+      },
+      {
+        "id": "DEV-061",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-062",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-063",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-064",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-065",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-066",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-067",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-068",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 0.5,
+        "ndcg": 0.6934264036172708
+      },
+      {
+        "id": "DEV-069",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-070",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-071",
+        "recall": 0.5,
+        "hit_rate": 1.0,
+        "mrr": 0.25,
+        "ndcg": 0.2640681225725909
+      },
+      {
+        "id": "DEV-072",
+        "recall": 0.3333333333333333,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.46927872602275644
+      },
+      {
+        "id": "DEV-073",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-074",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-075",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-076",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-077",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-078",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-079",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.8772153153380493
+      },
+      {
+        "id": "DEV-080",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-081",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9197207891481876
+      },
+      {
+        "id": "DEV-082",
+        "recall": 0.6666666666666666,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.6508205185601091
+      },
+      {
+        "id": "DEV-083",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-084",
+        "recall": 0.6666666666666666,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.6713860725233041
+      },
+      {
+        "id": "DEV-085",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-086",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-087",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-088",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 0.5,
+        "ndcg": 0.6309297535714575
+      },
+      {
+        "id": "DEV-089",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-090",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-091",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-092",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-093",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-094",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 0.5,
+        "ndcg": 0.7328286204777911
+      },
+      {
+        "id": "DEV-095",
+        "recall": 0.5,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.6131471927654584
+      },
+      {
+        "id": "DEV-096",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9674679834891693
+      },
+      {
+        "id": "DEV-097",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-098",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-099",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-100",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-101",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-102",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-103",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-104",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-105",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-106",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9674679834891693
+      },
+      {
+        "id": "DEV-107",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-108",
+        "recall": 0.6666666666666666,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.7039180890341347
+      },
+      {
+        "id": "DEV-109",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-110",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-111",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-112",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-113",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-114",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-115",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-116",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-117",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9197207891481876
+      },
+      {
+        "id": "DEV-118",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.8772153153380493
+      },
+      {
+        "id": "DEV-119",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9197207891481876
+      },
+      {
+        "id": "DEV-120",
+        "recall": 0.6666666666666666,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.7653606369886217
+      }
+    ],
+    "40:100": [
+      {
+        "id": "DEV-001",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-002",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-003",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-004",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-005",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-006",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-007",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-008",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-009",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-010",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9469024295259745
+      },
+      {
+        "id": "DEV-011",
+        "recall": 0.5,
+        "hit_rate": 1.0,
+        "mrr": 0.3333333333333333,
+        "ndcg": 0.3065735963827292
+      },
+      {
+        "id": "DEV-012",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-013",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-014",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-015",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-016",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-017",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-018",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-019",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-020",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 0.5,
+        "ndcg": 0.6934264036172708
+      },
+      {
+        "id": "DEV-021",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9197207891481876
+      },
+      {
+        "id": "DEV-022",
+        "recall": 0.6666666666666666,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.7653606369886217
+      },
+      {
+        "id": "DEV-023",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-024",
+        "recall": 0.3333333333333333,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.46927872602275644
+      },
+      {
+        "id": "DEV-025",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-026",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-027",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-028",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-029",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-030",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-031",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.8772153153380493
+      },
+      {
+        "id": "DEV-032",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-033",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9197207891481876
+      },
+      {
+        "id": "DEV-034",
+        "recall": 0.6666666666666666,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.7039180890341347
+      },
+      {
+        "id": "DEV-035",
+        "recall": 0.5,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.6131471927654584
+      },
+      {
+        "id": "DEV-036",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9060254355346823
+      },
+      {
+        "id": "DEV-037",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-038",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-039",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-040",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-041",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-042",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-043",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-044",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-045",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-046",
+        "recall": 0.6666666666666666,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.7653606369886217
+      },
+      {
+        "id": "DEV-047",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-048",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9469024295259745
+      },
+      {
+        "id": "DEV-049",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-050",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-051",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-052",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-053",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-054",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-055",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-056",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9197207891481876
+      },
+      {
+        "id": "DEV-057",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-058",
+        "recall": 0.6666666666666666,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.7653606369886217
+      },
+      {
+        "id": "DEV-059",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-060",
+        "recall": 0.6666666666666666,
+        "hit_rate": 1.0,
+        "mrr": 0.3333333333333333,
+        "ndcg": 0.4367467095119258
+      },
+      {
+        "id": "DEV-061",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-062",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-063",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-064",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-065",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-066",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-067",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-068",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 0.5,
+        "ndcg": 0.6934264036172708
+      },
+      {
+        "id": "DEV-069",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-070",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-071",
+        "recall": 0.5,
+        "hit_rate": 1.0,
+        "mrr": 0.25,
+        "ndcg": 0.2640681225725909
+      },
+      {
+        "id": "DEV-072",
+        "recall": 0.3333333333333333,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.46927872602275644
+      },
+      {
+        "id": "DEV-073",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-074",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-075",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-076",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-077",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-078",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-079",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.8772153153380493
+      },
+      {
+        "id": "DEV-080",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-081",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9197207891481876
+      },
+      {
+        "id": "DEV-082",
+        "recall": 0.6666666666666666,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.6508205185601091
+      },
+      {
+        "id": "DEV-083",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-084",
+        "recall": 0.6666666666666666,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.6713860725233041
+      },
+      {
+        "id": "DEV-085",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-086",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-087",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-088",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 0.5,
+        "ndcg": 0.6309297535714575
+      },
+      {
+        "id": "DEV-089",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-090",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-091",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-092",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-093",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-094",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 0.5,
+        "ndcg": 0.7328286204777911
+      },
+      {
+        "id": "DEV-095",
+        "recall": 0.5,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.6131471927654584
+      },
+      {
+        "id": "DEV-096",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9674679834891693
+      },
+      {
+        "id": "DEV-097",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-098",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-099",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-100",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-101",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-102",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-103",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-104",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-105",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-106",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9674679834891693
+      },
+      {
+        "id": "DEV-107",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-108",
+        "recall": 0.6666666666666666,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.7039180890341347
+      },
+      {
+        "id": "DEV-109",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-110",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-111",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-112",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-113",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-114",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-115",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-116",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 1.0
+      },
+      {
+        "id": "DEV-117",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9197207891481876
+      },
+      {
+        "id": "DEV-118",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.8772153153380493
+      },
+      {
+        "id": "DEV-119",
+        "recall": 1.0,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.9197207891481876
+      },
+      {
+        "id": "DEV-120",
+        "recall": 0.6666666666666666,
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "ndcg": 0.7653606369886217
+      }
+    ]
+  }
+}

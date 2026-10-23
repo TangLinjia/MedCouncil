@@ -1,0 +1,82 @@
+{
+  "cdc_influenza.md": {
+    "source_url": "https://www.cdc.gov/flu/hcp/antivirals/summary-clinicians.html",
+    "accessed_date": "2026-10-23"
+  },
+  "cdc_covid.md": {
+    "source_url": "https://www.cdc.gov/covid/hcp/clinical-care/outpatient-treatment.html",
+    "accessed_date": "2026-10-23"
+  },
+  "cdc_rsv.md": {
+    "source_url": "https://www.cdc.gov/rsv/hcp/clinical-overview/index.html",
+    "accessed_date": "2026-10-23"
+  },
+  "cdc_pertussis.md": {
+    "source_url": "https://www.cdc.gov/pertussis/hcp/clinical-care/index.html",
+    "accessed_date": "2026-10-23"
+  },
+  "cdc_legionella.md": {
+    "source_url": "https://www.cdc.gov/legionella/hcp/clinical-guidance/index.html",
+    "accessed_date": "2026-10-23"
+  },
+  "cdc_lyme.md": {
+    "source_url": "https://www.cdc.gov/lyme/hcp/diagnosis-testing/index.html",
+    "accessed_date": "2026-10-23"
+  },
+  "cdc_anaplasmosis.md": {
+    "source_url": "https://www.cdc.gov/anaplasmosis/hcp/clinical-care/index.html",
+    "accessed_date": "2026-10-23"
+  },
+  "cdc_ehrlichiosis.md": {
+    "source_url": "https://www.cdc.gov/ehrlichiosis/hcp/clinical-care/index.html",
+    "accessed_date": "2026-10-23"
+  },
+  "cdc_rmsf.md": {
+    "source_url": "https://www.cdc.gov/rocky-mountain-spotted-fever/hcp/clinical-care/index.html",
+    "accessed_date": "2026-10-23"
+  },
+  "cdc_babesiosis.md": {
+    "source_url": "https://www.cdc.gov/babesiosis/hcp/clinical-care/index.html",
+    "accessed_date": "2026-10-23"
+  },
+  "cdc_measles.md": {
+    "source_url": "https://www.cdc.gov/measles/hcp/clinical-overview/index.html",
+    "accessed_date": "2026-10-23"
+  },
+  "cdc_varicella.md": {
+    "source_url": "https://www.cdc.gov/chickenpox/hcp/clinical-overview/index.html",
+    "accessed_date": "2026-10-23"
+  },
+  "cdc_zoster.md": {
+    "source_url": "https://www.cdc.gov/shingles/hcp/clinical-overview/index.html",
+    "accessed_date": "2026-10-23"
+  },
+  "cdc_strep.md": {
+    "source_url": "https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/strep-throat.html",
+    "accessed_date": "2026-10-23"
+  },
+  "cdc_scarlet.md": {
+    "source_url": "https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/scarlet-fever.html",
+    "accessed_date": "2026-10-23"
+  },
+  "cdc_tetanus.md": {
+    "source_url": "https://www.cdc.gov/tetanus/hcp/clinical-guidance/index.html",
+    "accessed_date": "2026-10-23"
+  },
+  "cdc_rabies.md": {
+    "source_url": "https://www.cdc.gov/rabies/hcp/clinical-care/post-exposure-prophylaxis.html",
+    "accessed_date": "2026-10-23"
+  },
+  "cdc_dengue.md": {
+    "source_url": "https://www.cdc.gov/dengue/hcp/clinical-care/index.html",
+    "accessed_date": "2026-10-23"
+  },
+  "cdc_malaria.md": {
+    "source_url": "https://www.cdc.gov/malaria/hcp/clinical-guidance/evaluation-and-diagnosis.html",
+    "accessed_date": "2026-10-23"
+  },
+  "cdc_tuberculosis.md": {
+    "source_url": "https://www.cdc.gov/tb/hcp/testing-diagnosis/index.html",
+    "accessed_date": "2026-10-23"
+  }
+}
